@@ -1,5 +1,19 @@
 # LLM4UT
 
+## Origem
+
+Este projeto é uma releitura acadêmica baseada em:
+- **Repositório original:** https://github.com/LeonYang95/LLM4UT
+- **Autor original:** Leon Yang
+- **Licença:** Mulan PSL v2
+
+As modificações realizadas neste fork têm fins exclusivamente acadêmicos para a disciplina de Engenharia de Software para o programa de Pós Graduação em Ciência da Computação pela Universidade Federal de Pernambuco
+
+
+
+
+
+
 This is the artifact of our submission in ASE, including the prompt construction code and the evaluation code. 
 
 ⭐ We published a new project [UTGen_LLM](https://github.com/LeonYang95/UTGen_LLM) for more details about invoking the LLM to generate unit tests.
