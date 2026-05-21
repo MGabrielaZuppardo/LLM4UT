@@ -1,0 +1,16 @@
+{
+  "bug_id": "Compress_42",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.archivers.zip.ZipArchiveEntry:isUnixSymlink:"
+          ]
+        }
+      ]
+    }
+  ]
+}

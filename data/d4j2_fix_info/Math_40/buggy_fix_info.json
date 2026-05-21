@@ -1,0 +1,16 @@
+{
+  "bug_id": "Math_40",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver:doSolve:"
+          ]
+        }
+      ]
+    }
+  ]
+}

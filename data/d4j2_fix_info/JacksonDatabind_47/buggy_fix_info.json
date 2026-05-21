@@ -1,0 +1,16 @@
+{
+  "bug_id": "JacksonDatabind_47",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.AnnotationIntrospector:refineSerializationType:MapperConfig<?>,Annotated,JavaType"
+          ]
+        }
+      ]
+    }
+  ]
+}

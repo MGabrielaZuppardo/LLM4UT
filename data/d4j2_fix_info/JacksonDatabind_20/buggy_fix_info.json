@@ -1,0 +1,16 @@
+{
+  "bug_id": "JacksonDatabind_20",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.node.ObjectNode:setAll:Map<String,? extends JsonNode>"
+          ]
+        }
+      ]
+    }
+  ]
+}

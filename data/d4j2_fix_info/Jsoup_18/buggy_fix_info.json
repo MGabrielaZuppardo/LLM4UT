@@ -1,0 +1,18 @@
+{
+  "bug_id": "Jsoup_18",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/parser/CharacterReader.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.CharacterReader:CharacterReader:String",
+            "org.jsoup.parser.CharacterReader:consumeToAny:",
+            "org.jsoup.parser.CharacterReader:consumeToEnd:"
+          ]
+        }
+      ]
+    }
+  ]
+}

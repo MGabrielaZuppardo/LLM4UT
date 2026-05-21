@@ -1,0 +1,27 @@
+{
+  "bug_id": "Closure_154",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/TypeCheck.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.TypeCheck:checkDeclaredPropertyInheritance:NodeTraversal,Node,FunctionType,String,JSDocInfo,JSType"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/TypeValidator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.TypeValidator:TypeValidator:AbstractCompiler",
+            "com.google.javascript.jscomp.TypeValidator:expectInterfaceProperty:NodeTraversal,Node,ObjectType,ObjectType,String"
+          ]
+        }
+      ]
+    }
+  ]
+}

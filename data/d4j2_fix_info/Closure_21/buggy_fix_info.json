@@ -1,0 +1,16 @@
+{
+  "bug_id": "Closure_21",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/CheckSideEffects.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.CheckSideEffects:visit:NodeTraversal,Node,Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

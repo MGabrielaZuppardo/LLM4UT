@@ -1,0 +1,16 @@
+{
+  "bug_id": "Codec_17",
+  "project": "Codec",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.codec.binary.StringUtils:newStringIso8859_1:byte[]"
+          ]
+        }
+      ]
+    }
+  ]
+}

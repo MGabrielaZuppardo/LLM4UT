@@ -1,0 +1,16 @@
+{
+  "bug_id": "Csv_10",
+  "project": "Csv",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/csv/CSVPrinter.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.csv.CSVPrinter:CSVPrinter:Appendable,CSVFormat"
+          ]
+        }
+      ]
+    }
+  ]
+}

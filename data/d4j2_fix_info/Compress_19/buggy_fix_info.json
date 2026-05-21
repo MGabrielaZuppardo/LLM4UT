@@ -1,0 +1,16 @@
+{
+  "bug_id": "Compress_19",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraField:reparseCentralDirectoryData:boolean,boolean,boolean,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

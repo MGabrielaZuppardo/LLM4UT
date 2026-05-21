@@ -1,0 +1,16 @@
+{
+  "bug_id": "JxPath_21",
+  "project": "JxPath",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/model/beans/PropertyPointer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.model.beans.PropertyPointer:getLength:"
+          ]
+        }
+      ]
+    }
+  ]
+}

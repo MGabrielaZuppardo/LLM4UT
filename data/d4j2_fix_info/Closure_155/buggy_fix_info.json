@@ -1,0 +1,42 @@
+{
+  "bug_id": "Closure_155",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/InlineVariables.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.InlineVariables.InliningBehavior:doInlinesForScope:NodeTraversal,Map<Var, ReferenceCollection>",
+            "com.google.javascript.jscomp.InlineVariables.InliningBehavior:maybeEscapedOrModifiedArguments:Scope,Map<Var, ReferenceCollection>",
+            "com.google.javascript.jscomp.InlineVariables.InliningBehavior:isLValue:Node",
+            "com.google.javascript.jscomp.InlineVariables.InliningBehavior:inlineNonConstants:Var,ReferenceCollection,boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/ReferenceCollectingCallback.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.ReferenceCollectingCallback:visit:NodeTraversal,Node,Node"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/Scope.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.Scope.Arguments:Arguments:Scope",
+            "com.google.javascript.jscomp.Scope.Arguments:equals:Object",
+            "com.google.javascript.jscomp.Scope.Arguments:hashCode:",
+            "com.google.javascript.jscomp.Scope:getArgumentsVar:"
+          ]
+        }
+      ]
+    }
+  ]
+}

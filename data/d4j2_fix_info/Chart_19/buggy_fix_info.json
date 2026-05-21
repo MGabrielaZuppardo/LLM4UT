@@ -1,0 +1,17 @@
+{
+  "bug_id": "Chart_19",
+  "project": "Chart",
+  "fixing_changes": [
+    {
+      "file": "source/org/jfree/chart/plot/CategoryPlot.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.chart.plot.CategoryPlot:getDomainAxisIndex:CategoryAxis",
+            "org.jfree.chart.plot.CategoryPlot:getRangeAxisIndex:ValueAxis"
+          ]
+        }
+      ]
+    }
+  ]
+}

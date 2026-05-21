@@ -1,0 +1,26 @@
+{
+  "bug_id": "Closure_106",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/GlobalNamespace.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.GlobalNamespace.Name:canCollapseUnannotatedChildNames:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/rhino/JSDocInfoBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.rhino.JSDocInfoBuilder:recordBlockDescription:String"
+          ]
+        }
+      ]
+    }
+  ]
+}

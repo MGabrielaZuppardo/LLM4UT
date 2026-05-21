@@ -1,0 +1,17 @@
+{
+  "bug_id": "Math_90",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/math/stat/Frequency.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.stat.Frequency:addValue:Object",
+            "org.apache.commons.math.stat.Frequency:addValue:Comparable<?>"
+          ]
+        }
+      ]
+    }
+  ]
+}

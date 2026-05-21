@@ -1,0 +1,16 @@
+{
+  "bug_id": "Chart_24",
+  "project": "Chart",
+  "fixing_changes": [
+    {
+      "file": "source/org/jfree/chart/renderer/GrayPaintScale.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.chart.renderer.GrayPaintScale:getPaint:double"
+          ]
+        }
+      ]
+    }
+  ]
+}

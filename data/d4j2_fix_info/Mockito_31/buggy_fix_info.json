@@ -1,0 +1,17 @@
+{
+  "bug_id": "Mockito_31",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls.ThrowingInterceptor:intercept:Object,Method,Object[],MethodProxy",
+            "org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls.ThrowingInterceptor:formatMethodCall:"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "bug_id": "Cli_38",
+  "project": "Cli",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/cli/DefaultParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli.DefaultParser:isShortOption:String"
+          ]
+        }
+      ]
+    }
+  ]
+}

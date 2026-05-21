@@ -1,0 +1,29 @@
+{
+  "bug_id": "JacksonCore_1",
+  "project": "JacksonCore",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/io/NumberInput.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.io.NumberInput:parseBigDecimal:String",
+            "com.fasterxml.jackson.core.io.NumberInput:parseBigDecimal:char[]",
+            "com.fasterxml.jackson.core.io.NumberInput:parseBigDecimal:char[],int,int",
+            "com.fasterxml.jackson.core.io.NumberInput:_badBigDecimal:String"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.util.TextBuffer:contentsAsDecimal:"
+          ]
+        }
+      ]
+    }
+  ]
+}

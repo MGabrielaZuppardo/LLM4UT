@@ -1,0 +1,26 @@
+{
+  "bug_id": "JacksonDatabind_13",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/DefaultDeserializationContext.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.DefaultDeserializationContext:findObjectId:Object,ObjectIdGenerator<?>,ObjectIdResolver"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdValueProperty.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.impl.ObjectIdValueProperty:deserializeSetAndReturn:JsonParser,DeserializationContext,Object"
+          ]
+        }
+      ]
+    }
+  ]
+}

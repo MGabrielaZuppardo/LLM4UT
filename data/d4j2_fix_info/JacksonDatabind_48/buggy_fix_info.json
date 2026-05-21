@@ -1,0 +1,26 @@
+{
+  "bug_id": "JacksonDatabind_48",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.DeserializationConfig:getDefaultVisibilityChecker:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.SerializationConfig:getDefaultVisibilityChecker:"
+          ]
+        }
+      ]
+    }
+  ]
+}

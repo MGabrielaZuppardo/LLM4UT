@@ -1,0 +1,46 @@
+{
+  "bug_id": "JacksonDatabind_25",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.BasicDeserializerFactory:modifyTypeByAnnotation:DeserializationContext,Annotated,T"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/DeserializerCache.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.DeserializerCache:modifyTypeByAnnotation:DeserializationContext,Annotated,JavaType"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/TypeDeserializerBase.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase:_findDeserializer:DeserializationContext,String"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/module/SimpleAbstractTypeResolver.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.module.SimpleAbstractTypeResolver:findTypeMapping:DeserializationConfig,JavaType"
+          ]
+        }
+      ]
+    }
+  ]
+}

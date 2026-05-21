@@ -1,0 +1,17 @@
+{
+  "bug_id": "JacksonDatabind_41",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.type.TypeFactory:constructType:Type,Class<?>",
+            "com.fasterxml.jackson.databind.type.TypeFactory:constructType:Type,JavaType"
+          ]
+        }
+      ]
+    }
+  ]
+}

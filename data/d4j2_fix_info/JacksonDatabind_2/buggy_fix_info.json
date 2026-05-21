@@ -1,0 +1,17 @@
+{
+  "bug_id": "JacksonDatabind_2",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.util.TokenBuffer:writeObject:Object",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:writeTree:TreeNode"
+          ]
+        }
+      ]
+    }
+  ]
+}

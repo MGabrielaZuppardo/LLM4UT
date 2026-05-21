@@ -1,0 +1,62 @@
+{
+  "bug_id": "Jsoup_87",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/nodes/Element.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.Element:normalName:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/HtmlTreeBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.HtmlTreeBuilder:getFromStack:String",
+            "org.jsoup.parser.HtmlTreeBuilder:popStackToClose:String",
+            "org.jsoup.parser.HtmlTreeBuilder:popStackToClose:",
+            "org.jsoup.parser.HtmlTreeBuilder:popStackToBefore:String",
+            "org.jsoup.parser.HtmlTreeBuilder:clearStackToContext:",
+            "org.jsoup.parser.HtmlTreeBuilder:resetInsertionMode:",
+            "org.jsoup.parser.HtmlTreeBuilder:inSpecificScope:String[],String[],String[]",
+            "org.jsoup.parser.HtmlTreeBuilder:inSelectScope:String",
+            "org.jsoup.parser.HtmlTreeBuilder:generateImpliedEndTags:String",
+            "org.jsoup.parser.HtmlTreeBuilder:isSpecial:Element",
+            "org.jsoup.parser.HtmlTreeBuilder:isSameFormattingElement:Element,Element",
+            "org.jsoup.parser.HtmlTreeBuilder:reconstructFormattingElements:",
+            "org.jsoup.parser.HtmlTreeBuilder:getActiveFormattingElement:String"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.HtmlTreeBuilderState:process:Token,HtmlTreeBuilder",
+            "org.jsoup.parser.HtmlTreeBuilderState:anyOtherEndTag:Token,HtmlTreeBuilder",
+            "org.jsoup.parser.HtmlTreeBuilderState:anythingElse:Token,HtmlTreeBuilder",
+            "org.jsoup.parser.HtmlTreeBuilderState:exitTableBody:Token,HtmlTreeBuilder"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/Tag.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.Tag:Tag:String",
+            "org.jsoup.parser.Tag:normalName:"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "bug_id": "Gson_11",
+  "project": "Gson",
+  "fixing_changes": [
+    {
+      "file": "gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.gson.internal.bind.TypeAdapters:read:JsonReader"
+          ]
+        }
+      ]
+    }
+  ]
+}

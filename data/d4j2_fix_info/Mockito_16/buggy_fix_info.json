@@ -1,0 +1,27 @@
+{
+  "bug_id": "Mockito_16",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/Mockito.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.Mockito:mock:Class<T>,MockSettings",
+            "org.mockito.Mockito:spy:T"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/org/mockito/internal/MockitoCore.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.MockitoCore:mock:Class<T>,MockSettings,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

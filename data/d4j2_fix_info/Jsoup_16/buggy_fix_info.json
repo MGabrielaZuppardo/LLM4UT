@@ -1,0 +1,17 @@
+{
+  "bug_id": "Jsoup_16",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/nodes/DocumentType.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.DocumentType:DocumentType:String,String,String,String",
+            "org.jsoup.nodes.DocumentType:outerHtmlHead:StringBuilder,int,Document.OutputSettings"
+          ]
+        }
+      ]
+    }
+  ]
+}

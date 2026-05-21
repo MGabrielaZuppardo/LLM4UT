@@ -1,0 +1,18 @@
+{
+  "bug_id": "Time_6",
+  "project": "Time",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/joda/time/chrono/GJChronology.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.joda.time.chrono.GJChronology:getInstance:DateTimeZone,ReadableInstant,int",
+            "org.joda.time.chrono.GJChronology.ImpreciseCutoverField:add:long,int",
+            "org.joda.time.chrono.GJChronology.ImpreciseCutoverField:add:long,long"
+          ]
+        }
+      ]
+    }
+  ]
+}

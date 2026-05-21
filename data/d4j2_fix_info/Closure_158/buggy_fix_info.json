@@ -1,0 +1,49 @@
+{
+  "bug_id": "Closure_158",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/AbstractCommandLineRunner.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.AbstractCommandLineRunner:setRunOptions:CompilerOptions",
+            "com.google.javascript.jscomp.AbstractCommandLineRunner.CommandLineConfig:setSourceMapFormat:SourceMap.Format",
+            "com.google.javascript.jscomp.AbstractCommandLineRunner.CommandLineConfig:setWarningGuardSpec:WarningGuardSpec",
+            "com.google.javascript.jscomp.AbstractCommandLineRunner.WarningGuardSpec.Entry:Entry:CheckLevel,String",
+            "com.google.javascript.jscomp.AbstractCommandLineRunner.WarningGuardSpec:add:CheckLevel,String",
+            "com.google.javascript.jscomp.AbstractCommandLineRunner.WarningGuardSpec:clear:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/CommandLineRunner.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.CommandLineRunner.Flags.WarningGuardErrorOptionHandler:WarningGuardErrorOptionHandler:CmdLineParser,OptionDef,Setter<? super String>",
+            "com.google.javascript.jscomp.CommandLineRunner.Flags.WarningGuardWarningOptionHandler:WarningGuardWarningOptionHandler:CmdLineParser,OptionDef,Setter<? super String>",
+            "com.google.javascript.jscomp.CommandLineRunner.Flags.WarningGuardOffOptionHandler:WarningGuardOffOptionHandler:CmdLineParser,OptionDef,Setter<? super String>",
+            "com.google.javascript.jscomp.CommandLineRunner.Flags.WarningGuardSetter:WarningGuardSetter:Setter,CheckLevel",
+            "com.google.javascript.jscomp.CommandLineRunner.Flags.WarningGuardSetter:isMultiValued:",
+            "com.google.javascript.jscomp.CommandLineRunner.Flags.WarningGuardSetter:getType:",
+            "com.google.javascript.jscomp.CommandLineRunner.Flags.WarningGuardSetter:addValue:Object",
+            "com.google.javascript.jscomp.CommandLineRunner:processFlagFile:PrintStream",
+            "com.google.javascript.jscomp.CommandLineRunner:initConfigFromFlags:String[],PrintStream"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/DiagnosticGroups.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.DiagnosticGroups:setWarningLevel:CompilerOptions,String,CheckLevel"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "bug_id": "Closure_147",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/CheckGlobalThis.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.CheckGlobalThis:shouldTraverse:NodeTraversal,Node,Node"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/RuntimeTypeCheck.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.RuntimeTypeCheck.AddChecks:visitFunction:NodeTraversal,Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

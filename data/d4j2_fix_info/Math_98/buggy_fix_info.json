@@ -1,0 +1,26 @@
+{
+  "bug_id": "Math_98",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/math/linear/BigMatrixImpl.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.linear.BigMatrixImpl:operate:BigDecimal[]"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/math/linear/RealMatrixImpl.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.linear.RealMatrixImpl:operate:double[]"
+          ]
+        }
+      ]
+    }
+  ]
+}

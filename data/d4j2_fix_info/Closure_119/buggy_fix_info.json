@@ -1,0 +1,16 @@
+{
+  "bug_id": "Closure_119",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/GlobalNamespace.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.GlobalNamespace.BuildGlobalNamespace:collect:JSModule,Scope,Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

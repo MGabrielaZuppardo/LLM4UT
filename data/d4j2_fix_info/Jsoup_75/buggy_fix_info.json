@@ -1,0 +1,16 @@
+{
+  "bug_id": "Jsoup_75",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/nodes/Attributes.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.Attributes:html:Appendable,Document.OutputSettings"
+          ]
+        }
+      ]
+    }
+  ]
+}

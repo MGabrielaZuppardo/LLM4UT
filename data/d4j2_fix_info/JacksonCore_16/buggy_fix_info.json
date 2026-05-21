@@ -1,0 +1,18 @@
+{
+  "bug_id": "JacksonCore_16",
+  "project": "JacksonCore",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/util/JsonParserSequence.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.util.JsonParserSequence:JsonParserSequence:JsonParser[]",
+            "com.fasterxml.jackson.core.util.JsonParserSequence:close:",
+            "com.fasterxml.jackson.core.util.JsonParserSequence:nextToken:"
+          ]
+        }
+      ]
+    }
+  ]
+}

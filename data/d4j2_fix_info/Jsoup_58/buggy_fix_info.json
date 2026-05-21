@@ -1,0 +1,37 @@
+{
+  "bug_id": "Jsoup_58",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/Jsoup.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.Jsoup:isValid:String,Whitelist"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/Parser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.Parser:parseFragment:String,Element,String,ParseErrorList"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/safety/Cleaner.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.safety.Cleaner:isValid:Document",
+            "org.jsoup.safety.Cleaner:isValidBodyHtml:String"
+          ]
+        }
+      ]
+    }
+  ]
+}

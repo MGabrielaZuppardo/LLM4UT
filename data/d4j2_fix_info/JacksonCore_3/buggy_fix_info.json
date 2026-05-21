@@ -1,0 +1,16 @@
+{
+  "bug_id": "JacksonCore_3",
+  "project": "JacksonCore",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.json.UTF8StreamJsonParser:UTF8StreamJsonParser:IOContext,int,InputStream,ObjectCodec,BytesToNameCanonicalizer,byte[],int,int,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

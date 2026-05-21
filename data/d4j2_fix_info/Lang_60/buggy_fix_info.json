@@ -1,0 +1,17 @@
+{
+  "bug_id": "Lang_60",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/lang/text/StrBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang.text.StrBuilder:contains:char",
+            "org.apache.commons.lang.text.StrBuilder:indexOf:char,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

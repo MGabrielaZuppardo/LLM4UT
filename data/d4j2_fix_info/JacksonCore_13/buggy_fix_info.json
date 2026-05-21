@@ -1,0 +1,18 @@
+{
+  "bug_id": "JacksonCore_13",
+  "project": "JacksonCore",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/json/JsonGeneratorImpl.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.json.JsonGeneratorImpl:enable:Feature",
+            "com.fasterxml.jackson.core.json.JsonGeneratorImpl:disable:Feature",
+            "com.fasterxml.jackson.core.json.JsonGeneratorImpl:_checkStdFeatureChanges:int,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

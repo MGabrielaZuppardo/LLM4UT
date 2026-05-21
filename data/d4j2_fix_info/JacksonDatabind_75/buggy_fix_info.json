@@ -1,0 +1,18 @@
+{
+  "bug_id": "JacksonDatabind_75",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/ser/std/EnumSerializer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.ser.std.EnumSerializer:construct:Class<?>,SerializationConfig,BeanDescription,JsonFormat.Value",
+            "com.fasterxml.jackson.databind.ser.std.EnumSerializer:createContextual:SerializerProvider,BeanProperty",
+            "com.fasterxml.jackson.databind.ser.std.EnumSerializer:_isShapeWrittenUsingIndex:Class<?>,JsonFormat.Value,boolean,Boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

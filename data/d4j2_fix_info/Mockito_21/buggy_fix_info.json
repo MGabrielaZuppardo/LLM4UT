@@ -1,0 +1,20 @@
+{
+  "bug_id": "Mockito_21",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/creation/instance/ConstructorInstantiator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.creation.instance.ConstructorInstantiator:newInstance:Class<T>",
+            "org.mockito.internal.creation.instance.ConstructorInstantiator:withParams:Class<T>",
+            "org.mockito.internal.creation.instance.ConstructorInstantiator:paramsException:Class<T>,Exception",
+            "org.mockito.internal.creation.instance.ConstructorInstantiator:paramsMatch:Class<?>[],Object[]",
+            "org.mockito.internal.creation.instance.ConstructorInstantiator:noArgConstructor:Class<T>"
+          ]
+        }
+      ]
+    }
+  ]
+}

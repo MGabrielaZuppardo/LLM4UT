@@ -1,0 +1,16 @@
+{
+  "bug_id": "JacksonCore_7",
+  "project": "JacksonCore",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/json/JsonWriteContext.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.json.JsonWriteContext:writeValue:"
+          ]
+        }
+      ]
+    }
+  ]
+}

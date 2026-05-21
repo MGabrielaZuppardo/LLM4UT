@@ -1,0 +1,16 @@
+{
+  "bug_id": "Chart_20",
+  "project": "Chart",
+  "fixing_changes": [
+    {
+      "file": "source/org/jfree/chart/plot/ValueMarker.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.chart.plot.ValueMarker:ValueMarker:double,Paint,Stroke,Paint,Stroke,float"
+          ]
+        }
+      ]
+    }
+  ]
+}

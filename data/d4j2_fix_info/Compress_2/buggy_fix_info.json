@@ -1,0 +1,21 @@
+{
+  "bug_id": "Compress_2",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.archivers.ar.ArArchiveInputStream:ArArchiveInputStream:InputStream",
+            "org.apache.commons.compress.archivers.ar.ArArchiveInputStream:getNextArEntry:",
+            "org.apache.commons.compress.archivers.ar.ArArchiveInputStream:close:",
+            "org.apache.commons.compress.archivers.ar.ArArchiveInputStream:read:",
+            "org.apache.commons.compress.archivers.ar.ArArchiveInputStream:read:byte[]",
+            "org.apache.commons.compress.archivers.ar.ArArchiveInputStream:read:byte[],int,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

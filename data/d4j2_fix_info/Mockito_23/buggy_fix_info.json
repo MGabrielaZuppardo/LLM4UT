@@ -1,0 +1,22 @@
+{
+  "bug_id": "Mockito_23",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs:answer:InvocationOnMock",
+            "org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs:instantiateMockitoCoreIfNeeded:",
+            "org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs:instantiateDelegateIfNeeded:",
+            "org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs:getMock:InvocationOnMock,GenericMetadataSupport",
+            "org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs:withSettingsUsing:GenericMetadataSupport",
+            "org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs:recordDeepStubMock:Object,InvocationContainerImpl",
+            "org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs:actualParameterizedType:Object"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "bug_id": "Math_8",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math3.distribution.DiscreteDistribution:sample:int"
+          ]
+        }
+      ]
+    }
+  ]
+}

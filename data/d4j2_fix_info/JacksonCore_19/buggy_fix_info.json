@@ -1,0 +1,26 @@
+{
+  "bug_id": "JacksonCore_19",
+  "project": "JacksonCore",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.json.ReaderBasedJsonParser:_parseNumber2:boolean,int"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.json.UTF8StreamJsonParser:_parseFloat:char[],int,int,boolean,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

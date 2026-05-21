@@ -1,0 +1,21 @@
+{
+  "bug_id": "Lang_46",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/lang/StringEscapeUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang.StringEscapeUtils:escapeJava:String",
+            "org.apache.commons.lang.StringEscapeUtils:escapeJava:Writer,String",
+            "org.apache.commons.lang.StringEscapeUtils:escapeJavaScript:String",
+            "org.apache.commons.lang.StringEscapeUtils:escapeJavaScript:Writer,String",
+            "org.apache.commons.lang.StringEscapeUtils:escapeJavaStyleString:String,boolean,boolean",
+            "org.apache.commons.lang.StringEscapeUtils:escapeJavaStyleString:Writer,String,boolean,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

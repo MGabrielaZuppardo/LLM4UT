@@ -1,0 +1,18 @@
+{
+  "bug_id": "JacksonCore_17",
+  "project": "JacksonCore",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/json/UTF8JsonGenerator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.json.UTF8JsonGenerator:writeRaw:String,int,int",
+            "com.fasterxml.jackson.core.json.UTF8JsonGenerator:_writeRawSegment:char[],int,int",
+            "com.fasterxml.jackson.core.json.UTF8JsonGenerator:_outputRawMultiByteChar:int,char[],int,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

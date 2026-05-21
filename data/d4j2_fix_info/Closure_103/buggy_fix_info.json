@@ -1,0 +1,26 @@
+{
+  "bug_id": "Closure_103",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.ControlFlowAnalysis:mayThrowException:Node"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/DisambiguateProperties.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.DisambiguateProperties.JSTypeSystem:getTypeWithProperty:String,JSType"
+          ]
+        }
+      ]
+    }
+  ]
+}

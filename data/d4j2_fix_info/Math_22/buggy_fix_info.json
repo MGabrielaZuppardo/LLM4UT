@@ -1,0 +1,26 @@
+{
+  "bug_id": "Math_22",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math3/distribution/FDistribution.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math3.distribution.FDistribution:isSupportLowerBoundInclusive:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/math3/distribution/UniformRealDistribution.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math3.distribution.UniformRealDistribution:isSupportUpperBoundInclusive:"
+          ]
+        }
+      ]
+    }
+  ]
+}

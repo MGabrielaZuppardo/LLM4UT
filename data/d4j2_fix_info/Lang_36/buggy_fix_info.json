@@ -1,0 +1,17 @@
+{
+  "bug_id": "Lang_36",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/lang3/math/NumberUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang3.math.NumberUtils:createNumber:String",
+            "org.apache.commons.lang3.math.NumberUtils:isNumber:String"
+          ]
+        }
+      ]
+    }
+  ]
+}

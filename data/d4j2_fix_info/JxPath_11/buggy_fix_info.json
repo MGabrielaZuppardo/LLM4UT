@@ -1,0 +1,27 @@
+{
+  "bug_id": "JxPath_11",
+  "project": "JxPath",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/model/dom/DOMAttributeIterator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.model.dom.DOMAttributeIterator:getAttribute:Element,QName"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/model/jdom/JDOMAttributeIterator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.model.jdom.JDOMAttributeIterator:JDOMAttributeIterator:NodePointer,QName",
+            "org.apache.commons.jxpath.ri.model.jdom.JDOMAttributeIterator:setPosition:int"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "bug_id": "JacksonDatabind_18",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/MappingIterator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.MappingIterator:MappingIterator:JavaType,JsonParser,DeserializationContext,JsonDeserializer<?>,boolean,Object",
+            "com.fasterxml.jackson.databind.MappingIterator:close:",
+            "com.fasterxml.jackson.databind.MappingIterator:hasNextValue:",
+            "com.fasterxml.jackson.databind.MappingIterator:nextValue:",
+            "com.fasterxml.jackson.databind.MappingIterator:_resync:",
+            "com.fasterxml.jackson.databind.MappingIterator:_throwNoSuchElement:"
+          ]
+        }
+      ]
+    }
+  ]
+}

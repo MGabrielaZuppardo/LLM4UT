@@ -1,0 +1,16 @@
+{
+  "bug_id": "JacksonXml_3",
+  "project": "JacksonXml",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser:nextTextValue:"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "bug_id": "JacksonDatabind_22",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.ser.BasicSerializerFactory:buildContainerSerializer:SerializerProvider,JavaType,BeanDescription,boolean",
+            "com.fasterxml.jackson.databind.ser.BasicSerializerFactory:buildCollectionSerializer:SerializerProvider,CollectionType,BeanDescription,boolean,TypeSerializer,JsonSerializer<Object>",
+            "com.fasterxml.jackson.databind.ser.BasicSerializerFactory:buildMapSerializer:SerializerProvider,MapType,BeanDescription,boolean,JsonSerializer<Object>,TypeSerializer,JsonSerializer<Object>",
+            "com.fasterxml.jackson.databind.ser.BasicSerializerFactory:buildArraySerializer:SerializerProvider,ArrayType,BeanDescription,boolean,TypeSerializer,JsonSerializer<Object>"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/ser/BeanSerializerFactory.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.ser.BeanSerializerFactory:_createSerializer2:SerializerProvider,JavaType,BeanDescription,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

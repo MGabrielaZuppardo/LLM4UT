@@ -1,0 +1,16 @@
+{
+  "bug_id": "Cli_7",
+  "project": "Cli",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/cli2/builder/PatternBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli2.builder.PatternBuilder:PatternBuilder:GroupBuilder,DefaultOptionBuilder,ArgumentBuilder"
+          ]
+        }
+      ]
+    }
+  ]
+}

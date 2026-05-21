@@ -1,0 +1,18 @@
+{
+  "bug_id": "Closure_140",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/Compiler.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.Compiler:init:JSSourceFile[],JSModule[],CompilerOptions",
+            "com.google.javascript.jscomp.Compiler:fillEmptyModules:JSModule[]",
+            "com.google.javascript.jscomp.Compiler:getNodeForCodeInsertion:JSModule"
+          ]
+        }
+      ]
+    }
+  ]
+}

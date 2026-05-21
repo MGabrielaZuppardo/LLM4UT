@@ -1,0 +1,16 @@
+{
+  "bug_id": "Jsoup_1",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/nodes/Document.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.Document:normalise:Element"
+          ]
+        }
+      ]
+    }
+  ]
+}

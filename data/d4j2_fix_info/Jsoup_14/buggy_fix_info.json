@@ -1,0 +1,28 @@
+{
+  "bug_id": "Jsoup_14",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/parser/Tokeniser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.Tokeniser:isAppropriateEndTagToken:",
+            "org.jsoup.parser.Tokeniser:appropriateEndTagName:",
+            "org.jsoup.parser.Tokeniser:isTrackErrors:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/TokeniserState.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.TokeniserState:read:Tokeniser,CharacterReader"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "bug_id": "Math_75",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math/stat/Frequency.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.stat.Frequency:getPct:Object"
+          ]
+        }
+      ]
+    }
+  ]
+}

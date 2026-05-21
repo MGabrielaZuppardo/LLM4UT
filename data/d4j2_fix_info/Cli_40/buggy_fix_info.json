@@ -1,0 +1,16 @@
+{
+  "bug_id": "Cli_40",
+  "project": "Cli",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/cli/TypeHandler.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli.TypeHandler:createValue:String,Class<T>"
+          ]
+        }
+      ]
+    }
+  ]
+}

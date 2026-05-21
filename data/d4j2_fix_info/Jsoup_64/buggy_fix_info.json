@@ -1,0 +1,17 @@
+{
+  "bug_id": "Jsoup_64",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.HtmlTreeBuilderState:handleRcData:Token.StartTag,HtmlTreeBuilder",
+            "org.jsoup.parser.HtmlTreeBuilderState:handleRawtext:Token.StartTag,HtmlTreeBuilder"
+          ]
+        }
+      ]
+    }
+  ]
+}

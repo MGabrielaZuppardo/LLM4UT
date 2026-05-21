@@ -1,0 +1,26 @@
+{
+  "bug_id": "Math_77",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math/linear/ArrayRealVector.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.linear.ArrayRealVector:getLInfNorm:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.linear.OpenMapRealVector:getL1Distance:double[]"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "bug_id": "Codec_12",
+  "project": "Codec",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/codec/binary/BaseNCodecInputStream.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.codec.binary.BaseNCodecInputStream:skip:long",
+            "org.apache.commons.codec.binary.BaseNCodecInputStream:available:"
+          ]
+        }
+      ]
+    }
+  ]
+}

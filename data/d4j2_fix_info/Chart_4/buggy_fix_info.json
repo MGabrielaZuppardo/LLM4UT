@@ -1,0 +1,16 @@
+{
+  "bug_id": "Chart_4",
+  "project": "Chart",
+  "fixing_changes": [
+    {
+      "file": "source/org/jfree/chart/plot/XYPlot.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.chart.plot.XYPlot:getDataRange:ValueAxis"
+          ]
+        }
+      ]
+    }
+  ]
+}

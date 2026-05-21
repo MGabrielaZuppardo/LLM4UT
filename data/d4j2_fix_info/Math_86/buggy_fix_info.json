@@ -1,0 +1,16 @@
+{
+  "bug_id": "Math_86",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.linear.CholeskyDecompositionImpl:CholeskyDecompositionImpl:RealMatrix,double,double"
+          ]
+        }
+      ]
+    }
+  ]
+}

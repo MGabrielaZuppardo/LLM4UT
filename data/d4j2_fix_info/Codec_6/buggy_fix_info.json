@@ -1,0 +1,16 @@
+{
+  "bug_id": "Codec_6",
+  "project": "Codec",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/codec/binary/Base64InputStream.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.codec.binary.Base64InputStream:read:byte,int,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

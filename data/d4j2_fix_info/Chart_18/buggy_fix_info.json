@@ -1,0 +1,27 @@
+{
+  "bug_id": "Chart_18",
+  "project": "Chart",
+  "fixing_changes": [
+    {
+      "file": "source/org/jfree/data/DefaultKeyedValues.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.data.DefaultKeyedValues:removeValue:int",
+            "org.jfree.data.DefaultKeyedValues:removeValue:Comparable"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "source/org/jfree/data/DefaultKeyedValues2D.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.data.DefaultKeyedValues2D:removeColumn:Comparable"
+          ]
+        }
+      ]
+    }
+  ]
+}

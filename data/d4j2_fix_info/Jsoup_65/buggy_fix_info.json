@@ -1,0 +1,29 @@
+{
+  "bug_id": "Jsoup_65",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/parser/HtmlTreeBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.HtmlTreeBuilder:clearStackToTableContext:",
+            "org.jsoup.parser.HtmlTreeBuilder:clearStackToTableBodyContext:",
+            "org.jsoup.parser.HtmlTreeBuilder:clearStackToTableRowContext:",
+            "org.jsoup.parser.HtmlTreeBuilder:clearStackToContext:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.HtmlTreeBuilderState:process:Token,HtmlTreeBuilder"
+          ]
+        }
+      ]
+    }
+  ]
+}

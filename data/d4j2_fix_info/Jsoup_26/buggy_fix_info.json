@@ -1,0 +1,16 @@
+{
+  "bug_id": "Jsoup_26",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/safety/Cleaner.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.safety.Cleaner:clean:Document"
+          ]
+        }
+      ]
+    }
+  ]
+}

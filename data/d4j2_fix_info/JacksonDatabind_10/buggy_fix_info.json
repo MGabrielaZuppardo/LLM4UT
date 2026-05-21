@@ -1,0 +1,29 @@
+{
+  "bug_id": "JacksonDatabind_10",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/ser/AnyGetterWriter.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.ser.AnyGetterWriter:AnyGetterWriter:BeanProperty,AnnotatedMember,JsonSerializer<?>",
+            "com.fasterxml.jackson.databind.ser.AnyGetterWriter:getAndSerialize:Object,JsonGenerator,SerializerProvider",
+            "com.fasterxml.jackson.databind.ser.AnyGetterWriter:getAndFilter:Object,JsonGenerator,SerializerProvider,PropertyFilter",
+            "com.fasterxml.jackson.databind.ser.AnyGetterWriter:resolve:SerializerProvider"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/ser/BeanSerializerFactory.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.ser.BeanSerializerFactory:constructBeanSerializer:SerializerProvider,BeanDescription"
+          ]
+        }
+      ]
+    }
+  ]
+}

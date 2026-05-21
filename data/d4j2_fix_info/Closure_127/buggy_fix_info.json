@@ -1,0 +1,18 @@
+{
+  "bug_id": "Closure_127",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/UnreachableCodeElimination.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.UnreachableCodeElimination.EliminationPass:tryRemoveUnconditionalBranching:Node",
+            "com.google.javascript.jscomp.UnreachableCodeElimination.EliminationPass:inFinally:Node,Node",
+            "com.google.javascript.jscomp.UnreachableCodeElimination.EliminationPass:computeFollowing:Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "bug_id": "Jsoup_3",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/nodes/Element.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.Element:append:String",
+            "org.jsoup.nodes.Element:prepend:String",
+            "org.jsoup.nodes.Element:wrap:String"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/Parser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.Parser:Parser:String,String,boolean",
+            "org.jsoup.parser.Parser:parseBodyFragmentRelaxed:String,String",
+            "org.jsoup.parser.Parser:parse:",
+            "org.jsoup.parser.Parser:addChildToParent:Element,boolean",
+            "org.jsoup.parser.Parser:stackHasValidParent:Tag"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/Tag.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.Tag:Tag:String",
+            "org.jsoup.parser.Tag:canContain:Tag",
+            "org.jsoup.parser.Tag:getImplicitParent:",
+            "org.jsoup.parser.Tag:requiresSpecificParent:",
+            "org.jsoup.parser.Tag:isValidParent:Tag",
+            "org.jsoup.parser.Tag:isValidAncestor:Tag",
+            "org.jsoup.parser.Tag:createBlock:String",
+            "org.jsoup.parser.Tag:setAncestor:",
+            "org.jsoup.parser.Tag:setParent:String"
+          ]
+        }
+      ]
+    }
+  ]
+}

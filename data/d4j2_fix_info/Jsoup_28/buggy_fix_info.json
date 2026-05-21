@@ -1,0 +1,38 @@
+{
+  "bug_id": "Jsoup_28",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/nodes/Entities.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.Entities:isBaseNamedEntity:String",
+            "org.jsoup.nodes.Entities:unescape:String,boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/Parser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.Parser:unescapeEntities:String,boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/Tokeniser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.Tokeniser:consumeCharacterReference:Character,boolean",
+            "org.jsoup.parser.Tokeniser:unescapeEntities:boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

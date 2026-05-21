@@ -1,0 +1,19 @@
+{
+  "bug_id": "Closure_139",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/Normalize.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.Normalize.NormalizeStatements:visit:NodeTraversal,Node,Node",
+            "com.google.javascript.jscomp.Normalize.NormalizeStatements:normalizeFunctionDeclaration:Node",
+            "com.google.javascript.jscomp.Normalize.NormalizeStatements:rewriteFunctionDeclaration:Node",
+            "com.google.javascript.jscomp.Normalize.DuplicateDeclarationHandler:onRedeclaration:Scope,String,Node,Node,Node,Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

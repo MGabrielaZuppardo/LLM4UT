@@ -1,0 +1,17 @@
+{
+  "bug_id": "Closure_45",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/RemoveUnusedVars.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.RemoveUnusedVars:interpretAssigns:",
+            "com.google.javascript.jscomp.RemoveUnusedVars.Assign:Assign:Node,Node,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

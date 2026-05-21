@@ -1,0 +1,19 @@
+{
+  "bug_id": "Compress_9",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.archivers.tar.TarArchiveOutputStream:setLongFileMode:int",
+            "org.apache.commons.compress.archivers.tar.TarArchiveOutputStream:getCount:",
+            "org.apache.commons.compress.archivers.tar.TarArchiveOutputStream:getBytesWritten:",
+            "org.apache.commons.compress.archivers.tar.TarArchiveOutputStream:write:byte[],int,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

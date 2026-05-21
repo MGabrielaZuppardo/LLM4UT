@@ -1,0 +1,16 @@
+{
+  "bug_id": "Jsoup_47",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/nodes/Entities.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.Entities:escape:StringBuilder,String,Document.OutputSettings,boolean,boolean,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

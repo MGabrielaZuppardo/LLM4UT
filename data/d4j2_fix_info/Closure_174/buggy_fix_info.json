@@ -1,0 +1,37 @@
+{
+  "bug_id": "Closure_174",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/JsAst.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.JsAst:setSourceFile:SourceFile",
+            "com.google.javascript.jscomp.JsAst:parse:AbstractCompiler"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/NodeUtil.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.NodeUtil:newQualifiedNameNodeDeclaration:CodingConvention,String,Node,JSDocInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/ScopedAliases.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.ScopedAliases.Traversal:findAliases:NodeTraversal"
+          ]
+        }
+      ]
+    }
+  ]
+}

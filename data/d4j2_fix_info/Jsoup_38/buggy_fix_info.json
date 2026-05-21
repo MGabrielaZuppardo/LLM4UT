@@ -1,0 +1,16 @@
+{
+  "bug_id": "Jsoup_38",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.HtmlTreeBuilderState:process:Token,HtmlTreeBuilder"
+          ]
+        }
+      ]
+    }
+  ]
+}

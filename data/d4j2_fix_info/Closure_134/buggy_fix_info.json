@@ -1,0 +1,30 @@
+{
+  "bug_id": "Closure_134",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/AmbiguateProperties.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.AmbiguateProperties:process:Node,Node",
+            "com.google.javascript.jscomp.AmbiguateProperties.PropertySubGraph:isIndependentOf:Property",
+            "com.google.javascript.jscomp.AmbiguateProperties.PropertySubGraph:addNode:Property",
+            "com.google.javascript.jscomp.AmbiguateProperties.Property:Property:String",
+            "com.google.javascript.jscomp.AmbiguateProperties.Property:addNonUnionType:JSType"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/TypedScopeCreator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.TypedScopeCreator.AbstractScopeBuilder:findOverriddenFunction:ObjectType,String"
+          ]
+        }
+      ]
+    }
+  ]
+}

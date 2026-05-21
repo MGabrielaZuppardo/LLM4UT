@@ -1,0 +1,17 @@
+{
+  "bug_id": "Compress_46",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.archivers.zip.X5455_ExtendedTimestamp:dateToZipLong:Date",
+            "org.apache.commons.compress.archivers.zip.X5455_ExtendedTimestamp:unixTimeToZipLong:long"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "bug_id": "Cli_10",
+  "project": "Cli",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/cli/Parser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli.Parser:setOptions:Options",
+            "org.apache.commons.cli.Parser:getOptions:"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "bug_id": "Cli_27",
+  "project": "Cli",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/cli/OptionGroup.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli.OptionGroup:setSelected:Option"
+          ]
+        }
+      ]
+    }
+  ]
+}

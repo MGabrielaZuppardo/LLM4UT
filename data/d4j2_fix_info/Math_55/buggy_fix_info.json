@@ -1,0 +1,16 @@
+{
+  "bug_id": "Math_55",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math/geometry/Vector3D.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.geometry.Vector3D:crossProduct:Vector3D,Vector3D"
+          ]
+        }
+      ]
+    }
+  ]
+}

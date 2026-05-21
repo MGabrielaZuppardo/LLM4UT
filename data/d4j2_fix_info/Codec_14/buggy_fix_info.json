@@ -1,0 +1,27 @@
+{
+  "bug_id": "Codec_14",
+  "project": "Codec",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/codec/language/bm/PhoneticEngine.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.codec.language.bm.PhoneticEngine:applyFinalRules:PhonemeBuilder,Map<String, List<Rule>>"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/codec/language/bm/Rule.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.codec.language.bm.Rule.Phoneme:mergeWithLanguage:LanguageSet",
+            "org.apache.commons.codec.language.bm.Rule.Phoneme:toString:"
+          ]
+        }
+      ]
+    }
+  ]
+}

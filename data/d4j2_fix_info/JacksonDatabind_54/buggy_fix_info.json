@@ -1,0 +1,16 @@
+{
+  "bug_id": "JacksonDatabind_54",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/ser/PropertyBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.ser.PropertyBuilder:buildWriter:SerializerProvider,BeanPropertyDefinition,JavaType,JsonSerializer<?>,TypeSerializer,TypeSerializer,AnnotatedMember,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

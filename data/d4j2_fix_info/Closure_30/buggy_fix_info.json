@@ -1,0 +1,30 @@
+{
+  "bug_id": "Closure_30",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariables:process:Node,Node",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariables:visit:NodeTraversal,Node,Node"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/MustBeReachingVariableDef.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.MustBeReachingVariableDef.Definition:Definition:Node",
+            "com.google.javascript.jscomp.MustBeReachingVariableDef:computeDependence:Definition,Node",
+            "com.google.javascript.jscomp.MustBeReachingVariableDef:visit:NodeTraversal,Node,Node",
+            "com.google.javascript.jscomp.MustBeReachingVariableDef:dependsOnOuterScopeVars:String,Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

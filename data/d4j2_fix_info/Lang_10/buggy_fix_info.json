@@ -1,0 +1,16 @@
+{
+  "bug_id": "Lang_10",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/lang3/time/FastDateParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang3.time.FastDateParser:escapeRegex:StringBuilder,String,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

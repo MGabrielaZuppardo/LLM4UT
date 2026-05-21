@@ -1,0 +1,16 @@
+{
+  "bug_id": "Chart_1",
+  "project": "Chart",
+  "fixing_changes": [
+    {
+      "file": "source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.chart.renderer.category.AbstractCategoryItemRenderer:getLegendItems:"
+          ]
+        }
+      ]
+    }
+  ]
+}

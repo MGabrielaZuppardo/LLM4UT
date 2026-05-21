@@ -1,0 +1,16 @@
+{
+  "bug_id": "Compress_32",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.archivers.tar.TarArchiveInputStream:applyPaxHeadersToCurrentEntry:Map<String, String>"
+          ]
+        }
+      ]
+    }
+  ]
+}

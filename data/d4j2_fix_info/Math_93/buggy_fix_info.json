@@ -1,0 +1,18 @@
+{
+  "bug_id": "Math_93",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/math/util/MathUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.util.MathUtils:factorial:int",
+            "org.apache.commons.math.util.MathUtils:factorialDouble:int",
+            "org.apache.commons.math.util.MathUtils:factorialLog:int"
+          ]
+        }
+      ]
+    }
+  ]
+}

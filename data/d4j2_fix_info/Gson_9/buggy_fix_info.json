@@ -1,0 +1,39 @@
+{
+  "bug_id": "Gson_9",
+  "project": "Gson",
+  "fixing_changes": [
+    {
+      "file": "gson/src/main/java/com/google/gson/internal/bind/JsonTreeWriter.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.gson.internal.bind.JsonTreeWriter:value:boolean",
+            "com.google.gson.internal.bind.JsonTreeWriter:value:Boolean",
+            "com.google.gson.internal.bind.JsonTreeWriter:value:double"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.gson.internal.bind.TypeAdapters:read:JsonReader",
+            "com.google.gson.internal.bind.TypeAdapters:write:JsonWriter,Boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "gson/src/main/java/com/google/gson/stream/JsonWriter.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.gson.stream.JsonWriter:value:Boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

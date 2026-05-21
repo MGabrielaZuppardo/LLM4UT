@@ -1,0 +1,17 @@
+{
+  "bug_id": "Lang_13",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/lang3/SerializationUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang3.SerializationUtils.ClassLoaderAwareObjectInputStream:ClassLoaderAwareObjectInputStream:InputStream,ClassLoader",
+            "org.apache.commons.lang3.SerializationUtils.ClassLoaderAwareObjectInputStream:resolveClass:ObjectStreamClass"
+          ]
+        }
+      ]
+    }
+  ]
+}

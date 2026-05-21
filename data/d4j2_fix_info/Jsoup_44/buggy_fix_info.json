@@ -1,0 +1,19 @@
+{
+  "bug_id": "Jsoup_44",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/parser/TreeBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.TreeBuilder:process:Token",
+            "org.jsoup.parser.TreeBuilder:processStartTag:String",
+            "org.jsoup.parser.TreeBuilder:processStartTag:String,Attributes",
+            "org.jsoup.parser.TreeBuilder:processEndTag:String"
+          ]
+        }
+      ]
+    }
+  ]
+}

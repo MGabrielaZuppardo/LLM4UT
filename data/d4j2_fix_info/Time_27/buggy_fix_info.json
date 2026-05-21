@@ -1,0 +1,16 @@
+{
+  "bug_id": "Time_27",
+  "project": "Time",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/joda/time/format/PeriodFormatterBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.joda.time.format.PeriodFormatterBuilder:toFormatter:List<Object>,boolean,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

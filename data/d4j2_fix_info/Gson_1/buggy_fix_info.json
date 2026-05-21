@@ -1,0 +1,18 @@
+{
+  "bug_id": "Gson_1",
+  "project": "Gson",
+  "fixing_changes": [
+    {
+      "file": "gson/src/main/java/com/google/gson/TypeInfoFactory.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.gson.TypeInfoFactory:getActualType:Type,Type,Class<?>",
+            "com.google.gson.TypeInfoFactory:extractTypeForHierarchy:Type,TypeVariable<?>",
+            "com.google.gson.TypeInfoFactory:extractRealTypes:Type[],Type,Class<?>"
+          ]
+        }
+      ]
+    }
+  ]
+}

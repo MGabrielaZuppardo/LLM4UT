@@ -1,0 +1,16 @@
+{
+  "bug_id": "Compress_26",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/utils/IOUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.utils.IOUtils:skip:InputStream,long"
+          ]
+        }
+      ]
+    }
+  ]
+}

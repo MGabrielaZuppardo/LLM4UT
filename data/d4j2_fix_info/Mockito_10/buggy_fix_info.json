@@ -1,0 +1,20 @@
+{
+  "bug_id": "Mockito_10",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs:deepStub:InvocationOnMock,GenericMetadataSupport",
+            "org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs:newDeepStubMock:GenericMetadataSupport,Object",
+            "org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs:withSettingsUsing:GenericMetadataSupport,MockCreationSettings",
+            "org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs:propagateSerializationSettings:MockSettings,MockCreationSettings",
+            "org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs:returnsDeepStubsAnswerUsing:GenericMetadataSupport"
+          ]
+        }
+      ]
+    }
+  ]
+}

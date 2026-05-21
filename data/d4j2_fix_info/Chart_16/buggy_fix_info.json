@@ -1,0 +1,17 @@
+{
+  "bug_id": "Chart_16",
+  "project": "Chart",
+  "fixing_changes": [
+    {
+      "file": "source/org/jfree/data/category/DefaultIntervalCategoryDataset.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.data.category.DefaultIntervalCategoryDataset:DefaultIntervalCategoryDataset:Comparable[],Comparable[],Number[][],Number[][]",
+            "org.jfree.data.category.DefaultIntervalCategoryDataset:setCategoryKeys:Comparable[]"
+          ]
+        }
+      ]
+    }
+  ]
+}

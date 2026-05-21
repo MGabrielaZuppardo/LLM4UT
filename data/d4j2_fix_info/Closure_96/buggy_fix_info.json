@@ -1,0 +1,16 @@
+{
+  "bug_id": "Closure_96",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/TypeCheck.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.TypeCheck:visitParameterList:NodeTraversal,Node,FunctionType"
+          ]
+        }
+      ]
+    }
+  ]
+}

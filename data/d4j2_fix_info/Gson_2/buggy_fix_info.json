@@ -1,0 +1,20 @@
+{
+  "bug_id": "Gson_2",
+  "project": "Gson",
+  "fixing_changes": [
+    {
+      "file": "gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.gson.internal.bind.TypeAdapters:newTypeHierarchyFactory:Class<T1>,TypeAdapter<T1>",
+            "com.google.gson.internal.bind.TypeAdapters:create:Gson,TypeToken<T2>",
+            "com.google.gson.internal.bind.TypeAdapters:write:JsonWriter,T1",
+            "com.google.gson.internal.bind.TypeAdapters:read:JsonReader",
+            "com.google.gson.internal.bind.TypeAdapters:toString:"
+          ]
+        }
+      ]
+    }
+  ]
+}

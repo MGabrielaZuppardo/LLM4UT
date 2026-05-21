@@ -1,0 +1,16 @@
+{
+  "bug_id": "Lang_43",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/lang/text/ExtendedMessageFormat.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang.text.ExtendedMessageFormat:appendQuotedString:String,ParsePosition,StringBuffer,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

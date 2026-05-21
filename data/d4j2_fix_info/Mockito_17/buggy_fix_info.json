@@ -1,0 +1,30 @@
+{
+  "bug_id": "Mockito_17",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/creation/MockSettingsImpl.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.creation.MockSettingsImpl:serializable:",
+            "org.mockito.internal.creation.MockSettingsImpl:extraInterfaces:",
+            "org.mockito.internal.creation.MockSettingsImpl:getDefaultAnswer:",
+            "org.mockito.internal.creation.MockSettingsImpl:isSerializable:",
+            "org.mockito.internal.creation.MockSettingsImpl:initiateMockName:Class"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/org/mockito/internal/util/MockUtil.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.util.MockUtil:createMock:Class<T>,MockSettingsImpl"
+          ]
+        }
+      ]
+    }
+  ]
+}

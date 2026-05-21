@@ -1,0 +1,18 @@
+{
+  "bug_id": "Compress_3",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.archivers.tar.TarArchiveOutputStream:finish:",
+            "org.apache.commons.compress.archivers.tar.TarArchiveOutputStream:putArchiveEntry:ArchiveEntry",
+            "org.apache.commons.compress.archivers.tar.TarArchiveOutputStream:closeArchiveEntry:"
+          ]
+        }
+      ]
+    }
+  ]
+}

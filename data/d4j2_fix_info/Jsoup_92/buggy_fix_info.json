@@ -1,0 +1,58 @@
+{
+  "bug_id": "Jsoup_92",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/nodes/Attributes.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.Attributes:add:String,String",
+            "org.jsoup.nodes.Attributes:isEmpty:",
+            "org.jsoup.nodes.Attributes:deduplicate:ParseSettings"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/HtmlTreeBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.HtmlTreeBuilder:insert:Token.StartTag"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/ParseSettings.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.ParseSettings:preserveAttributeCase:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/Token.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.Token.Tag:newAttribute:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/XmlTreeBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.XmlTreeBuilder:insert:Token.StartTag"
+          ]
+        }
+      ]
+    }
+  ]
+}

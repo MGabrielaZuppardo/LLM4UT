@@ -1,0 +1,39 @@
+{
+  "bug_id": "JacksonCore_9",
+  "project": "JacksonCore",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/base/ParserMinimalBase.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.base.ParserMinimalBase:getValueAsString:",
+            "com.fasterxml.jackson.core.base.ParserMinimalBase:getValueAsString:String"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.json.ReaderBasedJsonParser:getValueAsString:",
+            "com.fasterxml.jackson.core.json.ReaderBasedJsonParser:getValueAsString:String"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.json.UTF8StreamJsonParser:getValueAsString:",
+            "com.fasterxml.jackson.core.json.UTF8StreamJsonParser:getValueAsString:String"
+          ]
+        }
+      ]
+    }
+  ]
+}

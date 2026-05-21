@@ -1,0 +1,20 @@
+{
+  "bug_id": "Closure_156",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/CollapseProperties.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.CollapseProperties:collapseDeclarationOfNameAndDescendants:Name,String",
+            "com.google.javascript.jscomp.CollapseProperties:updateObjLitOrFunctionDeclaration:Name,String,boolean",
+            "com.google.javascript.jscomp.CollapseProperties:updateObjLitOrFunctionDeclarationAtAssignNode:Name,String,boolean",
+            "com.google.javascript.jscomp.CollapseProperties:updateObjLitOrFunctionDeclarationAtVarNode:Name,boolean",
+            "com.google.javascript.jscomp.CollapseProperties:updateFunctionDeclarationAtFunctionNode:Name,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

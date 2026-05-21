@@ -1,0 +1,16 @@
+{
+  "bug_id": "Math_52",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.geometry.euclidean.threed.Rotation:Rotation:Vector3D,Vector3D,Vector3D,Vector3D"
+          ]
+        }
+      ]
+    }
+  ]
+}

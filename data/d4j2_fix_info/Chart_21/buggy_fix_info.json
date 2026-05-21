@@ -1,0 +1,17 @@
+{
+  "bug_id": "Chart_21",
+  "project": "Chart",
+  "fixing_changes": [
+    {
+      "file": "source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:add:BoxAndWhiskerItem,Comparable,Comparable",
+            "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:updateBounds:"
+          ]
+        }
+      ]
+    }
+  ]
+}

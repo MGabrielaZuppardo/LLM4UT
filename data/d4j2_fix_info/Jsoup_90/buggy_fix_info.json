@@ -1,0 +1,16 @@
+{
+  "bug_id": "Jsoup_90",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/helper/HttpConnection.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.helper.HttpConnection.Base:looksLikeUtf8:byte[]"
+          ]
+        }
+      ]
+    }
+  ]
+}

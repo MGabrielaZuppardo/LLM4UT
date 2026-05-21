@@ -1,0 +1,43 @@
+{
+  "bug_id": "Time_26",
+  "project": "Time",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/joda/time/DateTimeZone.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.joda.time.DateTimeZone:convertLocalToUTC:long,boolean,long"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/joda/time/chrono/ZonedChronology.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.joda.time.chrono.ZonedChronology.ZonedDateTimeField:add:long,int",
+            "org.joda.time.chrono.ZonedChronology.ZonedDateTimeField:add:long,long",
+            "org.joda.time.chrono.ZonedChronology.ZonedDateTimeField:addWrapField:long,int",
+            "org.joda.time.chrono.ZonedChronology.ZonedDateTimeField:set:long,int",
+            "org.joda.time.chrono.ZonedChronology.ZonedDateTimeField:set:long,String,Locale",
+            "org.joda.time.chrono.ZonedChronology.ZonedDateTimeField:getDifference:long,long",
+            "org.joda.time.chrono.ZonedChronology.ZonedDateTimeField:roundFloor:long",
+            "org.joda.time.chrono.ZonedChronology.ZonedDateTimeField:roundCeiling:long"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/joda/time/field/LenientDateTimeField.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.joda.time.field.LenientDateTimeField:set:long,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

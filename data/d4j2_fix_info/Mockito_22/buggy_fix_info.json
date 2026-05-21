@@ -1,0 +1,16 @@
+{
+  "bug_id": "Mockito_22",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/matchers/Equality.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.matchers.Equality:areEqual:Object,Object"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "bug_id": "Gson_12",
+  "project": "Gson",
+  "fixing_changes": [
+    {
+      "file": "gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.gson.internal.bind.JsonTreeReader:skipValue:",
+            "com.google.gson.internal.bind.JsonTreeReader:toString:"
+          ]
+        }
+      ]
+    }
+  ]
+}

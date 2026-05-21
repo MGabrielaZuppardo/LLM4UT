@@ -1,0 +1,16 @@
+{
+  "bug_id": "Closure_13",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.PeepholeOptimizationsPass:traverse:Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

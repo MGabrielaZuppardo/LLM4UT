@@ -1,0 +1,26 @@
+{
+  "bug_id": "Jsoup_83",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/parser/CharacterReader.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.CharacterReader:consumeTagName:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/TokeniserState.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.TokeniserState:read:Tokeniser,CharacterReader"
+          ]
+        }
+      ]
+    }
+  ]
+}

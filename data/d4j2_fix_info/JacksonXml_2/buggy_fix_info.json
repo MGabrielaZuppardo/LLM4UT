@@ -1,0 +1,19 @@
+{
+  "bug_id": "JacksonXml_2",
+  "project": "JacksonXml",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream:_next:",
+            "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream:_extractLocation:XMLStreamLocation2",
+            "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream:_allWs:String",
+            "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream:toString:"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "bug_id": "JacksonDatabind_59",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/JavaType.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.JavaType:withHandlersFrom:JavaType"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.type.CollectionLikeType:withContentValueHandler:Object",
+            "com.fasterxml.jackson.databind.type.CollectionLikeType:withHandlersFrom:JavaType",
+            "com.fasterxml.jackson.databind.type.CollectionLikeType:withStaticTyping:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.type.MapLikeType:withContentValueHandler:Object",
+            "com.fasterxml.jackson.databind.type.MapLikeType:withHandlersFrom:JavaType",
+            "com.fasterxml.jackson.databind.type.MapLikeType:withStaticTyping:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.type.TypeFactory:constructSpecializedType:JavaType,Class<?>"
+          ]
+        }
+      ]
+    }
+  ]
+}

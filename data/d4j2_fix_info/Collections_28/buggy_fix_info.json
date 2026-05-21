@@ -1,0 +1,17 @@
+{
+  "bug_id": "Collections_28",
+  "project": "Collections",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/collections4/trie/AbstractPatriciaTrie.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.collections4.trie.AbstractPatriciaTrie.PrefixRangeMap:createRangeMap:K,boolean,K,boolean",
+            "org.apache.commons.collections4.trie.AbstractPatriciaTrie.PrefixRangeMap:clear:"
+          ]
+        }
+      ]
+    }
+  ]
+}

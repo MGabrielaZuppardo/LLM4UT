@@ -1,0 +1,16 @@
+{
+  "bug_id": "JxPath_5",
+  "project": "JxPath",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/model/NodePointer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.model.NodePointer:compareNodePointers:NodePointer,int,NodePointer,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

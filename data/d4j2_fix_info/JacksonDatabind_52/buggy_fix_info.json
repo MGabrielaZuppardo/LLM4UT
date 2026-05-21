@@ -1,0 +1,27 @@
+{
+  "bug_id": "JacksonDatabind_52",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.BeanDeserializerBase:resolve:DeserializationContext"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.Builder:build:BeanPropertyMap",
+            "com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.Builder:build:"
+          ]
+        }
+      ]
+    }
+  ]
+}

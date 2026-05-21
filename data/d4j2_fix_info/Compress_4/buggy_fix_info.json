@@ -1,0 +1,46 @@
+{
+  "bug_id": "Compress_4",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream:close:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.archivers.tar.TarArchiveOutputStream:close:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream:close:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/compress/changes/ChangeSetPerformer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.changes.ChangeSetPerformer:perform:ArchiveInputStream,ArchiveOutputStream"
+          ]
+        }
+      ]
+    }
+  ]
+}

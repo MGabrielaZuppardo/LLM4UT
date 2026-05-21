@@ -1,0 +1,16 @@
+{
+  "bug_id": "Mockito_20",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/creation/bytebuddy/ByteBuddyMockMaker.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker:createMock:MockCreationSettings<T>,MockHandler"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "bug_id": "Lang_56",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/lang/time/FastDateFormat.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang.time.FastDateFormat:readObject:ObjectInputStream"
+          ]
+        }
+      ]
+    }
+  ]
+}

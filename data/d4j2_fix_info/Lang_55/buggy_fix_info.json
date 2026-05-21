@@ -1,0 +1,16 @@
+{
+  "bug_id": "Lang_55",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/lang/time/StopWatch.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang.time.StopWatch:stop:"
+          ]
+        }
+      ]
+    }
+  ]
+}

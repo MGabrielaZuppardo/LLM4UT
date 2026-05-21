@@ -1,0 +1,18 @@
+{
+  "bug_id": "Mockito_35",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/Matchers.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.Matchers:isA:Class<T>",
+            "org.mockito.Matchers:eq:T",
+            "org.mockito.Matchers:same:T"
+          ]
+        }
+      ]
+    }
+  ]
+}

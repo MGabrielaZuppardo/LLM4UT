@@ -1,0 +1,16 @@
+{
+  "bug_id": "Time_7",
+  "project": "Time",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/joda/time/format/DateTimeFormatter.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.joda.time.format.DateTimeFormatter:parseInto:ReadWritableInstant,String,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

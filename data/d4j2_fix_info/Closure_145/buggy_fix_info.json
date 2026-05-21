@@ -1,0 +1,16 @@
+{
+  "bug_id": "Closure_145",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/CodeGenerator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.CodeGenerator:isOneExactlyFunctionOrDo:Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

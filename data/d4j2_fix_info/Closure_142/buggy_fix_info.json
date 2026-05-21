@@ -1,0 +1,26 @@
+{
+  "bug_id": "Closure_142",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/CoalesceVariableNames.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.CoalesceVariableNames:enterScope:NodeTraversal"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.parsing.JsDocInfoParser:extractMultilineTextualBlock:JsDocToken,WhitespaceOption"
+          ]
+        }
+      ]
+    }
+  ]
+}

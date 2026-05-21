@@ -1,0 +1,47 @@
+{
+  "bug_id": "Closure_163",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/AnalyzePrototypeProperties.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.ProcessProperties:enterScope:NodeTraversal",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.ProcessProperties:exitScope:NodeTraversal",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.ProcessProperties:shouldTraverse:NodeTraversal,Node,Node",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.ProcessProperties:visit:NodeTraversal,Node,Node",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.ProcessProperties:processNonFunctionPrototypeAssign:Node,Node",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.ProcessProperties:isGlobalFunctionDeclaration:NodeTraversal,Node",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.ProcessProperties:isAssignRValue:Node,Node",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.ProcessProperties:getPrototypePropertyNameFromRValue:Node",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.ProcessProperties:processGlobalFunctionDeclaration:NodeTraversal,Node,Var",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.ProcessProperties:processPrototypeRef:NodeTraversal,Node",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.ProcessProperties:addGlobalUseOfSymbol:String,JSModule,SymbolType",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.Symbol:getRootVar:",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.GlobalFunction:GlobalFunction:Node,Var,JSModule",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.GlobalFunction:getRootVar:",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.GlobalFunction:remove:",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.AssignmentProperty:AssignmentProperty:Node,Var,JSModule",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.AssignmentProperty:getRootVar:",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.AssignmentProperty:remove:",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.LiteralProperty:LiteralProperty:Node,Node,Node,Node,Var,JSModule",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.LiteralProperty:getRootVar:",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.LiteralProperty:remove:",
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.NameContext:NameContext:NameInfo,Scope"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/CrossModuleMethodMotion.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.CrossModuleMethodMotion:moveMethods:Collection<NameInfo>"
+          ]
+        }
+      ]
+    }
+  ]
+}

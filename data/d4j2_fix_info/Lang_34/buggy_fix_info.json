@@ -1,0 +1,17 @@
+{
+  "bug_id": "Lang_34",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang3.builder.ToStringStyle:getRegistry:",
+            "org.apache.commons.lang3.builder.ToStringStyle:isRegistered:Object"
+          ]
+        }
+      ]
+    }
+  ]
+}

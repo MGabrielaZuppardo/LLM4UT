@@ -1,0 +1,18 @@
+{
+  "bug_id": "Math_66",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math/optimization/univariate/BrentOptimizer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.optimization.univariate.BrentOptimizer:BrentOptimizer:",
+            "org.apache.commons.math.optimization.univariate.BrentOptimizer:doOptimize:",
+            "org.apache.commons.math.optimization.univariate.BrentOptimizer:localMin:boolean,double,double,double,double,double"
+          ]
+        }
+      ]
+    }
+  ]
+}

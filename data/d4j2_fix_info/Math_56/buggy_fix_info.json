@@ -1,0 +1,16 @@
+{
+  "bug_id": "Math_56",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.util.MultidimensionalCounter:getCounts:int"
+          ]
+        }
+      ]
+    }
+  ]
+}

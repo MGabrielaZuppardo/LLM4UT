@@ -1,0 +1,16 @@
+{
+  "bug_id": "Compress_27",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.archivers.tar.TarUtils:parseOctal:byte[],int,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

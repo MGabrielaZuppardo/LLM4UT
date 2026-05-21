@@ -1,14 +1,14 @@
 import os
 from tree_sitter import Language
 
-d4j_home = "/Users/yanglin/Documents/Projects/data/defects4j"
+d4j_home = "/home/gabriela_zuppardo/defects4j"
 d4j_proj_base = f"{d4j_home}/d4j_projects"
 # output_dir = "data/rq1/results_debug"
 output_dir = "data/rq1/results_0128"
 code_base = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 output_base_dir = os.path.join(code_base, output_dir)
 d4j_command = f"{d4j_home}/framework/bin/defects4j"
-python_bin = "~/anaconda3/envs/codebot/bin/python"
+python_bin = "/home/gabriela_zuppardo/miniconda/bin/python"
 
 Language.build_library(
     os.path.join(code_base, "data/build/java.so"),

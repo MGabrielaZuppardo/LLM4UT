@@ -1,0 +1,16 @@
+{
+  "bug_id": "Jsoup_19",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/safety/Whitelist.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.safety.Whitelist:testValidProtocol:Element,Attribute,Set<Protocol>"
+          ]
+        }
+      ]
+    }
+  ]
+}

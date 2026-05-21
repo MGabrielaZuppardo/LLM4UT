@@ -1,0 +1,16 @@
+{
+  "bug_id": "Mockito_29",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/matchers/Same.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.matchers.Same:describeTo:Description"
+          ]
+        }
+      ]
+    }
+  ]
+}

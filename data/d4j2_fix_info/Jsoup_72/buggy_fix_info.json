@@ -1,0 +1,16 @@
+{
+  "bug_id": "Jsoup_72",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/parser/CharacterReader.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.CharacterReader:cacheString:char[],String[],int,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

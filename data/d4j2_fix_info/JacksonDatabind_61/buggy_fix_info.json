@@ -1,0 +1,27 @@
+{
+  "bug_id": "JacksonDatabind_61",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.ObjectMapper.DefaultTypeResolverBuilder:useForType:JavaType"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/StdTypeResolverBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.jsontype.impl.StdTypeResolverBuilder:buildTypeSerializer:SerializationConfig,JavaType,Collection<NamedType>",
+            "com.fasterxml.jackson.databind.jsontype.impl.StdTypeResolverBuilder:buildTypeDeserializer:DeserializationConfig,JavaType,Collection<NamedType>"
+          ]
+        }
+      ]
+    }
+  ]
+}

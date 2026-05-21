@@ -1,0 +1,38 @@
+{
+  "bug_id": "Cli_13",
+  "project": "Cli",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/cli2/WriteableCommandLine.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli2.WriteableCommandLine:getUndefaultedValues:Option"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli2.commandline.WriteableCommandLineImpl:getValues:Option,List",
+            "org.apache.commons.cli2.commandline.WriteableCommandLineImpl:getUndefaultedValues:Option",
+            "org.apache.commons.cli2.commandline.WriteableCommandLineImpl:getSwitch:Option,Boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/cli2/option/ArgumentImpl.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli2.option.ArgumentImpl:processValues:WriteableCommandLine,ListIterator,Option"
+          ]
+        }
+      ]
+    }
+  ]
+}

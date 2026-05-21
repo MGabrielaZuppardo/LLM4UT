@@ -1,0 +1,16 @@
+{
+  "bug_id": "Jsoup_84",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/helper/W3CDom.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.helper.W3CDom.W3CBuilder:head:org.jsoup.nodes.Node,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

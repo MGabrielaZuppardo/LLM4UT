@@ -1,0 +1,26 @@
+{
+  "bug_id": "Cli_31",
+  "project": "Cli",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/cli/HelpFormatter.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli.HelpFormatter:appendOption:StringBuffer,Option,boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/cli/OptionBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli.OptionBuilder:reset:"
+          ]
+        }
+      ]
+    }
+  ]
+}

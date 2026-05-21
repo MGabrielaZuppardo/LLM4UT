@@ -1,0 +1,16 @@
+{
+  "bug_id": "JxPath_15",
+  "project": "JxPath",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/axes/UnionContext.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.axes.UnionContext:setPosition:int"
+          ]
+        }
+      ]
+    }
+  ]
+}

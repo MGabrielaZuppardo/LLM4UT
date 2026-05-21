@@ -1,0 +1,17 @@
+{
+  "bug_id": "JacksonDatabind_14",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.ObjectReader:_bindAsTree:JsonParser",
+            "com.fasterxml.jackson.databind.ObjectReader:_findTreeDeserializer:DeserializationContext"
+          ]
+        }
+      ]
+    }
+  ]
+}

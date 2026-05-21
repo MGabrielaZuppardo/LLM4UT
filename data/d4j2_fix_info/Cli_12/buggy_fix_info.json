@@ -1,0 +1,16 @@
+{
+  "bug_id": "Cli_12",
+  "project": "Cli",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/cli/GnuParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli.GnuParser:flatten:Options,String[],boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

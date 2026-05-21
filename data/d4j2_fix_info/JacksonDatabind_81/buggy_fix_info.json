@@ -1,0 +1,20 @@
+{
+  "bug_id": "JacksonDatabind_81",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector:refineSerializationType:MapperConfig<?>,Annotated,JavaType",
+            "com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector:refineDeserializationType:MapperConfig<?>,Annotated,JavaType",
+            "com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector:_constructNoTypeResolverBuilder:",
+            "com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector:_primitiveAndWrapper:Class<?>,Class<?>",
+            "com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector:_primitiveAndWrapper:JavaType,Class<?>"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "bug_id": "Codec_18",
+  "project": "Codec",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.codec.binary.StringUtils:equals:CharSequence,CharSequence"
+          ]
+        }
+      ]
+    }
+  ]
+}

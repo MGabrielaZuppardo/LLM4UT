@@ -1,0 +1,46 @@
+{
+  "bug_id": "Closure_137",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.MakeDeclaredNamesUnique.ContextualRenameInverter:ContextualRenameInverter:AbstractCompiler",
+            "com.google.javascript.jscomp.MakeDeclaredNamesUnique.ContextualRenameInverter:containsSeparator:String",
+            "com.google.javascript.jscomp.MakeDeclaredNamesUnique.ContextualRenameInverter:enterScope:NodeTraversal",
+            "com.google.javascript.jscomp.MakeDeclaredNamesUnique.ContextualRenameInverter:exitScope:NodeTraversal",
+            "com.google.javascript.jscomp.MakeDeclaredNamesUnique.ContextualRenameInverter:handleScopeVar:Var",
+            "com.google.javascript.jscomp.MakeDeclaredNamesUnique.ContextualRenameInverter:shouldTraverse:NodeTraversal,Node,Node",
+            "com.google.javascript.jscomp.MakeDeclaredNamesUnique.ContextualRenameInverter:visit:NodeTraversal,Node,Node",
+            "com.google.javascript.jscomp.MakeDeclaredNamesUnique.ContextualRenameInverter:addCandidateNameReference:String,Node",
+            "com.google.javascript.jscomp.MakeDeclaredNamesUnique.ContextualRenamer:addDeclaredName:String",
+            "com.google.javascript.jscomp.MakeDeclaredNamesUnique.InlineRenamer:addDeclaredName:String"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/NodeUtil.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.NodeUtil:isReferenceName:Node",
+            "com.google.javascript.jscomp.NodeUtil:isLabelName:Node"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/Normalize.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.Normalize:process:Node,Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

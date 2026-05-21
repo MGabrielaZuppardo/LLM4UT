@@ -1,0 +1,17 @@
+{
+  "bug_id": "Jsoup_69",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/nodes/FormElement.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.FormElement:addElement:Element",
+            "org.jsoup.nodes.FormElement:removeChild:Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

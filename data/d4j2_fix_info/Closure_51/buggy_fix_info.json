@@ -1,0 +1,18 @@
+{
+  "bug_id": "Closure_51",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/CodeConsumer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.CodeConsumer:addNumber:double",
+            "com.google.javascript.jscomp.CodeConsumer:isNegativeZero:double",
+            "com.google.javascript.jscomp.CodeConsumer:isWordChar:char"
+          ]
+        }
+      ]
+    }
+  ]
+}

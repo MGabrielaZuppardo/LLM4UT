@@ -1,0 +1,42 @@
+{
+  "bug_id": "Cli_21",
+  "project": "Cli",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/cli2/WriteableCommandLine.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli2.WriteableCommandLine:getCurrentOption:",
+            "org.apache.commons.cli2.WriteableCommandLine:setCurrentOption:Option"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli2.commandline.WriteableCommandLineImpl:WriteableCommandLineImpl:Option,List",
+            "org.apache.commons.cli2.commandline.WriteableCommandLineImpl:getCurrentOption:",
+            "org.apache.commons.cli2.commandline.WriteableCommandLineImpl:setCurrentOption:Option",
+            "org.apache.commons.cli2.commandline.WriteableCommandLineImpl:addOption:Option",
+            "org.apache.commons.cli2.commandline.WriteableCommandLineImpl:looksLikeOption:String",
+            "org.apache.commons.cli2.commandline.WriteableCommandLineImpl:toString:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/cli2/option/GroupImpl.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli2.option.GroupImpl:looksLikeOption:WriteableCommandLine,String"
+          ]
+        }
+      ]
+    }
+  ]
+}

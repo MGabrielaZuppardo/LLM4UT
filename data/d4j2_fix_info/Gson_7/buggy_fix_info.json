@@ -1,0 +1,17 @@
+{
+  "bug_id": "Gson_7",
+  "project": "Gson",
+  "fixing_changes": [
+    {
+      "file": "gson/src/main/java/com/google/gson/stream/JsonReader.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.gson.stream.JsonReader:nextLong:",
+            "com.google.gson.stream.JsonReader:nextInt:"
+          ]
+        }
+      ]
+    }
+  ]
+}

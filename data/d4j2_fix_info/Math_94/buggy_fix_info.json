@@ -1,0 +1,16 @@
+{
+  "bug_id": "Math_94",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/math/util/MathUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.util.MathUtils:gcd:int,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

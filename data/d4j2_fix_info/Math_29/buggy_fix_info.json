@@ -1,0 +1,17 @@
+{
+  "bug_id": "Math_29",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math3.linear.OpenMapRealVector:ebeDivide:RealVector",
+            "org.apache.commons.math3.linear.OpenMapRealVector:ebeMultiply:RealVector"
+          ]
+        }
+      ]
+    }
+  ]
+}

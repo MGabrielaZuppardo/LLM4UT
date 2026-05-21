@@ -1,0 +1,18 @@
+{
+  "bug_id": "Closure_170",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariables.Candidate:getNumUseInUseCfgNode:Node",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariables.Candidate:visit:NodeTraversal,Node,Node",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariables.Candidate:isAssignChain:Node,Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

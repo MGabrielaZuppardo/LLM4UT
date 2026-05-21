@@ -1,0 +1,19 @@
+{
+  "bug_id": "JacksonDatabind_104",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/util/StdDateFormat.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.util.StdDateFormat:_format:TimeZone,Locale,Date,StringBuffer",
+            "com.fasterxml.jackson.databind.util.StdDateFormat:_formatBCEYear:StringBuffer,int",
+            "com.fasterxml.jackson.databind.util.StdDateFormat:pad2:StringBuffer,int",
+            "com.fasterxml.jackson.databind.util.StdDateFormat:pad4:StringBuffer,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

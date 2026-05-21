@@ -1,0 +1,30 @@
+{
+  "bug_id": "JacksonCore_24",
+  "project": "JacksonCore",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/base/ParserBase.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.base.ParserBase:_reportTooLongIntegral:int,String",
+            "com.fasterxml.jackson.core.base.ParserBase:convertNumberToInt:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/base/ParserMinimalBase.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.base.ParserMinimalBase:reportOverflowInt:String",
+            "com.fasterxml.jackson.core.base.ParserMinimalBase:reportOverflowInt:String,JsonToken",
+            "com.fasterxml.jackson.core.base.ParserMinimalBase:reportOverflowLong:String",
+            "com.fasterxml.jackson.core.base.ParserMinimalBase:reportOverflowLong:String,JsonToken"
+          ]
+        }
+      ]
+    }
+  ]
+}

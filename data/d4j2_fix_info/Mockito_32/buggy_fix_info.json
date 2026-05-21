@@ -1,0 +1,16 @@
+{
+  "bug_id": "Mockito_32",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/configuration/SpyAnnotationEngine.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.configuration.SpyAnnotationEngine:process:Class<?>,Object"
+          ]
+        }
+      ]
+    }
+  ]
+}

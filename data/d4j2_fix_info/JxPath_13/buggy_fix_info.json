@@ -1,0 +1,33 @@
+{
+  "bug_id": "JxPath_13",
+  "project": "JxPath",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/NamespaceResolver.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.NamespaceResolver:getPrefix:NodePointer,String",
+            "org.apache.commons.jxpath.ri.NamespaceResolver:getNamespaceURI:String",
+            "org.apache.commons.jxpath.ri.NamespaceResolver:getExternallyRegisteredNamespaceURI:String",
+            "org.apache.commons.jxpath.ri.NamespaceResolver:getPrefix:String",
+            "org.apache.commons.jxpath.ri.NamespaceResolver:getExternallyRegisteredPrefix:String",
+            "org.apache.commons.jxpath.ri.NamespaceResolver:clone:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer:getNamespaceResolver:",
+            "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer:getNamespaceURI:String",
+            "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer:createAttribute:JXPathContext,QName"
+          ]
+        }
+      ]
+    }
+  ]
+}

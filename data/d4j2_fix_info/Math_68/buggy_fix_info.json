@@ -1,0 +1,17 @@
+{
+  "bug_id": "Math_68",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:LevenbergMarquardtOptimizer:",
+            "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:doOptimize:"
+          ]
+        }
+      ]
+    }
+  ]
+}

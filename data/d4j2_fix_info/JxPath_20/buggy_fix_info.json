@@ -1,0 +1,17 @@
+{
+  "bug_id": "JxPath_20",
+  "project": "JxPath",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression:compute:Object,Object",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression:containsMatch:Object,Iterator"
+          ]
+        }
+      ]
+    }
+  ]
+}

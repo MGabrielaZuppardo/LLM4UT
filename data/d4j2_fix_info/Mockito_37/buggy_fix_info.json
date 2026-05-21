@@ -1,0 +1,18 @@
+{
+  "bug_id": "Mockito_37",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/stubbing/answers/AnswersValidator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.stubbing.answers.AnswersValidator:validate:Answer<?>,Invocation",
+            "org.mockito.internal.stubbing.answers.AnswersValidator:validateMockingConcreteClass:CallsRealMethods,Invocation",
+            "org.mockito.internal.stubbing.answers.AnswersValidator:validateDoNothing:DoesNothing,Invocation"
+          ]
+        }
+      ]
+    }
+  ]
+}

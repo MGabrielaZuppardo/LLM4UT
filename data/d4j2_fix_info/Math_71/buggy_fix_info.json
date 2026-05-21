@@ -1,0 +1,26 @@
+{
+  "bug_id": "Math_71",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator:integrate:FirstOrderDifferentialEquations,double,double[],double,double[]"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator:integrate:FirstOrderDifferentialEquations,double,double[],double,double[]"
+          ]
+        }
+      ]
+    }
+  ]
+}

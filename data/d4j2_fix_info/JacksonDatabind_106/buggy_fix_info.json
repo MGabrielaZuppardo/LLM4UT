@@ -1,0 +1,17 @@
+{
+  "bug_id": "JacksonDatabind_106",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.node.TreeTraversingParser:getIntValue:",
+            "com.fasterxml.jackson.databind.node.TreeTraversingParser:getLongValue:"
+          ]
+        }
+      ]
+    }
+  ]
+}

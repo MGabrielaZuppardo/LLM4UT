@@ -1,0 +1,16 @@
+{
+  "bug_id": "Chart_10",
+  "project": "Chart",
+  "fixing_changes": [
+    {
+      "file": "source/org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator:generateToolTipFragment:String"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "bug_id": "Mockito_3",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/invocation/InvocationMatcher.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.invocation.InvocationMatcher:captureArgumentsFrom:Invocation",
+            "org.mockito.internal.invocation.InvocationMatcher:uniqueMatcherSet:int",
+            "org.mockito.internal.invocation.InvocationMatcher:createFrom:List<Invocation>"
+          ]
+        }
+      ]
+    }
+  ]
+}

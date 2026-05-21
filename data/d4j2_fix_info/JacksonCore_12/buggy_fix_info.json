@@ -1,0 +1,31 @@
+{
+  "bug_id": "JacksonCore_12",
+  "project": "JacksonCore",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.json.ReaderBasedJsonParser:nextToken:",
+            "com.fasterxml.jackson.core.json.ReaderBasedJsonParser:nextFieldName:SerializableString",
+            "com.fasterxml.jackson.core.json.ReaderBasedJsonParser:nextFieldName:",
+            "com.fasterxml.jackson.core.json.ReaderBasedJsonParser:_isNextTokenNameYes:int",
+            "com.fasterxml.jackson.core.json.ReaderBasedJsonParser:_isNextTokenNameMaybe:int,String",
+            "com.fasterxml.jackson.core.json.ReaderBasedJsonParser:getTokenLocation:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.json.UTF8StreamJsonParser:getTokenLocation:"
+          ]
+        }
+      ]
+    }
+  ]
+}

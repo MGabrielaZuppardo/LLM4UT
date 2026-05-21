@@ -1,0 +1,18 @@
+{
+  "bug_id": "Closure_75",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/NodeUtil.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.NodeUtil:getNumberValue:Node",
+            "com.google.javascript.jscomp.NodeUtil:getStringNumberValue:String",
+            "com.google.javascript.jscomp.NodeUtil:isStrWhiteSpaceChar:int"
+          ]
+        }
+      ]
+    }
+  ]
+}

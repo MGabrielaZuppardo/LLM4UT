@@ -1,0 +1,18 @@
+{
+  "bug_id": "JacksonDatabind_72",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.impl.InnerClassProperty:getPropertyIndex:",
+            "com.fasterxml.jackson.databind.deser.impl.InnerClassProperty:getCreatorIndex:",
+            "com.fasterxml.jackson.databind.deser.impl.InnerClassProperty:writeReplace:"
+          ]
+        }
+      ]
+    }
+  ]
+}

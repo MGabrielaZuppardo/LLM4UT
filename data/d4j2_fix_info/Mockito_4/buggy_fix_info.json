@@ -1,0 +1,19 @@
+{
+  "bug_id": "Mockito_4",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/exceptions/Reporter.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.exceptions.Reporter:noMoreInteractionsWanted:Invocation,List<VerificationAwareInvocation>",
+            "org.mockito.exceptions.Reporter:noMoreInteractionsWantedInOrder:Invocation",
+            "org.mockito.exceptions.Reporter:cannotInjectDependency:Field,Object,Exception",
+            "org.mockito.exceptions.Reporter:exceptionCauseMessageIfAvailable:Exception"
+          ]
+        }
+      ]
+    }
+  ]
+}

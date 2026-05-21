@@ -1,0 +1,37 @@
+{
+  "bug_id": "Jsoup_52",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/helper/DataUtil.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.helper.DataUtil:parseByteData:ByteBuffer,String,String,Parser"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/nodes/XmlDeclaration.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.XmlDeclaration:getWholeDeclaration:",
+            "org.jsoup.nodes.XmlDeclaration:outerHtmlHead:Appendable,int,Document.OutputSettings"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/XmlTreeBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.XmlTreeBuilder:insert:Token.Comment"
+          ]
+        }
+      ]
+    }
+  ]
+}

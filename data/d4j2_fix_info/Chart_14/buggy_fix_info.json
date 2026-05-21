@@ -1,0 +1,28 @@
+{
+  "bug_id": "Chart_14",
+  "project": "Chart",
+  "fixing_changes": [
+    {
+      "file": "source/org/jfree/chart/plot/CategoryPlot.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.chart.plot.CategoryPlot:removeDomainMarker:int,Marker,Layer,boolean",
+            "org.jfree.chart.plot.CategoryPlot:removeRangeMarker:int,Marker,Layer,boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "source/org/jfree/chart/plot/XYPlot.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.chart.plot.XYPlot:removeDomainMarker:int,Marker,Layer,boolean",
+            "org.jfree.chart.plot.XYPlot:removeRangeMarker:int,Marker,Layer,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

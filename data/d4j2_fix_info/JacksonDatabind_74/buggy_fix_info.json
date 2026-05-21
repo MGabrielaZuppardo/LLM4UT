@@ -1,0 +1,16 @@
+{
+  "bug_id": "JacksonDatabind_74",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/AsPropertyTypeDeserializer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer:_deserializeTypedUsingDefaultImpl:JsonParser,DeserializationContext,TokenBuffer"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "bug_id": "JxPath_19",
+  "project": "JxPath",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer:getRelativePositionByQName:",
+            "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer:matchesQName:Node"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/model/jdom/JDOMNodePointer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer:getRelativePositionByQName:",
+            "org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer:matchesQName:Element"
+          ]
+        }
+      ]
+    }
+  ]
+}

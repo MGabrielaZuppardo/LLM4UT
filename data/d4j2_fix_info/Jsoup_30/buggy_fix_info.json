@@ -1,0 +1,20 @@
+{
+  "bug_id": "Jsoup_30",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/safety/Cleaner.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.safety.Cleaner.CleaningVisitor:CleaningVisitor:Element,Element",
+            "org.jsoup.safety.Cleaner.CleaningVisitor:head:Node,int",
+            "org.jsoup.safety.Cleaner.CleaningVisitor:tail:Node,int",
+            "org.jsoup.safety.Cleaner:copySafeNodes:Element,Element",
+            "org.jsoup.safety.Cleaner:createSafeElement:Element"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "bug_id": "Csv_8",
+  "project": "Csv",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.csv.CSVFormat:CSVFormat:char,Character,Quote,Character,Character,boolean,boolean,String,String,String[],boolean",
+            "org.apache.commons.csv.CSVFormat:validate:"
+          ]
+        }
+      ]
+    }
+  ]
+}

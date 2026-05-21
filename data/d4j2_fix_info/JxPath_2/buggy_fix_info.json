@@ -1,0 +1,18 @@
+{
+  "bug_id": "JxPath_2",
+  "project": "JxPath",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/compiler/Expression.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.compiler.Expression:iterate:EvalContext",
+            "org.apache.commons.jxpath.ri.compiler.Expression:iteratePointers:EvalContext",
+            "org.apache.commons.jxpath.ri.compiler.Expression.ValueIterator:remove:"
+          ]
+        }
+      ]
+    }
+  ]
+}

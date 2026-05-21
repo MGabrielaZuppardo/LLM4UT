@@ -1,0 +1,28 @@
+{
+  "bug_id": "JacksonDatabind_90",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/ValueInstantiator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.ValueInstantiator:canInstantiate:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/std/StdValueInstantiator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.std.StdValueInstantiator:canCreateFromObjectWith:",
+            "com.fasterxml.jackson.databind.deser.std.StdValueInstantiator:canInstantiate:",
+            "com.fasterxml.jackson.databind.deser.std.StdValueInstantiator:getDelegateType:DeserializationConfig"
+          ]
+        }
+      ]
+    }
+  ]
+}

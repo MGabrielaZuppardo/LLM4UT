@@ -1,0 +1,17 @@
+{
+  "bug_id": "Mockito_15",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/configuration/injection/FinalMockCandidateFilter.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.configuration.injection.FinalMockCandidateFilter:filterCandidate:Collection<Object>,Field,Object",
+            "org.mockito.internal.configuration.injection.FinalMockCandidateFilter:thenInject:"
+          ]
+        }
+      ]
+    }
+  ]
+}

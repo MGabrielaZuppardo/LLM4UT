@@ -1,0 +1,16 @@
+{
+  "bug_id": "Gson_5",
+  "project": "Gson",
+  "fixing_changes": [
+    {
+      "file": "gson/src/main/java/com/google/gson/internal/bind/util/ISO8601Utils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.gson.internal.bind.util.ISO8601Utils:parse:String,ParsePosition"
+          ]
+        }
+      ]
+    }
+  ]
+}

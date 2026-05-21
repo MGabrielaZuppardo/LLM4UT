@@ -1,0 +1,26 @@
+{
+  "bug_id": "Math_4",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubLine.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math3.geometry.euclidean.threed.SubLine:intersection:SubLine,boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math3.geometry.euclidean.twod.SubLine:intersection:SubLine,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "bug_id": "JxPath_22",
+  "project": "JxPath",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer:getNamespaceURI:Node",
+            "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer:getValue:"
+          ]
+        }
+      ]
+    }
+  ]
+}

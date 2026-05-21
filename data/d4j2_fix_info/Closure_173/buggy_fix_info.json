@@ -1,0 +1,28 @@
+{
+  "bug_id": "Closure_173",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/CodeGenerator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.CodeGenerator:add:Node,Context"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax:optimizeSubtree:Node",
+            "com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax:tryRotateAssociativeOperator:Node",
+            "com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax:tryFoldSimpleFunctionCall:Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

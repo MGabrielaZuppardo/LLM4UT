@@ -1,0 +1,16 @@
+{
+  "bug_id": "Math_45",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math/linear/OpenMapRealMatrix.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.linear.OpenMapRealMatrix:OpenMapRealMatrix:int,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "bug_id": "Chart_22",
+  "project": "Chart",
+  "fixing_changes": [
+    {
+      "file": "source/org/jfree/data/KeyedObjects2D.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.data.KeyedObjects2D:getObject:Comparable,Comparable",
+            "org.jfree.data.KeyedObjects2D:removeObject:Comparable,Comparable",
+            "org.jfree.data.KeyedObjects2D:removeRow:Comparable",
+            "org.jfree.data.KeyedObjects2D:removeColumn:Comparable"
+          ]
+        }
+      ]
+    }
+  ]
+}

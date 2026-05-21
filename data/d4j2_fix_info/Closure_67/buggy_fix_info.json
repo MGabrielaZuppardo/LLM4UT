@@ -1,0 +1,16 @@
+{
+  "bug_id": "Closure_67",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/AnalyzePrototypeProperties.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.AnalyzePrototypeProperties.ProcessProperties:isPrototypePropertyAssign:Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

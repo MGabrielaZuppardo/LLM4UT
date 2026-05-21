@@ -1,0 +1,18 @@
+{
+  "bug_id": "Math_92",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/math/util/MathUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.util.MathUtils:binomialCoefficient:int,int",
+            "org.apache.commons.math.util.MathUtils:binomialCoefficientDouble:int,int",
+            "org.apache.commons.math.util.MathUtils:binomialCoefficientLog:int,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

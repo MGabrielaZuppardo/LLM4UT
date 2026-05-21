@@ -1,0 +1,18 @@
+{
+  "bug_id": "Gson_10",
+  "project": "Gson",
+  "fixing_changes": [
+    {
+      "file": "gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.gson.internal.bind.ReflectiveTypeAdapterFactory:createBoundField:Gson,Field,String,TypeToken<?>,boolean,boolean",
+            "com.google.gson.internal.bind.ReflectiveTypeAdapterFactory:write:JsonWriter,Object",
+            "com.google.gson.internal.bind.ReflectiveTypeAdapterFactory:read:JsonReader,Object"
+          ]
+        }
+      ]
+    }
+  ]
+}

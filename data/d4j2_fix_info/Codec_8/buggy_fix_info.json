@@ -1,0 +1,26 @@
+{
+  "bug_id": "Codec_8",
+  "project": "Codec",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/codec/binary/Base64.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.codec.binary.Base64:readResults:byte[],int,int"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/codec/binary/Base64InputStream.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.codec.binary.Base64InputStream:read:byte,int,int"
+          ]
+        }
+      ]
+    }
+  ]
+}
