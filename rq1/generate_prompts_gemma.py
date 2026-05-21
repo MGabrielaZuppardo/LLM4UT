@@ -86,14 +86,24 @@ if __name__ == "__main__":
                 bug_id = "_".join(infos[:2])
 
                 # 读取bug的信息，拿到 modified class 和 method
-                with open(
-                    os.path.join(
-                        code_base,
-                        "data/d4j2_fix_info/" + bug_id + "/buggy_fix_info.json",
-                    ),
-                    "r",
-                    encoding="utf-8",
-                ) as info_reader:
+                # Alguns bugs nao possuem fix_info (deprecados sem checkout ou
+                # fixes fora de metodo: campos/imports/static-init). Pulamos.
+                fix_info_path = os.path.join(
+                    code_base,
+                    "data/d4j2_fix_info/" + bug_id + "/buggy_fix_info.json",
+                )
+                source_path = os.path.join(
+                    code_base,
+                    "data/fixed_projects_source/"
+                    + project_name
+                    + "/"
+                    + bug_id
+                    + "_fixed.jsonl",
+                )
+                if not os.path.exists(fix_info_path) or not os.path.exists(source_path):
+                    continue
+
+                with open(fix_info_path, "r", encoding="utf-8") as info_reader:
                     bug_fix_info = json.load(info_reader)
 
                 target = {}
@@ -108,14 +118,7 @@ if __name__ == "__main__":
 
                 # 读取对应采集的文件，筛选source method
                 with open(
-                    os.path.join(
-                        code_base,
-                        "data/fixed_projects_source/"
-                        + project_name
-                        + "/"
-                        + bug_id
-                        + "_fixed.jsonl",
-                    ),
+                    source_path,
                     "r",
                     encoding="utf-8",
                 ) as source_reader:
@@ -135,6 +138,7 @@ if __name__ == "__main__":
                                 continue
                             data.append(item)
 
+        os.makedirs(os.path.dirname(backup_file), exist_ok=True)
         with open(backup_file, "w", encoding="utf-8") as writer:
             for d in data:
                 writer.write(json.dumps(d, ensure_ascii=False) + "\n")

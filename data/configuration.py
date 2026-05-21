@@ -1,5 +1,8 @@
 import os
-from tree_sitter import Language
+import sys
+
+# garante que a raiz do projeto esteja no path para 'utils' resolver
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 d4j_home = "/home/gabriela_zuppardo/defects4j"
 d4j_proj_base = f"{d4j_home}/d4j_projects"
@@ -8,15 +11,11 @@ output_dir = "data/rq1/results_0128"
 code_base = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 output_base_dir = os.path.join(code_base, output_dir)
 d4j_command = f"{d4j_home}/framework/bin/defects4j"
-python_bin = "/home/gabriela_zuppardo/miniconda/bin/python"
+python_bin = sys.executable
 
-Language.build_library(
-    os.path.join(code_base, "data/build/java.so"),
-    [os.path.join(code_base, "data/tree-sitter-java")],
-)
-JAVA_LANGUAGE = Language(
-    os.path.join(code_base, "data/build/java.so"), "java"
-)
+# tree-sitter: API moderna (0.22+) via camada de compatibilidade.
+# O antigo Language.build_library() foi removido; ver utils/ts_compat.py.
+from utils.ts_compat import JAVA_LANGUAGE  # noqa: E402
 
 RES_FILE="/Users/yanglin/Documents/Projects/code-bot/data/outputs/deepseek-coder-6.7b-instruct_comment_extend_full.jsonl"
 TMP_FOLDER="/Users/yanglin/Documents/Projects/code-bot/data/tmp"
