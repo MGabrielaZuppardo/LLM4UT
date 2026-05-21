@@ -1,0 +1,17 @@
+{
+  "bug_id": "Math_67",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer:getFunctionValue:",
+            "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer:getResult:"
+          ]
+        }
+      ]
+    }
+  ]
+}

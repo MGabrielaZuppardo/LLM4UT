@@ -1,0 +1,16 @@
+{
+  "bug_id": "Cli_14",
+  "project": "Cli",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/cli2/option/GroupImpl.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli2.option.GroupImpl:validate:WriteableCommandLine"
+          ]
+        }
+      ]
+    }
+  ]
+}

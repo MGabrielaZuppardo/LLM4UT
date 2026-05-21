@@ -1,0 +1,40 @@
+{
+  "bug_id": "Jsoup_71",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/nodes/PseudoTextElement.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.PseudoTextElement:PseudoTextElement:Tag,String,Attributes",
+            "org.jsoup.nodes.PseudoTextElement:outerHtmlHead:Appendable,int,Document.OutputSettings",
+            "org.jsoup.nodes.PseudoTextElement:outerHtmlTail:Appendable,int,Document.OutputSettings"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/select/Evaluator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.select.Evaluator.MatchesOwn:toString:",
+            "org.jsoup.select.Evaluator.MatchText:matches:Element,Element",
+            "org.jsoup.select.Evaluator.MatchText:toString:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/select/QueryParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.select.QueryParser:findElements:"
+          ]
+        }
+      ]
+    }
+  ]
+}

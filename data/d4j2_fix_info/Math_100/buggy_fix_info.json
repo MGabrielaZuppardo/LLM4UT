@@ -1,0 +1,17 @@
+{
+  "bug_id": "Math_100",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/math/estimation/AbstractEstimator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.estimation.AbstractEstimator:getCovariances:EstimationProblem",
+            "org.apache.commons.math.estimation.AbstractEstimator:guessParametersErrors:EstimationProblem"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "bug_id": "Chart_2",
+  "project": "Chart",
+  "fixing_changes": [
+    {
+      "file": "source/org/jfree/data/general/DatasetUtilities.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.data.general.DatasetUtilities:iterateDomainBounds:XYDataset,boolean",
+            "org.jfree.data.general.DatasetUtilities:iterateRangeBounds:XYDataset,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

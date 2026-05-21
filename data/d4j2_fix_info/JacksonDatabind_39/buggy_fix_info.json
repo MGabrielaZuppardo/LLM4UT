@@ -1,0 +1,16 @@
+{
+  "bug_id": "JacksonDatabind_39",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/std/NullifyingDeserializer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.std.NullifyingDeserializer:deserialize:JsonParser,DeserializationContext"
+          ]
+        }
+      ]
+    }
+  ]
+}

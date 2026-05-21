@@ -1,0 +1,26 @@
+{
+  "bug_id": "Closure_89",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/CollapseProperties.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.CollapseProperties:updateSimpleDeclaration:String,Name,Ref"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/GlobalNamespace.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.GlobalNamespace.Name:canCollapseUnannotatedChildNames:"
+          ]
+        }
+      ]
+    }
+  ]
+}

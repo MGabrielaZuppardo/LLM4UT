@@ -1,0 +1,29 @@
+{
+  "bug_id": "Jsoup_21",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/select/CombiningEvaluator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.select.CombiningEvaluator.Or:Or:Collection<Evaluator>",
+            "org.jsoup.select.CombiningEvaluator.Or:Or:",
+            "org.jsoup.select.CombiningEvaluator.Or:add:Evaluator"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/select/QueryParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.select.QueryParser:parse:",
+            "org.jsoup.select.QueryParser:combinator:char"
+          ]
+        }
+      ]
+    }
+  ]
+}

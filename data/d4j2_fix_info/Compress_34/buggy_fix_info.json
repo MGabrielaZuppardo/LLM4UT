@@ -1,0 +1,16 @@
+{
+  "bug_id": "Compress_34",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/archivers/zip/X7875_NewUnix.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.archivers.zip.X7875_NewUnix:getCentralDirectoryLength:"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "bug_id": "Chart_12",
+  "project": "Chart",
+  "fixing_changes": [
+    {
+      "file": "source/org/jfree/chart/plot/MultiplePiePlot.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.chart.plot.MultiplePiePlot:MultiplePiePlot:CategoryDataset"
+          ]
+        }
+      ]
+    }
+  ]
+}

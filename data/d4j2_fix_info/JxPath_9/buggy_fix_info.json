@@ -1,0 +1,43 @@
+{
+  "bug_id": "JxPath_9",
+  "project": "JxPath",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/compiler/CoreOperationCompare.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationCompare:CoreOperationCompare:Expression,Expression",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationCompare:CoreOperationCompare:Expression,Expression,boolean",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationCompare:computeValue:EvalContext",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationCompare:getPrecedence:",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationCompare:findMatch:Iterator,Iterator",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationCompare:equal:Object,Object"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/compiler/CoreOperationEqual.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationEqual:CoreOperationEqual:Expression,Expression",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationEqual:getSymbol:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/compiler/CoreOperationNotEqual.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationNotEqual:CoreOperationNotEqual:Expression,Expression",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationNotEqual:getSymbol:"
+          ]
+        }
+      ]
+    }
+  ]
+}

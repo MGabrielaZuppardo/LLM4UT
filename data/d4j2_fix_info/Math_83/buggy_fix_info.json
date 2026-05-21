@@ -1,0 +1,17 @@
+{
+  "bug_id": "Math_83",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.optimization.linear.SimplexTableau:getBasicRow:int,boolean",
+            "org.apache.commons.math.optimization.linear.SimplexTableau:getSolution:"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "bug_id": "JacksonDatabind_87",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/util/StdDateFormat.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.util.StdDateFormat:parseAsISO8601:String,ParsePosition,boolean",
+            "com.fasterxml.jackson.databind.util.StdDateFormat:_clearFormats:"
+          ]
+        }
+      ]
+    }
+  ]
+}

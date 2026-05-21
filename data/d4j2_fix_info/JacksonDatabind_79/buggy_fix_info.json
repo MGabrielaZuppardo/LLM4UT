@@ -1,0 +1,39 @@
+{
+  "bug_id": "JacksonDatabind_79",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector:findObjectReferenceInfo:Annotated,ObjectIdInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/introspect/ObjectIdInfo.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.introspect.ObjectIdInfo:ObjectIdInfo:PropertyName,Class<?>,Class<? extends ObjectIdGenerator<?>>,Class<? extends ObjectIdResolver>",
+            "com.fasterxml.jackson.databind.introspect.ObjectIdInfo:ObjectIdInfo:PropertyName,Class<?>,Class<? extends ObjectIdGenerator<?>>,boolean,Class<? extends ObjectIdResolver>",
+            "com.fasterxml.jackson.databind.introspect.ObjectIdInfo:empty:",
+            "com.fasterxml.jackson.databind.introspect.ObjectIdInfo:withAlwaysAsId:boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase:createContextual:SerializerProvider,BeanProperty"
+          ]
+        }
+      ]
+    }
+  ]
+}

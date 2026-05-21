@@ -1,0 +1,17 @@
+{
+  "bug_id": "JacksonDatabind_78",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.BeanDeserializerFactory:createBeanDeserializer:DeserializationContext,JavaType,BeanDescription",
+            "com.fasterxml.jackson.databind.deser.BeanDeserializerFactory:checkIllegalTypes:DeserializationContext,JavaType,BeanDescription"
+          ]
+        }
+      ]
+    }
+  ]
+}

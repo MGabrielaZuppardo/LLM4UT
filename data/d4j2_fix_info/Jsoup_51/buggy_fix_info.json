@@ -1,0 +1,17 @@
+{
+  "bug_id": "Jsoup_51",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/parser/CharacterReader.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.CharacterReader:matchesLetter:",
+            "org.jsoup.parser.CharacterReader:matchesDigit:"
+          ]
+        }
+      ]
+    }
+  ]
+}

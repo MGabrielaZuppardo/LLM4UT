@@ -1,0 +1,63 @@
+{
+  "bug_id": "Jsoup_56",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/nodes/DocumentType.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.DocumentType:DocumentType:String,String,String,String",
+            "org.jsoup.nodes.DocumentType:DocumentType:String,String,String,String,String",
+            "org.jsoup.nodes.DocumentType:nodeName:",
+            "org.jsoup.nodes.DocumentType:outerHtmlHead:Appendable,int,Document.OutputSettings"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.HtmlTreeBuilderState:process:Token,HtmlTreeBuilder"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/Token.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.Token.Doctype:reset:",
+            "org.jsoup.parser.Token.Doctype:getName:",
+            "org.jsoup.parser.Token.Doctype:getPubSysKey:",
+            "org.jsoup.parser.Token.Doctype:getPublicIdentifier:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/TokeniserState.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.TokeniserState:read:Tokeniser,CharacterReader"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/XmlTreeBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.XmlTreeBuilder:insert:Token.Character",
+            "org.jsoup.parser.XmlTreeBuilder:insert:Token.Doctype"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "bug_id": "Math_82",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.optimization.linear.SimplexSolver:getPivotRow:int,SimplexTableau"
+          ]
+        }
+      ]
+    }
+  ]
+}

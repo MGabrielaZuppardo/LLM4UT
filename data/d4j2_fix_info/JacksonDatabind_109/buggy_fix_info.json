@@ -1,0 +1,32 @@
+{
+  "bug_id": "JacksonDatabind_109",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/ser/std/NumberSerializer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.ser.std.NumberSerializer:createContextual:SerializerProvider,BeanProperty",
+            "com.fasterxml.jackson.databind.ser.std.NumberSerializer:bigDecimalAsStringSerializer:",
+            "com.fasterxml.jackson.databind.ser.std.NumberSerializer.BigDecimalAsStringSerializer:BigDecimalAsStringSerializer:",
+            "com.fasterxml.jackson.databind.ser.std.NumberSerializer.BigDecimalAsStringSerializer:isEmpty:SerializerProvider,Object",
+            "com.fasterxml.jackson.databind.ser.std.NumberSerializer.BigDecimalAsStringSerializer:serialize:Object,JsonGenerator,SerializerProvider",
+            "com.fasterxml.jackson.databind.ser.std.NumberSerializer.BigDecimalAsStringSerializer:valueToString:Object",
+            "com.fasterxml.jackson.databind.ser.std.NumberSerializer.BigDecimalAsStringSerializer:_verifyBigDecimalRange:JsonGenerator,BigDecimal"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/ser/std/NumberSerializers.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.ser.std.NumberSerializers.Base:createContextual:SerializerProvider,BeanProperty"
+          ]
+        }
+      ]
+    }
+  ]
+}

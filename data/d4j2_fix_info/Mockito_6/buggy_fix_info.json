@@ -1,0 +1,35 @@
+{
+  "bug_id": "Mockito_6",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/Matchers.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.Matchers:anyBoolean:",
+            "org.mockito.Matchers:anyByte:",
+            "org.mockito.Matchers:anyChar:",
+            "org.mockito.Matchers:anyInt:",
+            "org.mockito.Matchers:anyLong:",
+            "org.mockito.Matchers:anyFloat:",
+            "org.mockito.Matchers:anyDouble:",
+            "org.mockito.Matchers:anyShort:",
+            "org.mockito.Matchers:anyObject:",
+            "org.mockito.Matchers:any:Class<T>",
+            "org.mockito.Matchers:any:",
+            "org.mockito.Matchers:anyString:",
+            "org.mockito.Matchers:anyList:",
+            "org.mockito.Matchers:anyListOf:Class<T>",
+            "org.mockito.Matchers:anySet:",
+            "org.mockito.Matchers:anySetOf:Class<T>",
+            "org.mockito.Matchers:anyMap:",
+            "org.mockito.Matchers:anyMapOf:Class<K>,Class<V>",
+            "org.mockito.Matchers:anyCollection:",
+            "org.mockito.Matchers:anyCollectionOf:Class<T>"
+          ]
+        }
+      ]
+    }
+  ]
+}

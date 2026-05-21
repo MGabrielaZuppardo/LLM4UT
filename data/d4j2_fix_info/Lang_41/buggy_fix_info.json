@@ -1,0 +1,17 @@
+{
+  "bug_id": "Lang_41",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/lang/ClassUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang.ClassUtils:getShortClassName:String",
+            "org.apache.commons.lang.ClassUtils:getPackageName:String"
+          ]
+        }
+      ]
+    }
+  ]
+}

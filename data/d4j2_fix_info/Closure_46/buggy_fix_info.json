@@ -1,0 +1,17 @@
+{
+  "bug_id": "Closure_46",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/rhino/jstype/RecordType.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.rhino.jstype.RecordType:defineProperty:String,JSType,boolean,Node",
+            "com.google.javascript.rhino.jstype.RecordType:getGreatestSubtypeHelper:JSType"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "bug_id": "Mockito_11",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/creation/DelegatingMethod.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.creation.DelegatingMethod:equals:Object",
+            "org.mockito.internal.creation.DelegatingMethod:hashCode:"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "bug_id": "Jsoup_12",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/select/Selector.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.select.Selector:combinator:char",
+            "org.jsoup.select.Selector:consumeSubQuery:",
+            "org.jsoup.select.Selector:findElements:"
+          ]
+        }
+      ]
+    }
+  ]
+}

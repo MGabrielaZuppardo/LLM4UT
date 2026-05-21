@@ -1,0 +1,28 @@
+{
+  "bug_id": "Jsoup_23",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/parser/CharacterReader.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.CharacterReader:consumeLetterSequence:",
+            "org.jsoup.parser.CharacterReader:consumeLetterThenDigitSequence:",
+            "org.jsoup.parser.CharacterReader:consumeHexSequence:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/Tokeniser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.Tokeniser:consumeCharacterReference:Character,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

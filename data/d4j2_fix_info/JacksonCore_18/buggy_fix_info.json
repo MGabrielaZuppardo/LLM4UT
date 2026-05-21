@@ -1,0 +1,36 @@
+{
+  "bug_id": "JacksonCore_18",
+  "project": "JacksonCore",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/base/GeneratorBase.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.base.GeneratorBase:_asString:BigDecimal"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/json/UTF8JsonGenerator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.json.UTF8JsonGenerator:writeNumber:BigDecimal"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.json.WriterBasedJsonGenerator:writeNumber:BigDecimal"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "bug_id": "Gson_4",
+  "project": "Gson",
+  "fixing_changes": [
+    {
+      "file": "gson/src/main/java/com/google/gson/stream/JsonReader.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.gson.stream.JsonReader:doPeek:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "gson/src/main/java/com/google/gson/stream/JsonWriter.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.gson.stream.JsonWriter:open:int,String",
+            "com.google.gson.stream.JsonWriter:value:String",
+            "com.google.gson.stream.JsonWriter:jsonValue:String",
+            "com.google.gson.stream.JsonWriter:nullValue:",
+            "com.google.gson.stream.JsonWriter:value:boolean",
+            "com.google.gson.stream.JsonWriter:value:double",
+            "com.google.gson.stream.JsonWriter:value:long",
+            "com.google.gson.stream.JsonWriter:value:Number",
+            "com.google.gson.stream.JsonWriter:beforeValue:"
+          ]
+        }
+      ]
+    }
+  ]
+}

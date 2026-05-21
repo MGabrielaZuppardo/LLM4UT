@@ -1,0 +1,16 @@
+{
+  "bug_id": "Chart_17",
+  "project": "Chart",
+  "fixing_changes": [
+    {
+      "file": "source/org/jfree/data/time/TimeSeries.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.data.time.TimeSeries:clone:"
+          ]
+        }
+      ]
+    }
+  ]
+}

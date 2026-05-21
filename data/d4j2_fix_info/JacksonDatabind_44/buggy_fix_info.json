@@ -1,0 +1,17 @@
+{
+  "bug_id": "JacksonDatabind_44",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.type.SimpleType:_narrow:Class<?>",
+            "com.fasterxml.jackson.databind.type.SimpleType:withContentType:JavaType"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "bug_id": "Math_85",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:bracket:UnivariateRealFunction,double,double,double,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

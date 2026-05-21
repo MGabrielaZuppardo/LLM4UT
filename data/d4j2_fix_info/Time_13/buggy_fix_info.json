@@ -1,0 +1,17 @@
+{
+  "bug_id": "Time_13",
+  "project": "Time",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/joda/time/format/PeriodFormatterBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.joda.time.format.PeriodFormatterBuilder.FieldFormatter:calculatePrintedLength:ReadablePeriod,Locale",
+            "org.joda.time.format.PeriodFormatterBuilder.FieldFormatter:printTo:StringBuffer,ReadablePeriod,Locale"
+          ]
+        }
+      ]
+    }
+  ]
+}

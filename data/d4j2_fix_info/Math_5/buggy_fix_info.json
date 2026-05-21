@@ -1,0 +1,16 @@
+{
+  "bug_id": "Math_5",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math3/complex/Complex.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math3.complex.Complex:reciprocal:"
+          ]
+        }
+      ]
+    }
+  ]
+}

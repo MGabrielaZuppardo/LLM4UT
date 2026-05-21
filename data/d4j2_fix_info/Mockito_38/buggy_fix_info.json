@@ -1,0 +1,17 @@
+{
+  "bug_id": "Mockito_38",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool:safelyMatches:Matcher,Object",
+            "org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool:toStringEquals:Matcher,Object"
+          ]
+        }
+      ]
+    }
+  ]
+}

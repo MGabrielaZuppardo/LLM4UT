@@ -1,0 +1,26 @@
+{
+  "bug_id": "Math_14",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math3/optim/nonlinear/vector/Weight.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math3.optim.nonlinear.vector.Weight:Weight:double[]"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/AbstractLeastSquaresOptimizer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer:squareRoot:RealMatrix"
+          ]
+        }
+      ]
+    }
+  ]
+}

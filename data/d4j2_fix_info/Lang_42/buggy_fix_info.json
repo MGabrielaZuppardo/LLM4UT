@@ -1,0 +1,16 @@
+{
+  "bug_id": "Lang_42",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/lang/Entities.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang.Entities:escape:Writer,String"
+          ]
+        }
+      ]
+    }
+  ]
+}

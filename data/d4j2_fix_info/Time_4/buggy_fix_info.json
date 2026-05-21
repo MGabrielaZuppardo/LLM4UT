@@ -1,0 +1,16 @@
+{
+  "bug_id": "Time_4",
+  "project": "Time",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/joda/time/Partial.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.joda.time.Partial:with:DateTimeFieldType,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

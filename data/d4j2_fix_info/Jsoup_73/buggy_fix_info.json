@@ -1,0 +1,20 @@
+{
+  "bug_id": "Jsoup_73",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/helper/W3CDom.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.helper.W3CDom.W3CBuilder:W3CBuilder:Document",
+            "org.jsoup.helper.W3CDom.W3CBuilder:head:org.jsoup.nodes.Node,int",
+            "org.jsoup.helper.W3CDom.W3CBuilder:tail:org.jsoup.nodes.Node,int",
+            "org.jsoup.helper.W3CDom.W3CBuilder:copyAttributes:org.jsoup.nodes.Node,Element",
+            "org.jsoup.helper.W3CDom.W3CBuilder:updateNamespaces:org.jsoup.nodes.Element"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "bug_id": "Closure_165",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/rhino/jstype/JSTypeRegistry.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.rhino.jstype.JSTypeRegistry:canPropertyBeDefined:JSType,String"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/rhino/jstype/ObjectType.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.rhino.jstype.ObjectType:defineSynthesizedProperty:String,JSType,Node"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/rhino/jstype/RecordType.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.rhino.jstype.RecordType:RecordType:JSTypeRegistry,Map<String, RecordProperty>",
+            "com.google.javascript.rhino.jstype.RecordType:RecordType:JSTypeRegistry,Map<String, RecordProperty>,boolean",
+            "com.google.javascript.rhino.jstype.RecordType:isSynthetic:",
+            "com.google.javascript.rhino.jstype.RecordType:isEquivalentTo:JSType",
+            "com.google.javascript.rhino.jstype.RecordType:getGreatestSubtypeHelper:JSType"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/rhino/jstype/RecordTypeBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.rhino.jstype.RecordTypeBuilder:RecordTypeBuilder:JSTypeRegistry",
+            "com.google.javascript.rhino.jstype.RecordTypeBuilder:setSynthesized:boolean",
+            "com.google.javascript.rhino.jstype.RecordTypeBuilder:build:"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "bug_id": "Math_6",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math3.optim.BaseOptimizer:BaseOptimizer:ConvergenceChecker<PAIR>"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/gradient/NonLinearConjugateGradientOptimizer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer:doOptimize:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/CMAESOptimizer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer:doOptimize:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer:doOptimize:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/SimplexOptimizer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer:doOptimize:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/GaussNewtonOptimizer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizer:doOptimize:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/LevenbergMarquardtOptimizer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer:doOptimize:"
+          ]
+        }
+      ]
+    }
+  ]
+}

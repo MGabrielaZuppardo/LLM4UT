@@ -1,0 +1,16 @@
+{
+  "bug_id": "Lang_57",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/lang/LocaleUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang.LocaleUtils:isAvailableLocale:Locale"
+          ]
+        }
+      ]
+    }
+  ]
+}

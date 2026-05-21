@@ -1,0 +1,21 @@
+{
+  "bug_id": "Codec_11",
+  "project": "Codec",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/codec/net/QuotedPrintableCodec.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.codec.net.QuotedPrintableCodec:encodeQuotedPrintable:int,ByteArrayOutputStream",
+            "org.apache.commons.codec.net.QuotedPrintableCodec:getUnsignedOctet:int,byte[]",
+            "org.apache.commons.codec.net.QuotedPrintableCodec:encodeByte:int,boolean,ByteArrayOutputStream",
+            "org.apache.commons.codec.net.QuotedPrintableCodec:isWhitespace:int",
+            "org.apache.commons.codec.net.QuotedPrintableCodec:encodeQuotedPrintable:BitSet,byte[]",
+            "org.apache.commons.codec.net.QuotedPrintableCodec:decodeQuotedPrintable:byte[]"
+          ]
+        }
+      ]
+    }
+  ]
+}

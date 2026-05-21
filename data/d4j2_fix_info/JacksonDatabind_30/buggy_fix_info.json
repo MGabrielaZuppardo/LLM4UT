@@ -1,0 +1,30 @@
+{
+  "bug_id": "JacksonDatabind_30",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.ObjectMapper:valueToTree:Object",
+            "com.fasterxml.jackson.databind.ObjectMapper:_convert:Object,JavaType"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.util.TokenBuffer:TokenBuffer:JsonParser,DeserializationContext",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:forceUseOfBigDecimal:boolean",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:version:",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:copyCurrentEvent:JsonParser"
+          ]
+        }
+      ]
+    }
+  ]
+}

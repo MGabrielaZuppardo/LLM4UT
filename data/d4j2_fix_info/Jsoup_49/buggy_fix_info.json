@@ -1,0 +1,17 @@
+{
+  "bug_id": "Jsoup_49",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/nodes/Node.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.Node:addChildren:int",
+            "org.jsoup.nodes.Node:ensureChildNodes:"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "bug_id": "JacksonDatabind_68",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.BeanDeserializerBase:deserializeFromObjectUsingNonDefault:JsonParser,DeserializationContext",
+            "com.fasterxml.jackson.databind.deser.BeanDeserializerBase:deserializeFromNumber:JsonParser,DeserializationContext",
+            "com.fasterxml.jackson.databind.deser.BeanDeserializerBase:deserializeFromString:JsonParser,DeserializationContext",
+            "com.fasterxml.jackson.databind.deser.BeanDeserializerBase:deserializeFromDouble:JsonParser,DeserializationContext",
+            "com.fasterxml.jackson.databind.deser.BeanDeserializerBase:deserializeFromBoolean:JsonParser,DeserializationContext",
+            "com.fasterxml.jackson.databind.deser.BeanDeserializerBase:deserializeFromArray:JsonParser,DeserializationContext",
+            "com.fasterxml.jackson.databind.deser.BeanDeserializerBase:_delegateDeserializer:"
+          ]
+        }
+      ]
+    }
+  ]
+}

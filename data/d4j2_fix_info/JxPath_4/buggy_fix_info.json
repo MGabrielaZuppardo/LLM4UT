@@ -1,0 +1,36 @@
+{
+  "bug_id": "JxPath_4",
+  "project": "JxPath",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer:isLanguage:String",
+            "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer:findEnclosingAttribute:Node,String",
+            "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer:getLanguage:",
+            "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer:getNamespaceURI:Node",
+            "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer:getValue:",
+            "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer:stringValue:Node"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/model/jdom/JDOMNodePointer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer:getValue:",
+            "org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer:setValue:Object",
+            "org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer:isLanguage:String",
+            "org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer:getLanguage:",
+            "org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer:findEnclosingAttribute:Object,String,Namespace",
+            "org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer:getAbstractFactory:JXPathContext"
+          ]
+        }
+      ]
+    }
+  ]
+}

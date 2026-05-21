@@ -1,0 +1,17 @@
+{
+  "bug_id": "JacksonDatabind_29",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler:_deserialize:JsonParser,DeserializationContext,int,String",
+            "com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler:_deserializeAndSet:JsonParser,DeserializationContext,Object,int,String"
+          ]
+        }
+      ]
+    }
+  ]
+}

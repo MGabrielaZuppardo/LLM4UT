@@ -1,0 +1,32 @@
+{
+  "bug_id": "Jsoup_91",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/UncheckedIOException.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.UncheckedIOException:UncheckedIOException:IOException",
+            "org.jsoup.UncheckedIOException:UncheckedIOException:String",
+            "org.jsoup.UncheckedIOException:ioException:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/CharacterReader.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.CharacterReader:CharacterReader:Reader,int",
+            "org.jsoup.parser.CharacterReader:CharacterReader:Reader",
+            "org.jsoup.parser.CharacterReader:containsIgnoreCase:String",
+            "org.jsoup.parser.CharacterReader:isBinary:",
+            "org.jsoup.parser.CharacterReader:toString:"
+          ]
+        }
+      ]
+    }
+  ]
+}

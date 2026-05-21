@@ -1,0 +1,17 @@
+{
+  "bug_id": "Math_36",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math/fraction/BigFraction.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.fraction.BigFraction:doubleValue:",
+            "org.apache.commons.math.fraction.BigFraction:floatValue:"
+          ]
+        }
+      ]
+    }
+  ]
+}

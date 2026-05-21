@@ -1,0 +1,19 @@
+{
+  "bug_id": "JxPath_3",
+  "project": "JxPath",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/model/beans/NullPropertyPointer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.model.beans.NullPropertyPointer:createPath:JXPathContext",
+            "org.apache.commons.jxpath.ri.model.beans.NullPropertyPointer:createPath:JXPathContext,Object",
+            "org.apache.commons.jxpath.ri.model.beans.NullPropertyPointer:escape:String",
+            "org.apache.commons.jxpath.ri.model.beans.NullPropertyPointer:createBadFactoryException:AbstractFactory"
+          ]
+        }
+      ]
+    }
+  ]
+}

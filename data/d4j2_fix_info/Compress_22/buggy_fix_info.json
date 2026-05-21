@@ -1,0 +1,24 @@
+{
+  "bug_id": "Compress_22",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream:BZip2CompressorInputStream:InputStream,boolean",
+            "org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream:read:",
+            "org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream:makeMaps:",
+            "org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream:read0:",
+            "org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream:init:boolean",
+            "org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream:setupRandPartA:",
+            "org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream:setupNoRandPartA:",
+            "org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream:setupRandPartC:",
+            "org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream:setupNoRandPartC:"
+          ]
+        }
+      ]
+    }
+  ]
+}

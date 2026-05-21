@@ -1,0 +1,16 @@
+{
+  "bug_id": "Jsoup_13",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/nodes/Node.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.Node:hasAttr:String"
+          ]
+        }
+      ]
+    }
+  ]
+}

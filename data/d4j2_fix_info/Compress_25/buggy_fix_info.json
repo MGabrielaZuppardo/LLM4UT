@@ -1,0 +1,17 @@
+{
+  "bug_id": "Compress_25",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.archivers.zip.ZipArchiveInputStream:ZipArchiveInputStream:InputStream,String,boolean,boolean",
+            "org.apache.commons.compress.archivers.zip.ZipArchiveInputStream:getNextZipEntry:"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "bug_id": "Jsoup_7",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/nodes/Document.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.Document:normalise:",
+            "org.jsoup.nodes.Document:normaliseTextNodes:Element",
+            "org.jsoup.nodes.Document:normaliseStructure:String,Element",
+            "org.jsoup.nodes.Document:findFirstElementByTagName:String,Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

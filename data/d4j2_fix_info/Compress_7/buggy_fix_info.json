@@ -1,0 +1,16 @@
+{
+  "bug_id": "Compress_7",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.archivers.tar.TarUtils:parseName:byte[],int,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "bug_id": "Math_44",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.ode.AbstractIntegrator:acceptStep:AbstractStepInterpolator,double[],double[],double"
+          ]
+        }
+      ]
+    }
+  ]
+}

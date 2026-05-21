@@ -1,0 +1,16 @@
+{
+  "bug_id": "Jsoup_2",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/parser/Parser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.Parser:parseStartTag:"
+          ]
+        }
+      ]
+    }
+  ]
+}

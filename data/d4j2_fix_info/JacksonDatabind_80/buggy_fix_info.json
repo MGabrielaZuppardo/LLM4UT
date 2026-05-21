@@ -1,0 +1,17 @@
+{
+  "bug_id": "JacksonDatabind_80",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/StdSubtypeResolver.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.jsontype.impl.StdSubtypeResolver:collectAndResolveSubtypesByClass:MapperConfig<?>,AnnotatedMember,JavaType",
+            "com.fasterxml.jackson.databind.jsontype.impl.StdSubtypeResolver:collectAndResolveSubtypesByTypeId:MapperConfig<?>,AnnotatedMember,JavaType"
+          ]
+        }
+      ]
+    }
+  ]
+}

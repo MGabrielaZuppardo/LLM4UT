@@ -1,0 +1,16 @@
+{
+  "bug_id": "JacksonDatabind_101",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.BeanDeserializer:deserializeUsingPropertyBasedWithUnwrapped:JsonParser,DeserializationContext"
+          ]
+        }
+      ]
+    }
+  ]
+}

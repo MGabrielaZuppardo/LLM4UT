@@ -1,0 +1,31 @@
+{
+  "bug_id": "Closure_162",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/Scope.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.Scope:getVarIterable:",
+            "com.google.javascript.jscomp.Scope:getReferences:Var"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/ScopedAliases.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.ScopedAliases.Traversal:enterScope:NodeTraversal",
+            "com.google.javascript.jscomp.ScopedAliases.Traversal:report:NodeTraversal,Node,DiagnosticType",
+            "com.google.javascript.jscomp.ScopedAliases.Traversal:findAliases:NodeTraversal",
+            "com.google.javascript.jscomp.ScopedAliases.Traversal:validateScopeCall:NodeTraversal,Node,Node",
+            "com.google.javascript.jscomp.ScopedAliases.Traversal:visit:NodeTraversal,Node,Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

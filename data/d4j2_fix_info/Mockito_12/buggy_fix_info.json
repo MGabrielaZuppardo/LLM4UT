@@ -1,0 +1,16 @@
+{
+  "bug_id": "Mockito_12",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/util/reflection/GenericMaster.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.util.reflection.GenericMaster:getGenericType:Field"
+          ]
+        }
+      ]
+    }
+  ]
+}

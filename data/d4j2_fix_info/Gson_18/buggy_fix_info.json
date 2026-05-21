@@ -1,0 +1,16 @@
+{
+  "bug_id": "Gson_18",
+  "project": "Gson",
+  "fixing_changes": [
+    {
+      "file": "gson/src/main/java/com/google/gson/internal/$Gson$Types.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.gson.internal.$Gson$Types:getSupertype:Type,Class<?>,Class<?>"
+          ]
+        }
+      ]
+    }
+  ]
+}

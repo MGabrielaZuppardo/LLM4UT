@@ -1,0 +1,27 @@
+{
+  "bug_id": "Mockito_30",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/exceptions/Reporter.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.exceptions.Reporter:misplacedArgumentMatcher:Location",
+            "org.mockito.exceptions.Reporter:smartNullPointerException:Object,Location"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls.ThrowingInterceptor:intercept:Object,Method,Object[],MethodProxy"
+          ]
+        }
+      ]
+    }
+  ]
+}

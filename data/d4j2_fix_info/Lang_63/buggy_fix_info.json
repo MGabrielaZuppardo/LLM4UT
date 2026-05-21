@@ -1,0 +1,17 @@
+{
+  "bug_id": "Lang_63",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/lang/time/DurationFormatUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang.time.DurationFormatUtils:formatPeriod:long,long,String,boolean,TimeZone",
+            "org.apache.commons.lang.time.DurationFormatUtils:format:Token[],int,int,int,int,int,int,int,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

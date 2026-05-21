@@ -1,0 +1,18 @@
+{
+  "bug_id": "Gson_8",
+  "project": "Gson",
+  "fixing_changes": [
+    {
+      "file": "gson/src/main/java/com/google/gson/internal/UnsafeAllocator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.gson.internal.UnsafeAllocator:create:",
+            "com.google.gson.internal.UnsafeAllocator:newInstance:Class<T>",
+            "com.google.gson.internal.UnsafeAllocator:assertInstantiable:Class<?>"
+          ]
+        }
+      ]
+    }
+  ]
+}

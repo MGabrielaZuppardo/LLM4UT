@@ -1,0 +1,16 @@
+{
+  "bug_id": "Time_15",
+  "project": "Time",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/joda/time/field/FieldUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.joda.time.field.FieldUtils:safeMultiply:long,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "bug_id": "Closure_49",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/MakeDeclaredNamesUnique.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.MakeDeclaredNamesUnique:enterScope:NodeTraversal",
+            "com.google.javascript.jscomp.MakeDeclaredNamesUnique:shouldTraverse:NodeTraversal,Node,Node",
+            "com.google.javascript.jscomp.MakeDeclaredNamesUnique:visit:NodeTraversal,Node,Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "bug_id": "Chart_15",
+  "project": "Chart",
+  "fixing_changes": [
+    {
+      "file": "source/org/jfree/chart/plot/PiePlot.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.chart.plot.PiePlot:getMaximumExplodePercent:",
+            "org.jfree.chart.plot.PiePlot:initialise:Graphics2D,Rectangle2D,PiePlot,Integer,PlotRenderingInfo"
+          ]
+        }
+      ]
+    }
+  ]
+}

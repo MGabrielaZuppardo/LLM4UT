@@ -1,0 +1,30 @@
+{
+  "bug_id": "Jsoup_63",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/parser/HtmlTreeBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.HtmlTreeBuilder:insertEmpty:Token.StartTag"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/parser/Tokeniser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.Tokeniser:Tokeniser:CharacterReader,ParseErrorList",
+            "org.jsoup.parser.Tokeniser:read:",
+            "org.jsoup.parser.Tokeniser:emit:Token",
+            "org.jsoup.parser.Tokeniser:advanceTransition:TokeniserState",
+            "org.jsoup.parser.Tokeniser:consumeCharacterReference:Character,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

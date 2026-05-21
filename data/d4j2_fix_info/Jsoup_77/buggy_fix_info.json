@@ -1,0 +1,16 @@
+{
+  "bug_id": "Jsoup_77",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/parser/XmlTreeBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.XmlTreeBuilder:popStackToClose:Token.EndTag"
+          ]
+        }
+      ]
+    }
+  ]
+}

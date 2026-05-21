@@ -1,0 +1,17 @@
+{
+  "bug_id": "Closure_41",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/FunctionTypeBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.FunctionTypeBuilder:inferFromOverriddenFunction:FunctionType,Node",
+            "com.google.javascript.jscomp.FunctionTypeBuilder:inferParameterTypes:Node,JSDocInfo"
+          ]
+        }
+      ]
+    }
+  ]
+}

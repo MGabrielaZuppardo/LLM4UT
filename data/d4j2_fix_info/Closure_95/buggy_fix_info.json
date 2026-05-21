@@ -1,0 +1,16 @@
+{
+  "bug_id": "Closure_95",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/TypedScopeCreator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.TypedScopeCreator.AbstractScopeBuilder:defineSlot:Node,Node,JSType,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "bug_id": "Collections_25",
+  "project": "Collections",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/collections4/IteratorUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.collections4.IteratorUtils:collatedIterator:Comparator<? super E>,Iterator<? extends E>,Iterator<? extends E>",
+            "org.apache.commons.collections4.IteratorUtils:collatedIterator:Comparator<? super E>",
+            "org.apache.commons.collections4.IteratorUtils:collatedIterator:Comparator<? super E>,Collection<Iterator<? extends E>>"
+          ]
+        }
+      ]
+    }
+  ]
+}

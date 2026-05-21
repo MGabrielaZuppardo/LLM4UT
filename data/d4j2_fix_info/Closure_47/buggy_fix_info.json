@@ -1,0 +1,26 @@
+{
+  "bug_id": "Closure_47",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/debugging/sourcemap/SourceMapConsumerV3.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.debugging.sourcemap.SourceMapConsumerV3:getOriginalMappingForEntry:Entry"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/SourceMap.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.SourceMap:addMapping:Node,FilePosition,FilePosition"
+          ]
+        }
+      ]
+    }
+  ]
+}

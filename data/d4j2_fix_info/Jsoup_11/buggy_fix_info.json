@@ -1,0 +1,23 @@
+{
+  "bug_id": "Jsoup_11",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/select/Selector.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.select.Selector:select:",
+            "org.jsoup.select.Selector:findElements:",
+            "org.jsoup.select.Selector:matches:boolean",
+            "org.jsoup.select.Selector:not:",
+            "org.jsoup.select.Selector:filterForChildren:Collection<Element>,Collection<Element>",
+            "org.jsoup.select.Selector:filterForSelf:Collection<Element>,Collection<Element>",
+            "org.jsoup.select.Selector:filterOut:Collection<Element>,Collection<Element>",
+            "org.jsoup.select.Selector.SelectorParseException:SelectorParseException:String"
+          ]
+        }
+      ]
+    }
+  ]
+}

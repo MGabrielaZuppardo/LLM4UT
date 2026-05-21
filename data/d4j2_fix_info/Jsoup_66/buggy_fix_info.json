@@ -1,0 +1,19 @@
+{
+  "bug_id": "Jsoup_66",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/nodes/Element.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.Element:ensureChildNodes:",
+            "org.jsoup.nodes.Element:doClone:Node",
+            "org.jsoup.nodes.Element.NodeList:NodeList:Element,int",
+            "org.jsoup.nodes.Element.NodeList:onContentsChanged:"
+          ]
+        }
+      ]
+    }
+  ]
+}

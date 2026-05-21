@@ -1,0 +1,17 @@
+{
+  "bug_id": "Collections_27",
+  "project": "Collections",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/collections4/map/MultiValueMap.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.collections4.map.MultiValueMap.ReflectionFactory:create:",
+            "org.apache.commons.collections4.map.MultiValueMap.ReflectionFactory:readObject:ObjectInputStream"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "bug_id": "JacksonDatabind_40",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/std/NumberDeserializers.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.std.NumberDeserializers.PrimitiveOrWrapperDeserializer:getNullValue:",
+            "com.fasterxml.jackson.databind.deser.std.NumberDeserializers.PrimitiveOrWrapperDeserializer:getEmptyValue:DeserializationContext"
+          ]
+        }
+      ]
+    }
+  ]
+}

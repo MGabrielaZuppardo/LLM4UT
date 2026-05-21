@@ -1,0 +1,21 @@
+{
+  "bug_id": "Compress_43",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream:writeLocalFileHeader:ZipArchiveEntry,boolean",
+            "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream:createLocalFileHeader:ZipArchiveEntry,ByteBuffer,boolean,boolean,long",
+            "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream:writeDataDescriptor:ZipArchiveEntry",
+            "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream:versionNeededToExtract:int,boolean,boolean",
+            "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream:usesDataDescriptor:int,boolean",
+            "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream:versionNeededToExtractMethod:int"
+          ]
+        }
+      ]
+    }
+  ]
+}

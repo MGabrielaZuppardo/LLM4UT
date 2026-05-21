@@ -1,0 +1,16 @@
+{
+  "bug_id": "Mockito_13",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/MockHandler.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.MockHandler:handle:Invocation"
+          ]
+        }
+      ]
+    }
+  ]
+}

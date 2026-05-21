@@ -1,0 +1,16 @@
+{
+  "bug_id": "Time_20",
+  "project": "Time",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/joda/time/format/DateTimeFormatterBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.joda.time.format.DateTimeFormatterBuilder.TimeZoneId:parseInto:DateTimeParserBucket,String,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "bug_id": "JacksonXml_4",
+  "project": "JacksonXml",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider:_serializeXmlNull:JsonGenerator"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "bug_id": "JacksonCore_2",
+  "project": "JacksonCore",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.json.ReaderBasedJsonParser:_parseNumber:int",
+            "com.fasterxml.jackson.core.json.ReaderBasedJsonParser:_parseNumber2:boolean",
+            "com.fasterxml.jackson.core.json.ReaderBasedJsonParser:_verifyRootSpace:int"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.json.UTF8StreamJsonParser:_parseNumber:int",
+            "com.fasterxml.jackson.core.json.UTF8StreamJsonParser:_parserNumber2:char[],int,boolean,int",
+            "com.fasterxml.jackson.core.json.UTF8StreamJsonParser:_parseFloat:char[],int,int,boolean,int",
+            "com.fasterxml.jackson.core.json.UTF8StreamJsonParser:_verifyRootSpace:int",
+            "com.fasterxml.jackson.core.json.UTF8StreamJsonParser:_skipWSOrEnd:"
+          ]
+        }
+      ]
+    }
+  ]
+}

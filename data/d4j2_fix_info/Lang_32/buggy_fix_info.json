@@ -1,0 +1,18 @@
+{
+  "bug_id": "Lang_32",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang3.builder.HashCodeBuilder:isRegistered:Object",
+            "org.apache.commons.lang3.builder.HashCodeBuilder:register:Object",
+            "org.apache.commons.lang3.builder.HashCodeBuilder:unregister:Object"
+          ]
+        }
+      ]
+    }
+  ]
+}

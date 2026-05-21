@@ -1,0 +1,17 @@
+{
+  "bug_id": "Math_16",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math3/util/FastMath.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math3.util.FastMath:cosh:double",
+            "org.apache.commons.math3.util.FastMath:sinh:double"
+          ]
+        }
+      ]
+    }
+  ]
+}

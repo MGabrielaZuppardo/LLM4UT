@@ -1,0 +1,16 @@
+{
+  "bug_id": "Time_10",
+  "project": "Time",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/joda/time/base/BaseSingleFieldPeriod.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.joda.time.base.BaseSingleFieldPeriod:between:ReadablePartial,ReadablePartial,ReadablePeriod"
+          ]
+        }
+      ]
+    }
+  ]
+}

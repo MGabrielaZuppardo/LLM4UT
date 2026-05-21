@@ -1,0 +1,18 @@
+{
+  "bug_id": "JacksonDatabind_84",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/type/ResolvedRecursiveType.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.type.ResolvedRecursiveType:setReference:JavaType",
+            "com.fasterxml.jackson.databind.type.ResolvedRecursiveType:getSuperClass:",
+            "com.fasterxml.jackson.databind.type.ResolvedRecursiveType:getSelfReferencedType:"
+          ]
+        }
+      ]
+    }
+  ]
+}

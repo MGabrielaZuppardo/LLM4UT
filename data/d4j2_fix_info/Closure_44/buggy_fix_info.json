@@ -1,0 +1,16 @@
+{
+  "bug_id": "Closure_44",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/CodeConsumer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.CodeConsumer:add:String"
+          ]
+        }
+      ]
+    }
+  ]
+}

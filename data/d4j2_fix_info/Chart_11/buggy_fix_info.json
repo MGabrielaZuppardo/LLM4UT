@@ -1,0 +1,16 @@
+{
+  "bug_id": "Chart_11",
+  "project": "Chart",
+  "fixing_changes": [
+    {
+      "file": "source/org/jfree/chart/util/ShapeUtilities.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.chart.util.ShapeUtilities:equal:GeneralPath,GeneralPath"
+          ]
+        }
+      ]
+    }
+  ]
+}

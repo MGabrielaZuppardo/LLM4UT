@@ -1,0 +1,17 @@
+{
+  "bug_id": "Jsoup_36",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/helper/DataUtil.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.helper.DataUtil:parseByteData:ByteBuffer,String,String,Parser",
+            "org.jsoup.helper.DataUtil:getCharsetFromContentType:String"
+          ]
+        }
+      ]
+    }
+  ]
+}

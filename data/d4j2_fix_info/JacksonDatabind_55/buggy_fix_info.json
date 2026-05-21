@@ -1,0 +1,19 @@
+{
+  "bug_id": "JacksonDatabind_55",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/ser/std/StdKeySerializers.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.ser.std.StdKeySerializers:getFallbackKeySerializer:SerializationConfig,Class<?>",
+            "com.fasterxml.jackson.databind.ser.std.StdKeySerializers.EnumKeySerializer:EnumKeySerializer:Class<?>,EnumValues",
+            "com.fasterxml.jackson.databind.ser.std.StdKeySerializers.EnumKeySerializer:construct:Class<?>,EnumValues",
+            "com.fasterxml.jackson.databind.ser.std.StdKeySerializers.EnumKeySerializer:serialize:Object,JsonGenerator,SerializerProvider"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "bug_id": "Codec_1",
+  "project": "Codec",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/codec/language/Caverphone.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.codec.language.Caverphone:caverphone:String"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/codec/language/Metaphone.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.codec.language.Metaphone:metaphone:String"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/codec/language/SoundexUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.codec.language.SoundexUtils:clean:String"
+          ]
+        }
+      ]
+    }
+  ]
+}

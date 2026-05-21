@@ -1,0 +1,16 @@
+{
+  "bug_id": "Math_105",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/math/stat/regression/SimpleRegression.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.stat.regression.SimpleRegression:getSumSquaredErrors:"
+          ]
+        }
+      ]
+    }
+  ]
+}

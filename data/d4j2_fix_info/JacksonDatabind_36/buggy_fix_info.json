@@ -1,0 +1,18 @@
+{
+  "bug_id": "JacksonDatabind_36",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/util/StdDateFormat.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.util.StdDateFormat:setLenient:boolean",
+            "com.fasterxml.jackson.databind.util.StdDateFormat:isLenient:",
+            "com.fasterxml.jackson.databind.util.StdDateFormat:_cloneFormat:DateFormat,String,TimeZone,Locale,Boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

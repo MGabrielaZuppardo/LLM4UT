@@ -1,0 +1,18 @@
+{
+  "bug_id": "JacksonDatabind_56",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.Std:_deserialize:String,DeserializationContext",
+            "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.Std:_deserializeFromEmptyString:",
+            "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.Std:_firstHyphenOrUnderscore:String"
+          ]
+        }
+      ]
+    }
+  ]
+}

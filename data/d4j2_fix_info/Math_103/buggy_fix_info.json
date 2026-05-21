@@ -1,0 +1,16 @@
+{
+  "bug_id": "Math_103",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/math/distribution/NormalDistributionImpl.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.distribution.NormalDistributionImpl:cumulativeProbability:double"
+          ]
+        }
+      ]
+    }
+  ]
+}

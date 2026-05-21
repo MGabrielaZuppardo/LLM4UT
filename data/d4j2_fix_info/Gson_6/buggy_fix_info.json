@@ -1,0 +1,16 @@
+{
+  "bug_id": "Gson_6",
+  "project": "Gson",
+  "fixing_changes": [
+    {
+      "file": "gson/src/main/java/com/google/gson/internal/bind/JsonAdapterAnnotationTypeAdapterFactory.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory:getTypeAdapter:ConstructorConstructor,Gson,TypeToken<?>,JsonAdapter"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "bug_id": "JacksonDatabind_53",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.type.TypeBindings:asKey:Class<?>",
+            "com.fasterxml.jackson.databind.type.TypeBindings.AsKey:AsKey:Class<?>,JavaType[],int",
+            "com.fasterxml.jackson.databind.type.TypeBindings.AsKey:hashCode:",
+            "com.fasterxml.jackson.databind.type.TypeBindings.AsKey:equals:Object",
+            "com.fasterxml.jackson.databind.type.TypeBindings.AsKey:toString:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.type.TypeFactory:constructSpecializedType:JavaType,Class<?>",
+            "com.fasterxml.jackson.databind.type.TypeFactory:_bindingsForSubtype:JavaType,int,Class<?>",
+            "com.fasterxml.jackson.databind.type.TypeFactory:_fromClass:ClassStack,Class<?>,TypeBindings"
+          ]
+        }
+      ]
+    }
+  ]
+}

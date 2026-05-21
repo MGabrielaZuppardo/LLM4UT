@@ -1,0 +1,36 @@
+{
+  "bug_id": "JacksonDatabind_60",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer:serializeWithType:Object,JsonGenerator,SerializerProvider,TypeSerializer",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:TypeSerializerRerouter:TypeSerializer,Object",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:forProperty:BeanProperty",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:getTypeInclusion:",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:getPropertyName:",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:getTypeIdResolver:",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:writeTypePrefixForScalar:Object,JsonGenerator",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:writeTypePrefixForObject:Object,JsonGenerator",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:writeTypePrefixForArray:Object,JsonGenerator",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:writeTypeSuffixForScalar:Object,JsonGenerator",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:writeTypeSuffixForObject:Object,JsonGenerator",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:writeTypeSuffixForArray:Object,JsonGenerator",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:writeTypePrefixForScalar:Object,JsonGenerator,Class<?>",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:writeTypePrefixForObject:Object,JsonGenerator,Class<?>",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:writeTypePrefixForArray:Object,JsonGenerator,Class<?>",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:writeCustomTypePrefixForScalar:Object,JsonGenerator,String",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:writeCustomTypePrefixForObject:Object,JsonGenerator,String",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:writeCustomTypePrefixForArray:Object,JsonGenerator,String",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:writeCustomTypeSuffixForScalar:Object,JsonGenerator,String",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:writeCustomTypeSuffixForObject:Object,JsonGenerator,String",
+            "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.TypeSerializerRerouter:writeCustomTypeSuffixForArray:Object,JsonGenerator,String"
+          ]
+        }
+      ]
+    }
+  ]
+}

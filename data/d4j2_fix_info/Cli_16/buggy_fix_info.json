@@ -1,0 +1,51 @@
+{
+  "bug_id": "Cli_16",
+  "project": "Cli",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/cli2/Option.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli2.Option:getParent:",
+            "org.apache.commons.cli2.Option:setParent:Option"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli2.commandline.WriteableCommandLineImpl:addOption:Option",
+            "org.apache.commons.cli2.commandline.WriteableCommandLineImpl:addValue:Option,Object"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/cli2/option/GroupImpl.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli2.option.GroupImpl:GroupImpl:List,String,String,int,int"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/cli2/option/OptionImpl.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli2.option.OptionImpl:defaults:WriteableCommandLine",
+            "org.apache.commons.cli2.option.OptionImpl:getParent:",
+            "org.apache.commons.cli2.option.OptionImpl:setParent:Option",
+            "org.apache.commons.cli2.option.OptionImpl:checkPrefixes:Set"
+          ]
+        }
+      ]
+    }
+  ]
+}

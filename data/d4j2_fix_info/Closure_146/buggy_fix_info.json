@@ -1,0 +1,16 @@
+{
+  "bug_id": "Closure_146",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/rhino/jstype/JSType.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.rhino.jstype.JSType:getTypesUnderInequality:JSType"
+          ]
+        }
+      ]
+    }
+  ]
+}

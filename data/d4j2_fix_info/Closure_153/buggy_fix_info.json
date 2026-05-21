@@ -1,0 +1,30 @@
+{
+  "bug_id": "Closure_153",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/Normalize.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.Normalize.DuplicateDeclarationHandler:onRedeclaration:Scope,String,Node,CompilerInput"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/SyntacticScopeCreator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.SyntacticScopeCreator:scanRoot:Node,Scope",
+            "com.google.javascript.jscomp.SyntacticScopeCreator:scanVars:Node,Node",
+            "com.google.javascript.jscomp.SyntacticScopeCreator.RedeclarationHandler:onRedeclaration:Scope,String,Node,CompilerInput",
+            "com.google.javascript.jscomp.SyntacticScopeCreator.DefaultRedeclarationHandler:onRedeclaration:Scope,String,Node,CompilerInput",
+            "com.google.javascript.jscomp.SyntacticScopeCreator:declareVar:Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

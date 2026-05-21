@@ -1,0 +1,16 @@
+{
+  "bug_id": "Cli_32",
+  "project": "Cli",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/cli/HelpFormatter.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli.HelpFormatter:findWrapPos:String,int,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

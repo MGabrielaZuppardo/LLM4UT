@@ -1,0 +1,16 @@
+{
+  "bug_id": "Chart_26",
+  "project": "Chart",
+  "fixing_changes": [
+    {
+      "file": "source/org/jfree/chart/axis/Axis.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.chart.axis.Axis:drawLabel:String,Graphics2D,Rectangle2D,Rectangle2D,RectangleEdge,AxisState,PlotRenderingInfo"
+          ]
+        }
+      ]
+    }
+  ]
+}

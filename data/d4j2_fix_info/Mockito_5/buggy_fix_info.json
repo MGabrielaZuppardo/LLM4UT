@@ -1,0 +1,16 @@
+{
+  "bug_id": "Mockito_5",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/verification/VerificationOverTimeImpl.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.verification.VerificationOverTimeImpl:verify:VerificationData"
+          ]
+        }
+      ]
+    }
+  ]
+}

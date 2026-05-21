@@ -1,0 +1,68 @@
+{
+  "bug_id": "Closure_169",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/rhino/jstype/ArrowType.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.rhino.jstype.ArrowType:hasEqualParameters:ArrowType,EquivalenceMethod",
+            "com.google.javascript.rhino.jstype.ArrowType:checkArrowEquivalenceHelper:ArrowType,EquivalenceMethod",
+            "com.google.javascript.rhino.jstype.ArrowType:hashCode:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/rhino/jstype/FunctionType.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.rhino.jstype.FunctionType:tryMergeFunctionPiecewise:FunctionType,boolean",
+            "com.google.javascript.rhino.jstype.FunctionType:checkFunctionEquivalenceHelper:FunctionType,EquivalenceMethod",
+            "com.google.javascript.rhino.jstype.FunctionType:hashCode:",
+            "com.google.javascript.rhino.jstype.FunctionType:hasEqualCallType:FunctionType"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/rhino/jstype/JSType.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.rhino.jstype.JSType:isEquivalentTo:JSType",
+            "com.google.javascript.rhino.jstype.JSType:isInvariant:JSType",
+            "com.google.javascript.rhino.jstype.JSType:differsFrom:JSType",
+            "com.google.javascript.rhino.jstype.JSType:checkEquivalenceHelper:JSType,EquivalenceMethod"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/rhino/jstype/RecordType.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.rhino.jstype.RecordType:isSynthetic:",
+            "com.google.javascript.rhino.jstype.RecordType:checkRecordEquivalenceHelper:RecordType,EquivalenceMethod",
+            "com.google.javascript.rhino.jstype.RecordType:getGreatestSubtypeHelper:JSType",
+            "com.google.javascript.rhino.jstype.RecordType:isSubtype:ObjectType,RecordType"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/rhino/jstype/UnionType.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.rhino.jstype.UnionType:checkUnionEquivalenceHelper:UnionType,EquivalenceMethod",
+            "com.google.javascript.rhino.jstype.UnionType:hasAlternate:JSType,EquivalenceMethod"
+          ]
+        }
+      ]
+    }
+  ]
+}

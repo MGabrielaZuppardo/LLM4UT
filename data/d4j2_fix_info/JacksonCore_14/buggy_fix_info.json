@@ -1,0 +1,18 @@
+{
+  "bug_id": "JacksonCore_14",
+  "project": "JacksonCore",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/io/IOContext.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.io.IOContext:_verifyRelease:byte[],byte[]",
+            "com.fasterxml.jackson.core.io.IOContext:_verifyRelease:char[],char[]",
+            "com.fasterxml.jackson.core.io.IOContext:wrongBuf:"
+          ]
+        }
+      ]
+    }
+  ]
+}

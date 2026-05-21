@@ -1,0 +1,16 @@
+{
+  "bug_id": "JacksonCore_15",
+  "project": "JacksonCore",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/filter/FilteringParserDelegate.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.filter.FilteringParserDelegate:nextToken:"
+          ]
+        }
+      ]
+    }
+  ]
+}

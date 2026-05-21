@@ -1,0 +1,16 @@
+{
+  "bug_id": "Codec_3",
+  "project": "Codec",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/codec/language/DoubleMetaphone.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.codec.language.DoubleMetaphone:handleG:String,DoubleMetaphoneResult,int,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

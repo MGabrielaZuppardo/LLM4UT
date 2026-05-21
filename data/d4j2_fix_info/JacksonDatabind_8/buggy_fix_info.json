@@ -1,0 +1,16 @@
+{
+  "bug_id": "JacksonDatabind_8",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.impl.CreatorCollector:verifyNonDup:AnnotatedWithParams,int,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

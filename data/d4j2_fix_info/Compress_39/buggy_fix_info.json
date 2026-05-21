@@ -1,0 +1,17 @@
+{
+  "bug_id": "Compress_39",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.utils.ArchiveUtils:ArchiveUtils:",
+            "org.apache.commons.compress.utils.ArchiveUtils:sanitize:String"
+          ]
+        }
+      ]
+    }
+  ]
+}

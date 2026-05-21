@@ -1,0 +1,16 @@
+{
+  "bug_id": "Jsoup_45",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/parser/HtmlTreeBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.HtmlTreeBuilder:resetInsertionMode:"
+          ]
+        }
+      ]
+    }
+  ]
+}

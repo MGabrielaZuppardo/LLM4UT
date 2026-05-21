@@ -1,0 +1,16 @@
+{
+  "bug_id": "Jsoup_85",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/nodes/Attribute.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.Attribute:Attribute:String,String,Attributes"
+          ]
+        }
+      ]
+    }
+  ]
+}

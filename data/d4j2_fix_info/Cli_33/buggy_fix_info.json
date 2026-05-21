@@ -1,0 +1,17 @@
+{
+  "bug_id": "Cli_33",
+  "project": "Cli",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/cli/HelpFormatter.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli.HelpFormatter:printWrapped:PrintWriter,int,int,String",
+            "org.apache.commons.cli.HelpFormatter:renderWrappedTextBlock:StringBuffer,int,int,String"
+          ]
+        }
+      ]
+    }
+  ]
+}

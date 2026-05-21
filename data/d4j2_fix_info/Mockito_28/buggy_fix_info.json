@@ -1,0 +1,16 @@
+{
+  "bug_id": "Mockito_28",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/configuration/DefaultInjectionEngine.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.configuration.DefaultInjectionEngine:injectMockCandidate:Class<?>,Set<Object>,Object"
+          ]
+        }
+      ]
+    }
+  ]
+}

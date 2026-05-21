@@ -1,0 +1,16 @@
+{
+  "bug_id": "Closure_71",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/CheckAccessControls.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.CheckAccessControls:checkPropertyVisibility:NodeTraversal,Node,Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

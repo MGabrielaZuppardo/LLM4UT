@@ -1,0 +1,16 @@
+{
+  "bug_id": "Cli_15",
+  "project": "Cli",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli2.commandline.WriteableCommandLineImpl:getValues:Option,List"
+          ]
+        }
+      ]
+    }
+  ]
+}

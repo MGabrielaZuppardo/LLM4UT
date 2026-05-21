@@ -1,0 +1,59 @@
+{
+  "bug_id": "Mockito_19",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.configuration.injection.PropertyAndSetterInjection:injectMockCandidatesOnFields:Set<Object>,Object,boolean,List<Field>"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/org/mockito/internal/configuration/injection/filter/FinalMockCandidateFilter.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter:filterCandidate:Collection<Object>,Field,List<Field>,Object"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/org/mockito/internal/configuration/injection/filter/MockCandidateFilter.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.configuration.injection.filter.MockCandidateFilter:filterCandidate:Collection<Object>,Field,List<Field>,Object"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/org/mockito/internal/configuration/injection/filter/NameBasedCandidateFilter.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter:NameBasedCandidateFilter:MockCandidateFilter",
+            "org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter:filterCandidate:Collection<Object>,Field,List<Field>,Object",
+            "org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter:thenInject:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/org/mockito/internal/configuration/injection/filter/TypeBasedCandidateFilter.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter:TypeBasedCandidateFilter:MockCandidateFilter",
+            "org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter:filterCandidate:Collection<Object>,Field,List<Field>,Object"
+          ]
+        }
+      ]
+    }
+  ]
+}

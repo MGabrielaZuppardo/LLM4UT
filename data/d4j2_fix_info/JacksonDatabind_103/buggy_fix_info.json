@@ -1,0 +1,175 @@
+{
+  "bug_id": "JacksonDatabind_103",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/DatabindContext.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.DatabindContext:resolveSubType:JavaType,String"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.DeserializationContext:parseDate:String",
+            "com.fasterxml.jackson.databind.DeserializationContext:instantiationException:Class<?>,Throwable"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.JsonMappingException:fromUnexpectedIOE:IOException",
+            "com.fasterxml.jackson.databind.JsonMappingException:wrapWithPath:Throwable,Reference"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.SerializerProvider:_createAndCacheUntypedSerializer:Class<?>",
+            "com.fasterxml.jackson.databind.SerializerProvider:_createAndCacheUntypedSerializer:JavaType"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.BasicDeserializerFactory:findTypeDeserializer:DeserializationConfig,JavaType"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.BeanDeserializerFactory:buildBeanDeserializer:DeserializationContext,JavaType,BeanDescription",
+            "com.fasterxml.jackson.databind.deser.BeanDeserializerFactory:buildBuilderBasedDeserializer:DeserializationContext,JavaType,BeanDescription"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/DeserializerCache.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.DeserializerCache:_createAndCache2:DeserializationContext,DeserializerFactory,JavaType"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/SettableAnyProperty.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.SettableAnyProperty:_throwAsIOE:Exception,Object,Object",
+            "com.fasterxml.jackson.databind.deser.SettableAnyProperty:getClassName:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/SettableBeanProperty.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.SettableBeanProperty:_throwAsIOE:JsonParser,Exception,Object",
+            "com.fasterxml.jackson.databind.deser.SettableBeanProperty:_throwAsIOE:JsonParser,Exception",
+            "com.fasterxml.jackson.databind.deser.SettableBeanProperty:_throwAsIOE:Exception"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.std.StdDeserializer:_parseDate:String,DeserializationContext"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer:deserializeKey:String,DeserializationContext",
+            "com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer:_weirdKey:DeserializationContext,String,Exception"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/std/StdValueInstantiator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.std.StdValueInstantiator:wrapException:Throwable"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/introspect/BasicBeanDescription.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.introspect.BasicBeanDescription:instantiateBean:boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/ser/DefaultSerializerProvider.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.ser.DefaultSerializerProvider:includeFilterSuppressNulls:Object",
+            "com.fasterxml.jackson.databind.ser.DefaultSerializerProvider:_wrapAsIOE:JsonGenerator,Exception"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/ser/PropertyBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.ser.PropertyBuilder:buildWriter:SerializerProvider,BeanPropertyDefinition,JavaType,JsonSerializer<?>,TypeSerializer,TypeSerializer,AnnotatedMember,boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/util/ClassUtil.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.util.ClassUtil:exceptionMessage:Throwable"
+          ]
+        }
+      ]
+    }
+  ]
+}

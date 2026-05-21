@@ -1,0 +1,73 @@
+{
+  "bug_id": "JxPath_7",
+  "project": "JxPath",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/compiler/CoreOperationGreaterThan.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThan:CoreOperationGreaterThan:Expression,Expression",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThan:evaluateCompare:int",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThan:getSymbol:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/compiler/CoreOperationGreaterThanOrEqual.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThanOrEqual:CoreOperationGreaterThanOrEqual:Expression,Expression",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThanOrEqual:evaluateCompare:int",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThanOrEqual:getSymbol:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/compiler/CoreOperationLessThan.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationLessThan:CoreOperationLessThan:Expression,Expression",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationLessThan:evaluateCompare:int",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationLessThan:getSymbol:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/compiler/CoreOperationLessThanOrEqual.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationLessThanOrEqual:CoreOperationLessThanOrEqual:Expression,Expression",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationLessThanOrEqual:evaluateCompare:int",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationLessThanOrEqual:getSymbol:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/java/org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression:CoreOperationRelationalExpression:Expression[]",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression:computeValue:EvalContext",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression:getPrecedence:",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression:isSymmetric:",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression:evaluateCompare:int",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression:compute:Object,Object",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression:reduce:Object",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression:containsMatch:Iterator,Object",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression:findMatch:Iterator,Iterator",
+            "org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression:compare:Object,Object"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "bug_id": "JacksonDatabind_24",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.cfg.BaseSettings:withDateFormat:DateFormat",
+            "com.fasterxml.jackson.databind.cfg.BaseSettings:withHandlerInstantiator:HandlerInstantiator"
+          ]
+        }
+      ]
+    }
+  ]
+}

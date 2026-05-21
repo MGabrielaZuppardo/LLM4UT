@@ -1,0 +1,16 @@
+{
+  "bug_id": "Chart_7",
+  "project": "Chart",
+  "fixing_changes": [
+    {
+      "file": "source/org/jfree/data/time/TimePeriodValues.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.data.time.TimePeriodValues:updateBounds:TimePeriod,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

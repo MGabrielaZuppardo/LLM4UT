@@ -1,0 +1,17 @@
+{
+  "bug_id": "Mockito_36",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/invocation/Invocation.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.invocation.Invocation:getRawArguments:",
+            "org.mockito.internal.invocation.Invocation:callRealMethod:"
+          ]
+        }
+      ]
+    }
+  ]
+}

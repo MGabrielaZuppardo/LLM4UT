@@ -1,0 +1,17 @@
+{
+  "bug_id": "Mockito_33",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/invocation/InvocationMatcher.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.invocation.InvocationMatcher:hasSameMethod:Invocation",
+            "org.mockito.internal.invocation.InvocationMatcher:getLocation:"
+          ]
+        }
+      ]
+    }
+  ]
+}

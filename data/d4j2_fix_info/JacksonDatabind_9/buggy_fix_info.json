@@ -1,0 +1,16 @@
+{
+  "bug_id": "JacksonDatabind_9",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/ser/std/StdKeySerializer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.ser.std.StdKeySerializer:serialize:Object,JsonGenerator,SerializerProvider"
+          ]
+        }
+      ]
+    }
+  ]
+}

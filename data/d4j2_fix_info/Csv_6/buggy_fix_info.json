@@ -1,0 +1,16 @@
+{
+  "bug_id": "Csv_6",
+  "project": "Csv",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/csv/CSVRecord.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.csv.CSVRecord:putIn:M"
+          ]
+        }
+      ]
+    }
+  ]
+}

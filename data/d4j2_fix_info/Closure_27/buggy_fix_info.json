@@ -1,0 +1,21 @@
+{
+  "bug_id": "Closure_27",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/rhino/IR.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.rhino.IR:block:",
+            "com.google.javascript.rhino.IR:blockUnchecked:Node",
+            "com.google.javascript.rhino.IR:script:",
+            "com.google.javascript.rhino.IR:labelName:String",
+            "com.google.javascript.rhino.IR:tryFinally:Node,Node",
+            "com.google.javascript.rhino.IR:tryCatch:Node,Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

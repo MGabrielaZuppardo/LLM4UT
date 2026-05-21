@@ -1,0 +1,16 @@
+{
+  "bug_id": "Mockito_24",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues:answer:InvocationOnMock"
+          ]
+        }
+      ]
+    }
+  ]
+}

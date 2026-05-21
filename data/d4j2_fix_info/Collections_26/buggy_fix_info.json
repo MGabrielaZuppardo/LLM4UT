@@ -1,0 +1,16 @@
+{
+  "bug_id": "Collections_26",
+  "project": "Collections",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.collections4.keyvalue.MultiKey:readResolve:"
+          ]
+        }
+      ]
+    }
+  ]
+}

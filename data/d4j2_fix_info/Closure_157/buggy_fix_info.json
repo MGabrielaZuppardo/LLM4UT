@@ -1,0 +1,43 @@
+{
+  "bug_id": "Closure_157",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/CodeGenerator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.CodeGenerator:add:Node,Context",
+            "com.google.javascript.jscomp.CodeGenerator:isSimpleNumber:String",
+            "com.google.javascript.jscomp.CodeGenerator:getSimpleNumber:String"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/RenamePrototypes.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.RenamePrototypes.ProcessProperties:visit:NodeTraversal,Node,Node",
+            "com.google.javascript.jscomp.RenamePrototypes.ProcessProperties:processPrototypeParent:Node,CompilerInput"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/parsing/IRFactory.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.parsing.IRFactory:transformNameAsString:Name",
+            "com.google.javascript.jscomp.parsing.IRFactory:transformNumberAsString:NumberLiteral",
+            "com.google.javascript.jscomp.parsing.IRFactory:getStringValue:double",
+            "com.google.javascript.jscomp.parsing.IRFactory:setSourceInfo:Node,AstNode",
+            "com.google.javascript.jscomp.parsing.IRFactory.TransformDispatcher:transformAsString:AstNode"
+          ]
+        }
+      ]
+    }
+  ]
+}

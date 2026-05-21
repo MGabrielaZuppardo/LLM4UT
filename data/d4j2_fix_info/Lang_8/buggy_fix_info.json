@@ -1,0 +1,17 @@
+{
+  "bug_id": "Lang_8",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang3.time.FastDatePrinter.TimeZoneNameRule:TimeZoneNameRule:TimeZone,Locale,int",
+            "org.apache.commons.lang3.time.FastDatePrinter.TimeZoneNameRule:appendTo:StringBuffer,Calendar"
+          ]
+        }
+      ]
+    }
+  ]
+}

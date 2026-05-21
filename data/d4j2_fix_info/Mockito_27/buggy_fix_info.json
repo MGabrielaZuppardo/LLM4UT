@@ -1,0 +1,16 @@
+{
+  "bug_id": "Mockito_27",
+  "project": "Mockito",
+  "fixing_changes": [
+    {
+      "file": "src/org/mockito/internal/util/MockUtil.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.mockito.internal.util.MockUtil:resetMock:T"
+          ]
+        }
+      ]
+    }
+  ]
+}

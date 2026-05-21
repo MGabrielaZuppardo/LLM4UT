@@ -1,0 +1,16 @@
+{
+  "bug_id": "Jsoup_53",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/parser/TokenQueue.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.parser.TokenQueue:chompBalanced:char,char"
+          ]
+        }
+      ]
+    }
+  ]
+}

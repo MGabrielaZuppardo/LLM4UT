@@ -1,0 +1,36 @@
+{
+  "bug_id": "Codec_13",
+  "project": "Codec",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/codec/binary/CharSequenceUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.codec.binary.CharSequenceUtils:regionMatches:CharSequence,boolean,int,CharSequence,int,int"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.codec.binary.StringUtils:equals:CharSequence,CharSequence"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/codec/language/DoubleMetaphone.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.codec.language.DoubleMetaphone:isDoubleMetaphoneEqual:String,String,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

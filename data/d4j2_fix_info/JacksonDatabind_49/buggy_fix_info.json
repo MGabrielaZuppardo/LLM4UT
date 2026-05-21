@@ -1,0 +1,16 @@
+{
+  "bug_id": "JacksonDatabind_49",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.ser.impl.WritableObjectId:generateId:Object"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "bug_id": "Lang_39",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/lang3/StringUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang3.StringUtils:replaceEach:String,String[],String[],boolean,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

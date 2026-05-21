@@ -1,0 +1,16 @@
+{
+  "bug_id": "Lang_59",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/lang/text/StrBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang.text.StrBuilder:appendFixedWidthPadRight:Object,int,char"
+          ]
+        }
+      ]
+    }
+  ]
+}

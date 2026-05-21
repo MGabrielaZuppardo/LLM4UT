@@ -1,0 +1,18 @@
+{
+  "bug_id": "Jsoup_74",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/helper/StringUtil.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.helper.StringUtil:isActuallyWhitespace:int",
+            "org.jsoup.helper.StringUtil:isInvisibleChar:int",
+            "org.jsoup.helper.StringUtil:appendNormalisedWhitespace:StringBuilder,String,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

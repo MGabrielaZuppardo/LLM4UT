@@ -1,0 +1,17 @@
+{
+  "bug_id": "Gson_3",
+  "project": "Gson",
+  "fixing_changes": [
+    {
+      "file": "gson/src/main/java/com/google/gson/internal/ConstructorConstructor.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.gson.internal.ConstructorConstructor:newDefaultImplementationConstructor:Type,Class<? super T>",
+            "com.google.gson.internal.ConstructorConstructor:construct:"
+          ]
+        }
+      ]
+    }
+  ]
+}

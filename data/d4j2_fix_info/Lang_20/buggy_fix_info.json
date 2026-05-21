@@ -1,0 +1,17 @@
+{
+  "bug_id": "Lang_20",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang3.StringUtils:join:Object[],char,int,int",
+            "org.apache.commons.lang3.StringUtils:join:Object[],String,int,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

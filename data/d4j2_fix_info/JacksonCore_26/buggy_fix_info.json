@@ -1,0 +1,16 @@
+{
+  "bug_id": "JacksonCore_26",
+  "project": "JacksonCore",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/json/async/NonBlockingJsonParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.json.async.NonBlockingJsonParser:feedInput:byte[],int,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

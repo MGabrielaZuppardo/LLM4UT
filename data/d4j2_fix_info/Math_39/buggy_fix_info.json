@@ -1,0 +1,16 @@
+{
+  "bug_id": "Math_39",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator:integrate:ExpandableStatefulODE,double"
+          ]
+        }
+      ]
+    }
+  ]
+}

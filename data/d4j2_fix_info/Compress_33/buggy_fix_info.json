@@ -1,0 +1,26 @@
+{
+  "bug_id": "Compress_33",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.compressors.CompressorStreamFactory:createCompressorInputStream:InputStream"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStream.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.compressors.deflate.DeflateCompressorInputStream:matches:byte[],int"
+          ]
+        }
+      ]
+    }
+  ]
+}

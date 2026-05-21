@@ -1,0 +1,26 @@
+{
+  "bug_id": "Closure_79",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/Normalize.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.Normalize:process:Node,Node"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/VarCheck.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.VarCheck:createSynthesizedExternVar:String"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "bug_id": "JacksonDatabind_51",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/TypeDeserializerBase.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase:_findDeserializer:DeserializationContext,String"
+          ]
+        }
+      ]
+    }
+  ]
+}

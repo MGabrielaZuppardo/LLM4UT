@@ -1,0 +1,16 @@
+{
+  "bug_id": "Codec_15",
+  "project": "Codec",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/codec/language/Soundex.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.codec.language.Soundex:getMappingCode:String,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

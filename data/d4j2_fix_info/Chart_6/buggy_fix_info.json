@@ -1,0 +1,16 @@
+{
+  "bug_id": "Chart_6",
+  "project": "Chart",
+  "fixing_changes": [
+    {
+      "file": "source/org/jfree/chart/util/ShapeList.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jfree.chart.util.ShapeList:equals:Object"
+          ]
+        }
+      ]
+    }
+  ]
+}

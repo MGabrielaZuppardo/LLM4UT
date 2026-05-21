@@ -1,0 +1,16 @@
+{
+  "bug_id": "Compress_5",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.archivers.zip.ZipArchiveInputStream:read:byte[],int,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

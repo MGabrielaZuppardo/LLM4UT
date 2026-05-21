@@ -1,0 +1,16 @@
+{
+  "bug_id": "Lang_31",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang3.StringUtils:containsAny:CharSequence,char[]"
+          ]
+        }
+      ]
+    }
+  ]
+}

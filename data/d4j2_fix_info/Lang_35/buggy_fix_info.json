@@ -1,0 +1,17 @@
+{
+  "bug_id": "Lang_35",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/lang3/ArrayUtils.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang3.ArrayUtils:add:T[],T",
+            "org.apache.commons.lang3.ArrayUtils:add:T[],int,T"
+          ]
+        }
+      ]
+    }
+  ]
+}

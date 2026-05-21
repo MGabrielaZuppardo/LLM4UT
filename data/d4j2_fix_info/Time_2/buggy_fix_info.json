@@ -1,0 +1,27 @@
+{
+  "bug_id": "Time_2",
+  "project": "Time",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/joda/time/Partial.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.joda.time.Partial:Partial:DateTimeFieldType[],int[],Chronology",
+            "org.joda.time.Partial:with:DateTimeFieldType,int"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/joda/time/field/UnsupportedDurationField.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.joda.time.field.UnsupportedDurationField:compareTo:DurationField"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "bug_id": "Math_38",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math/optimization/direct/BOBYQAOptimizer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.optimization.direct.BOBYQAOptimizer:prelim:double[],double[]"
+          ]
+        }
+      ]
+    }
+  ]
+}

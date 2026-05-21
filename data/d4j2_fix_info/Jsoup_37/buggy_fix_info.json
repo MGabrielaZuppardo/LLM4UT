@@ -1,0 +1,17 @@
+{
+  "bug_id": "Jsoup_37",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/nodes/Element.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.Element:html:",
+            "org.jsoup.nodes.Element:html:StringBuilder"
+          ]
+        }
+      ]
+    }
+  ]
+}

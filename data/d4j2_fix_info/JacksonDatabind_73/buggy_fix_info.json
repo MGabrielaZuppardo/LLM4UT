@@ -1,0 +1,26 @@
+{
+  "bug_id": "JacksonDatabind_73",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector:_removeUnwantedAccessor:Map<String, POJOPropertyBuilder>"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder:removeNonVisible:boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

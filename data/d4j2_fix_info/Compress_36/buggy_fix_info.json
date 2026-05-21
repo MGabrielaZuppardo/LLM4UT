@@ -1,0 +1,17 @@
+{
+  "bug_id": "Compress_36",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.archivers.sevenz.SevenZFile:read:",
+            "org.apache.commons.compress.archivers.sevenz.SevenZFile:getCurrentStream:"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "bug_id": "Compress_40",
+  "project": "Compress",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/compress/utils/BitInputStream.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.compress.utils.BitInputStream:readBits:int"
+          ]
+        }
+      ]
+    }
+  ]
+}

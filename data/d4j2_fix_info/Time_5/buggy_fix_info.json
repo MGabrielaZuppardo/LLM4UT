@@ -1,0 +1,16 @@
+{
+  "bug_id": "Time_5",
+  "project": "Time",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/joda/time/Period.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.joda.time.Period:normalizedStandard:PeriodType"
+          ]
+        }
+      ]
+    }
+  ]
+}

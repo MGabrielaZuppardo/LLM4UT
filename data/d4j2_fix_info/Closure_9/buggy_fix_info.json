@@ -1,0 +1,17 @@
+{
+  "bug_id": "Closure_9",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/ProcessCommonJSModules.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.ProcessCommonJSModules:normalizeSourceName:String",
+            "com.google.javascript.jscomp.ProcessCommonJSModules.ProcessCommonJsModulesCallback:visitScript:NodeTraversal,Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

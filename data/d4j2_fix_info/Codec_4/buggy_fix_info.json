@@ -1,0 +1,16 @@
+{
+  "bug_id": "Codec_4",
+  "project": "Codec",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/codec/binary/Base64.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.codec.binary.Base64:Base64:"
+          ]
+        }
+      ]
+    }
+  ]
+}

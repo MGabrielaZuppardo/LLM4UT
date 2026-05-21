@@ -1,0 +1,50 @@
+{
+  "bug_id": "Closure_144",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/FunctionTypeBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.FunctionTypeBuilder:inferReturnType:JSDocInfo",
+            "com.google.javascript.jscomp.FunctionTypeBuilder:inferReturnStatements:Node",
+            "com.google.javascript.jscomp.FunctionTypeBuilder:buildAndRegister:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/TypedScopeCreator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.TypedScopeCreator.AbstractScopeBuilder:getFunctionType:String,Node,JSDocInfo,Node"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/rhino/jstype/FunctionBuilder.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.rhino.jstype.FunctionBuilder:withReturnType:JSType",
+            "com.google.javascript.rhino.jstype.FunctionBuilder:withReturnType:JSType,boolean",
+            "com.google.javascript.rhino.jstype.FunctionBuilder:withInferredReturnType:JSType"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/rhino/jstype/FunctionType.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.rhino.jstype.FunctionType:cloneWithNewReturnType:JSType,boolean"
+          ]
+        }
+      ]
+    }
+  ]
+}

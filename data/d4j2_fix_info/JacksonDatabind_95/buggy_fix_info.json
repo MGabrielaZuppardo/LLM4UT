@@ -1,0 +1,28 @@
+{
+  "bug_id": "JacksonDatabind_95",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.type.TypeFactory:constructSpecializedType:JavaType,Class<?>",
+            "com.fasterxml.jackson.databind.type.TypeFactory:constructParametricType:Class<?>"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/type/TypeParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.type.TypeParser:parseType:MyTokenizer",
+            "com.fasterxml.jackson.databind.type.TypeParser:parseTypes:MyTokenizer"
+          ]
+        }
+      ]
+    }
+  ]
+}

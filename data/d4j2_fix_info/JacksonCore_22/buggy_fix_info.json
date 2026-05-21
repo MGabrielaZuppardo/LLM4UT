@@ -1,0 +1,21 @@
+{
+  "bug_id": "JacksonCore_22",
+  "project": "JacksonCore",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/core/filter/FilteringParserDelegate.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.core.filter.FilteringParserDelegate:nextToken:",
+            "com.fasterxml.jackson.core.filter.FilteringParserDelegate:_nextToken2:",
+            "com.fasterxml.jackson.core.filter.FilteringParserDelegate:_nextTokenWithBuffering:TokenFilterContext",
+            "com.fasterxml.jackson.core.filter.FilteringParserDelegate:_nextBuffered:TokenFilterContext",
+            "com.fasterxml.jackson.core.filter.FilteringParserDelegate:_verifyAllowedMatches:",
+            "com.fasterxml.jackson.core.filter.FilteringParserDelegate:nextValue:"
+          ]
+        }
+      ]
+    }
+  ]
+}

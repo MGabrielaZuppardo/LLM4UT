@@ -1,0 +1,26 @@
+{
+  "bug_id": "Math_1",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/math3/fraction/BigFraction.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math3.fraction.BigFraction:BigFraction:double,double,int,int"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/apache/commons/math3/fraction/Fraction.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math3.fraction.Fraction:Fraction:double,double,int,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

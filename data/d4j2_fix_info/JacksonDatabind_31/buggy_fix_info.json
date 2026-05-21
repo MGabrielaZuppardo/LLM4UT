@@ -1,0 +1,35 @@
+{
+  "bug_id": "JacksonDatabind_31",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.util.TokenBuffer:writeString:String",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:writeString:SerializableString",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:writeRawValue:String",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:writeRawValue:String,int,int",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:writeRawValue:char[],int,int",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:writeNumber:short",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:writeNumber:int",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:writeNumber:long",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:writeNumber:double",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:writeNumber:float",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:writeNumber:BigDecimal",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:writeNumber:BigInteger",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:writeNumber:String",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:writeBoolean:boolean",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:writeNull:",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:writeObject:Object",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:writeTree:TreeNode",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:_appendValue:JsonToken",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:_appendValue:JsonToken,Object",
+            "com.fasterxml.jackson.databind.util.TokenBuffer:_appendRaw:int,Object"
+          ]
+        }
+      ]
+    }
+  ]
+}

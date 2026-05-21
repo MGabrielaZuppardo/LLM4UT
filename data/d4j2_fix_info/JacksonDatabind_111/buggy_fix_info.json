@@ -1,0 +1,85 @@
+{
+  "bug_id": "JacksonDatabind_111",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/CreatorProperty.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.CreatorProperty:withValueDeserializer:JsonDeserializer<?>",
+            "com.fasterxml.jackson.databind.deser.CreatorProperty:withNullProvider:NullValueProvider"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.impl.FieldProperty:withValueDeserializer:JsonDeserializer<?>",
+            "com.fasterxml.jackson.databind.deser.impl.FieldProperty:withNullProvider:NullValueProvider",
+            "com.fasterxml.jackson.databind.deser.impl.FieldProperty:readResolve:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.impl.MethodProperty:withValueDeserializer:JsonDeserializer<?>",
+            "com.fasterxml.jackson.databind.deser.impl.MethodProperty:withNullProvider:NullValueProvider"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.impl.ObjectIdReferenceProperty:withValueDeserializer:JsonDeserializer<?>",
+            "com.fasterxml.jackson.databind.deser.impl.ObjectIdReferenceProperty:withNullProvider:NullValueProvider"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdValueProperty.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.impl.ObjectIdValueProperty:withValueDeserializer:JsonDeserializer<?>",
+            "com.fasterxml.jackson.databind.deser.impl.ObjectIdValueProperty:withNullProvider:NullValueProvider"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.impl.SetterlessProperty:withValueDeserializer:JsonDeserializer<?>",
+            "com.fasterxml.jackson.databind.deser.impl.SetterlessProperty:withNullProvider:NullValueProvider",
+            "com.fasterxml.jackson.databind.deser.impl.SetterlessProperty:setAndReturn:Object,Object"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/deser/std/AtomicReferenceDeserializer.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.deser.std.AtomicReferenceDeserializer:getNullValue:DeserializationContext",
+            "com.fasterxml.jackson.databind.deser.std.AtomicReferenceDeserializer:getEmptyValue:DeserializationContext"
+          ]
+        }
+      ]
+    }
+  ]
+}

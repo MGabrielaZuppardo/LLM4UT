@@ -1,0 +1,16 @@
+{
+  "bug_id": "Math_97",
+  "project": "Math",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/math/analysis/BrentSolver.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.math.analysis.BrentSolver:solve:double,double"
+          ]
+        }
+      ]
+    }
+  ]
+}

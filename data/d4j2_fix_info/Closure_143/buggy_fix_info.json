@@ -1,0 +1,26 @@
+{
+  "bug_id": "Closure_143",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/AbstractCommandLineRunner.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.AbstractCommandLineRunner:createDefineReplacements:List<String>,CompilerOptions"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/jscomp/RemoveConstantExpressions.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.RemoveConstantExpressions.RemoveConstantRValuesCallback:trySimplify:Node,Node"
+          ]
+        }
+      ]
+    }
+  ]
+}

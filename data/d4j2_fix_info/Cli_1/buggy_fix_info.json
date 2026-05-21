@@ -1,0 +1,22 @@
+{
+  "bug_id": "Cli_1",
+  "project": "Cli",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/cli/CommandLine.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.cli.CommandLine:hasOption:String",
+            "org.apache.commons.cli.CommandLine:getOptionObject:String",
+            "org.apache.commons.cli.CommandLine:getOptionValues:String",
+            "org.apache.commons.cli.CommandLine:resolveOption:String",
+            "org.apache.commons.cli.CommandLine:addOption:Option",
+            "org.apache.commons.cli.CommandLine:iterator:",
+            "org.apache.commons.cli.CommandLine:getOptions:"
+          ]
+        }
+      ]
+    }
+  ]
+}

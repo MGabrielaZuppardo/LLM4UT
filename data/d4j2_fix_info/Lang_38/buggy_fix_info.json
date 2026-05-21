@@ -1,0 +1,16 @@
+{
+  "bug_id": "Lang_38",
+  "project": "Lang",
+  "fixing_changes": [
+    {
+      "file": "src/java/org/apache/commons/lang3/time/FastDateFormat.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.lang3.time.FastDateFormat:format:Calendar,StringBuffer"
+          ]
+        }
+      ]
+    }
+  ]
+}

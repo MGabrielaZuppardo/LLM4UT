@@ -1,0 +1,18 @@
+{
+  "bug_id": "JacksonDatabind_108",
+  "project": "JacksonDatabind",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.databind.ObjectReader:readTree:JsonParser",
+            "com.fasterxml.jackson.databind.ObjectReader:writeTree:JsonGenerator,TreeNode",
+            "com.fasterxml.jackson.databind.ObjectReader:_bindAsTreeOrNull:JsonParser"
+          ]
+        }
+      ]
+    }
+  ]
+}

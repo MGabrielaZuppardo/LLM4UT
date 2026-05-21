@@ -1,0 +1,27 @@
+{
+  "bug_id": "Closure_54",
+  "project": "Closure",
+  "fixing_changes": [
+    {
+      "file": "src/com/google/javascript/jscomp/TypedScopeCreator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.jscomp.TypedScopeCreator.AbstractScopeBuilder:maybeDeclareQualifiedName:NodeTraversal,JSDocInfo,Node,Node,Node"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/com/google/javascript/rhino/jstype/FunctionType.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.google.javascript.rhino.jstype.FunctionType:setPrototypeBasedOn:ObjectType",
+            "com.google.javascript.rhino.jstype.FunctionType:setPrototype:PrototypeObjectType"
+          ]
+        }
+      ]
+    }
+  ]
+}

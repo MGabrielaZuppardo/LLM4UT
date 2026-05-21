@@ -1,0 +1,20 @@
+{
+  "bug_id": "JacksonXml_6",
+  "project": "JacksonXml",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator:writeBinary:Base64Variant,byte[],int,int",
+            "com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator:writeBinary:Base64Variant,InputStream,int",
+            "com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator:writeStreamAsBinary:InputStream,int",
+            "com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator:toFullBuffer:byte[],int,int",
+            "com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator:toFullBuffer:InputStream,int"
+          ]
+        }
+      ]
+    }
+  ]
+}

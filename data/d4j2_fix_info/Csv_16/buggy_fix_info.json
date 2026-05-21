@@ -1,0 +1,19 @@
+{
+  "bug_id": "Csv_16",
+  "project": "Csv",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/apache/commons/csv/CSVParser.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.apache.commons.csv.CSVParser:CSVParser:Reader,CSVFormat,long,long",
+            "org.apache.commons.csv.CSVParser:iterator:",
+            "org.apache.commons.csv.CSVParser.CSVRecordIterator:getNextRecord:",
+            "org.apache.commons.csv.CSVParser.CSVRecordIterator:remove:"
+          ]
+        }
+      ]
+    }
+  ]
+}

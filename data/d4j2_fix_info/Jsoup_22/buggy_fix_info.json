@@ -1,0 +1,41 @@
+{
+  "bug_id": "Jsoup_22",
+  "project": "Jsoup",
+  "fixing_changes": [
+    {
+      "file": "src/main/java/org/jsoup/nodes/Element.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.Element:siblingElements:",
+            "org.jsoup.nodes.Element:nextElementSibling:",
+            "org.jsoup.nodes.Element:previousElementSibling:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/nodes/Node.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.nodes.Node:siblingNodes:",
+            "org.jsoup.nodes.Node:previousSibling:"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/main/java/org/jsoup/select/Elements.java",
+      "changed_functions": [
+        {
+          "qualified_names": [
+            "org.jsoup.select.Elements:Elements:",
+            "org.jsoup.select.Elements:Elements:int",
+            "org.jsoup.select.Elements:Elements:Collection<Element>"
+          ]
+        }
+      ]
+    }
+  ]
+}
