@@ -1,4 +1,12 @@
 .idea
-.claude 
+.claude
 
+# Python
+__pycache__/
+*.pyc
+*.bak
+
+# Resultados de inferência (gerados; reproduzíveis via tools/run_ollama_inference.py)
+data/rq1/results_gemma3_4b/
+data/prompts/source_data.jsonl
 

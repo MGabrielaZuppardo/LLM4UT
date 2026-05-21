@@ -3,7 +3,7 @@ import sys
 sys.path.extend([".", ".."])
 import json
 import pickle
-from tree_sitter import Parser
+from utils.ts_compat import CompatParser as Parser
 from data.configuration import JAVA_LANGUAGE
 
 
