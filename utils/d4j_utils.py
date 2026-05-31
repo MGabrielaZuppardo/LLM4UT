@@ -497,6 +497,10 @@ def _compile_and_collect_results(root):
     else:
         os.environ['JAVA_TOOL_OPTIONS'] = '-Dfile.encoding=ISO-8859-1'
     env = os.environ.copy()
+    # Strip Windows-style paths (/mnt/c/...) to avoid picking up Windows
+    # Java/bash that hang or misbehave in WSL2. D4J 2.0 requires Java 11.
+    clean_path_parts = [p for p in env.get("PATH", "").split(":") if not p.startswith("/mnt/c") and not p.startswith("/mnt/d")]
+    env["PATH"] = ":".join(clean_path_parts)
 
     compile_proc = subprocess.run(
         [d4j_command, "compile"],
@@ -560,6 +564,12 @@ def check_compile(bug_id):
     if os.path.exists(fixed_dir) and os.path.exists(buggy_dir):
 
         # 去掉一些影响编译的已有测试用例
+        if bug_id.startswith("Chart"):
+            for dir in [fixed_dir, buggy_dir]:
+                broken = f"{dir}/tests/org/jfree/chart/util/junit/UtilPackageTests.java"
+                if os.path.exists(broken):
+                    os.system(f"rm -f {broken}")
+
         if bug_id.startswith("Lang"):
             for dir in [fixed_dir, buggy_dir]:
                 if os.path.exists(f"{dir}/src/test/org/apache/commons/lang/enum"):
@@ -658,8 +668,11 @@ def _test_and_collect_results(root, target_bz_file=None):
             pass
         else:
             test_cmd = f"timeout 10 {d4j_command} test"
+        clean_env = os.environ.copy()
+        java8_bin = "/usr/lib/jvm/java-8-openjdk-amd64/bin"
+        clean_env["PATH"] = ":".join([p for p in clean_env.get("PATH", "").split(":") if not p.startswith("/mnt/c") and not p.startswith("/mnt/d")])
         process = subprocess.Popen(
-            test_cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE
+            test_cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=clean_env
         )
         try:
             stdout, stderr = process.communicate(timeout=10)

@@ -179,7 +179,9 @@ def add_dependencies(base_dir, bug_id):
 
     directory_paths = [os.path.join(item_path, "fixed"), os.path.join(item_path, "buggy")]
     for fixed_directory_path in directory_paths:
-        # fixed_directory_path = os.path.join(item_path, "fixed")
+        if not os.path.exists(fixed_directory_path):
+            print("Skipping missing directory: {}".format(fixed_directory_path))
+            continue
         if 'maven-build.xml' in os.listdir(fixed_directory_path):
             dependency_file_name = 'maven-build.xml'
         elif 'build.xml' in os.listdir(fixed_directory_path):
@@ -193,6 +195,9 @@ def add_dependencies(base_dir, bug_id):
 
         dependency_file_path = os.path.join(fixed_directory_path, dependency_file_name)
         dependency_file_copy_path = dependency_file_path + ".copy"
+        if not os.path.exists(dependency_file_path):
+            print("Skipping missing build file: {}".format(dependency_file_path))
+            continue
         if not os.path.exists(dependency_file_copy_path):
             os.system("cp {} {}".format(dependency_file_path, dependency_file_copy_path))
 

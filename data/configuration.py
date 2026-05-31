@@ -49,19 +49,13 @@ projects = [
 ]
 
 target_models = [
-    # "WizardCoder-Python-34B-V1.0",
-    # "CodeLlama-7b-hf",
-    # "CodeLlama-7b-Instruct-hf",
-    # "CodeLlama-13b-hf",
-    # "CodeLlama-13b-Instruct-hf",
-    # "CodeLlama-34b-hf",
-    # "CodeLlama-34b-Instruct",
-    "deepseek-coder-6.7b-instruct",
-    # "deepseek-coder-33b-instruct",
-    # "Phind-CodeLlama-34B-v2",
-    # "starchat-beta",
-    # "WizardCoder-15B-V1.0"，
-    # "gpt4"
+    "gemma3_4b",
+    "llama4_scout_17b",
+    # "gemma3_12b",
+    # "gemma3_27b",
+    # "deepseek_r1_8b",
+    # "deepseek_r1_32b",
+    # "qwen3_32b",
 ]
 
 formats = [

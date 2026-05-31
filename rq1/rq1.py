@@ -49,6 +49,27 @@ def main(target_project="Chart"):
                         )
                         continue
 
+                    # Skip if this model/project combination already has a complete result file.
+                    result_path = os.path.join(
+                        output_base_dir, tgt_model,
+                        f"{target_project}_{format}_{strategy}_{ablation}.jsonl"
+                    )
+                    if os.path.exists(result_path) and os.path.getsize(result_path) > 0:
+                        # Count expected items for this model/project
+                        expected = 0
+                        with open(input_file, "r", encoding="utf-8") as _f:
+                            for _line in _f:
+                                try:
+                                    _d = json.loads(_line)
+                                    if _d.get("project") == target_project and str(_d.get("is_public", "0")) == "1":
+                                        expected += 1
+                                except Exception:
+                                    pass
+                        actual = sum(1 for _ in open(result_path, encoding="utf-8") if _.strip())
+                        if actual >= expected:
+                            print(f"Skipping {tgt_model}/{target_project}: already complete ({actual}/{expected})")
+                            continue
+
                     datas = filter_data_according_to_project(
                         input_file, assistant_datas, target_project
                     )
@@ -66,18 +87,32 @@ def main(target_project="Chart"):
                             enumerate(datas),
                             total=len(datas),
                             desc=f"Evaluating {tgt_model} on {target_project}",
-                    ):  
-                        res_dict = run(
-                            model=tgt_model,
-                            strategy=strategy,
-                            data=data,
-                            index=index,
-                            ablation=ablation,
-                            format=format,
-                        )
+                    ):
+                        try:
+                            res_dict = run(
+                                model=tgt_model,
+                                strategy=strategy,
+                                data=data,
+                                index=index,
+                                ablation=ablation,
+                                format=format,
+                            )
+                        except Exception as e:
+                            import traceback
+                            print(f"ERROR item {index} ({data.get('id','?')}): {type(e).__name__}: {e}")
+                            traceback.print_exc()
+                            res_dict = dict(data)
+                            res_dict.update({
+                                "index": index, "bug_id": data.get("id", "?"),
+                                "exception": f"{type(e).__name__}: {e}",
+                                "first_compile_res": "error", "second_compile_res": "error",
+                                "is_empty_test": True, "num_total_uts": 0,
+                                "num_compilable_uts": 0, "num_executed_uts": 0,
+                                "num_passed_uts": 0, "covered_lines": -1,
+                                "covered_branches": -1,
+                            })
                         analyze_res_writer.write(json.dumps(res_dict) + "\n")
-                        break
-                    analyze_res_writer.flush()
+                        analyze_res_writer.flush()
                     analyze_res_writer.close()
 
 
