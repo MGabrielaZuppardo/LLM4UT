@@ -3,14 +3,37 @@ from utils.dependency_analyzer import add_dependencies
 from utils.java_parser import has_branch
 from utils.output_analyzer import *
 from data import configuration
-from data.extract_all_methods_and_tests import find_all_method_signatures_in_javap
 import shutil
+from collections import deque as _deque
 
 # from utils.d4j_utils import evosuite_test
 
 import_json_path = os.path.join(code_base, "data/import_v2.json")
 with open(import_json_path, "r") as file:
     import_json = json.load(file)
+
+
+def _build_full_sig_lookup():
+    """Index d4j_assistant_with_shell.jsonl by (id_short, base_sig) -> deque[full_sig].
+    Used to enrich output files that store method_signature without parameter types."""
+    lookup = defaultdict(_deque)
+    shell_file = os.path.join(code_base, "data/d4j_assistant_with_shell.jsonl")
+    if not os.path.exists(shell_file):
+        return lookup
+    with open(shell_file, "r", encoding="utf-8") as f:
+        for line in f:
+            d = json.loads(line.strip())
+            full_sig = d.get("source:source_method_signature", "")
+            raw_id = d.get("extra:project_name", "")  # e.g. "Chart_10_fixed"
+            if not full_sig or "(" not in full_sig or not raw_id:
+                continue
+            id_short = "_".join(raw_id.split("_")[:2])  # "Chart_10"
+            base_sig = full_sig.split("(")[0]
+            lookup[(id_short, base_sig)].append(full_sig)
+    return lookup
+
+
+_FULL_SIG_LOOKUP = _build_full_sig_lookup()
 
 
 def remove_content_in_parentheses(text):
@@ -92,7 +115,6 @@ def filter_data_according_to_project(input_file, assistant_data, target_project)
     Returns:
         list: 过滤后的输入数据
     """
-    # 使用辅助数据过滤目标project的数据
     res = []
     with open(input_file, "r", encoding="utf-8") as reader:
         lines = reader.readlines()
@@ -103,17 +125,28 @@ def filter_data_according_to_project(input_file, assistant_data, target_project)
         ):
             line = line.strip()
             data = json.loads(line)
-            if (
-                    assistant_data[idx]["project"] == target_project
-                    and assistant_data[idx]["is_public"] == "1"
-            ):
-                data["project"] = pickle.loads(
-                    pickle.dumps(assistant_data[idx]["project"])
-                )
-                data["focal_method"] = pickle.loads(
-                    pickle.dumps(assistant_data[idx]["focal_method"])
-                )
-                data["id"] = "_".join(assistant_data[idx]["id"].split("_")[:2])
+            # If the output file already carries metadata (new pipeline), use it directly.
+            # Otherwise fall back to idx-aligned assistant_data (original paper pipeline).
+            if "project" in data and "is_public" in data:
+                src = data
+                is_public = str(src["is_public"])
+            elif idx < len(assistant_data):
+                src = assistant_data[idx]
+                is_public = str(src["is_public"])
+            else:
+                continue
+
+            if src["project"] == target_project and is_public == "1":
+                data["project"] = src["project"]
+                data["focal_method"] = src["focal_method"]
+                data["id"] = "_".join(src["id"].split("_")[:2])
+                # Enrich method_signature with parameter types when missing.
+                # source_data.jsonl omits parameters; d4j_assistant_with_shell.jsonl has them.
+                cur_sig = data.get("method_signature", "")
+                if cur_sig and "(" not in cur_sig:
+                    key = (data["id"], cur_sig)
+                    if key in _FULL_SIG_LOOKUP and _FULL_SIG_LOOKUP[key]:
+                        data["method_signature"] = _FULL_SIG_LOOKUP[key].popleft()
                 res.append(pickle.loads(pickle.dumps(data)))
     return res
 
@@ -138,6 +171,12 @@ def extract_elements_from_llm_generation(
                 "uts": [ut],
              }
     """
+    # Strip markdown code fences that some models (e.g. llama4) wrap their output in.
+    if "```" in generation:
+        lines = generation.split("\n")
+        lines = [l for l in lines if not l.strip().startswith("```")]
+        generation = "\n".join(lines)
+
     # 当LLM有正确输出的时候才进行下一步
     msg = "no llm output"
 
@@ -157,6 +196,50 @@ def extract_elements_from_llm_generation(
             strategy,
             method_signature=method_signature,
         )
+        # Filter out syntactically invalid imports.
+        # Some models (e.g. llama4) emit imports without semicolons; tree-sitter may
+        # merge consecutive lines into one token. Split on newlines first, then validate.
+        valid_imports = []
+        for imp in imports:
+            for s in imp.split("\n"):
+                s = s.strip()
+                if not s.startswith("import "):
+                    continue
+                if not s.endswith(";"):
+                    s = s + ";"
+                # Non-static wildcard import of methods is invalid Java — skip it.
+                if s.endswith(".*;") and not s.startswith("import static "):
+                    continue
+                valid_imports.append(s)
+        imports = valid_imports
+
+        # When the LLM generates a full class (e.g. llama4), the parsed `classes`
+        # list contains that class body which gets appended AFTER the closing `}` of
+        # LLMGeneratedTests. This creates a second public class in the same .java file,
+        # causing "illegal start of type" compile errors. Since methods are already
+        # extracted from inside the class, discard `classes` when methods were found.
+        if methods:
+            classes = []
+
+        # Some LLM outputs (e.g. llama4) have invalid imports that cause tree-sitter
+        # parse errors, leading subsequent valid imports to be misclassified as fields.
+        # Remove any import statements from `fields` and add them to `imports` instead.
+        clean_fields = []
+        extra_imports = []
+        for f in fields:
+            for s in f.split("\n"):
+                s = s.strip()
+                if s.startswith("import "):
+                    if not s.endswith(";"):
+                        s = s + ";"
+                    if s.endswith(".*;") and not s.startswith("import static "):
+                        continue  # skip non-static wildcard
+                    extra_imports.append(s)
+                elif s:
+                    clean_fields.append(s)
+        fields = clean_fields
+        imports = list(set(imports) | set(extra_imports))
+
         uts = [method for method in methods if method.strip().startswith("@Test")]
         msg = "success"
 
@@ -190,7 +273,8 @@ def analyze_method_signature_for_coverage(method_signature):
         method_name: 函数名
         parameter_tuple: 参数列表
     """
-    parameters = re.findall(r"\(.*?\)", method_signature)[0][1:-1]
+    param_matches = re.findall(r"\(.*?\)", method_signature)
+    parameters = param_matches[0][1:-1] if param_matches else ""
     parameter_list = [i for i in parameters.split(",") if i != ""]
     tmp_list = []
     for i in parameter_list:
@@ -287,7 +371,7 @@ def _inner_run(
                     class_sig=first_round_test_sig,
                     content=first_round_test_content,
                 )
-        except UnicodeDecodeError as e:
+        except (UnicodeDecodeError, FileNotFoundError) as e:
             for version in ["buggy", "fixed"]:
                 delete_test_file(bug_id, version, class_sig=first_round_test_sig)
             place_empty = True
@@ -609,6 +693,7 @@ def run(model, strategy, ablation, format, data, index):
 
 
 def run_evosuite(model, strategy, ablation, format, data, index):
+    from data.extract_all_methods_and_tests import find_all_method_signatures_in_javap
     extraction_from_llm_outputs = Counter()
     res_dict = pickle.loads(pickle.dumps(data))
     # 拆分代码

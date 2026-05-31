@@ -6,7 +6,15 @@ __pycache__/
 *.pyc
 *.bak
 
-# Resultados de inferência (gerados; reproduzíveis via tools/run_ollama_inference.py)
-data/rq1/results_gemma3_4b/
+# Logs de execução
+tools/checkout_buggy.log
+tools/rq1_chart.log
+tools/rq1_starter.log
+
+# Dados de origem grandes (já estão no histórico mas não precisam ser re-adicionados)
 data/prompts/source_data.jsonl
 
+# D4J coverage reports temporários
+rq1/coverage_reports/
+
+.env
