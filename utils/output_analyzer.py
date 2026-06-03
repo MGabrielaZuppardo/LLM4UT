@@ -550,9 +550,8 @@ def filter_imports(src_imports: list, tgt_imports: set):
             # final_imports.append(import_str)
             pass
         else:
-            raise NotImplementedError(
-                f"more than 3 tokens in {import_str}, please check"
-            )
+            # Malformed import (e.g. model hallucination) — skip silently.
+            continue
 
     for import_str in src_imports:
         tokens = import_str.split()
@@ -565,9 +564,8 @@ def filter_imports(src_imports: list, tgt_imports: set):
             imported_cls = tokens[2]
             pass
         else:
-            raise NotImplementedError(
-                f"more than 3 tokens in {import_str}, please check"
-            )
+            # Malformed import — skip silently.
+            continue
 
         if cls_str in classes_imported_by_tgt:
             # 同名的去掉

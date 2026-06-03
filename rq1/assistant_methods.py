@@ -171,6 +171,20 @@ def extract_elements_from_llm_generation(
                 "uts": [ut],
              }
     """
+    # Strip <think>...</think> reasoning blocks (DeepSeek R1 style).
+    # If </think> present, keep only what follows it.
+    if "</think>" in generation:
+        generation = generation.split("</think>", 1)[-1]
+    elif "<think>" in generation:
+        generation = generation.split("<think>", 1)[0]
+
+    # Strip git merge conflict markers emitted by some reasoning models.
+    conflict_markers = {"<<<<<<< ", "=======", ">>>>>>> "}
+    generation_lines = generation.split("\n")
+    generation_lines = [l for l in generation_lines
+                        if not any(l.strip().startswith(m) for m in conflict_markers)]
+    generation = "\n".join(generation_lines)
+
     # Strip markdown code fences that some models (e.g. llama4) wrap their output in.
     if "```" in generation:
         lines = generation.split("\n")
