@@ -49,8 +49,9 @@ projects = [
 ]
 
 target_models = [
-    "gemma3_4b",
-    "llama4_scout_17b",
+    # "gemma3_4b",
+    # "llama4_scout_17b",
+    "deepseek_r1_1.5b",
     # "gemma3_12b",
     # "gemma3_27b",
     # "deepseek_r1_8b",
