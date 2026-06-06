@@ -292,7 +292,9 @@ def main() -> int:
                          "Ex: --base-url gemini")
     ap.add_argument("--limit",   type=int, default=0,
                     help="para após N *tentativas* de requisição (0 = todas)")
-    ap.add_argument("--temperature", type=float, default=1.0)
+    ap.add_argument("--temperature", type=float, default=0.0,
+                    help="Temperatura de geração (padrão: 0 — determinístico, "
+                         "conforme metodologia do paper ASE'24)")
     ap.add_argument("--top-p",       type=float, default=0.95)
     ap.add_argument("--max-tokens",  type=int,   default=4096,
                     help="máx. de tokens gerados por resposta (padrão 4096 para "
