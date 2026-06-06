@@ -103,7 +103,9 @@ def main() -> int:
     ap.add_argument("--model", default="gemma3:4b")
     ap.add_argument("--host", default="http://localhost:11434")
     ap.add_argument("--limit", type=int, default=0, help="processa no máximo N (0 = todos)")
-    ap.add_argument("--temperature", type=float, default=1.0)
+    ap.add_argument("--temperature", type=float, default=0.0,
+                    help="Temperatura de geração (padrão: 0 — determinístico, "
+                         "conforme metodologia do paper ASE'24)")
     ap.add_argument("--top-p", type=float, default=0.95)
     ap.add_argument("--num-predict", type=int, default=1024,
                     help="máx. de tokens gerados por resposta")
