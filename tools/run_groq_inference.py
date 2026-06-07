@@ -64,8 +64,10 @@ def strip_thinking_blocks(text: str) -> str:
         text = text[: text.index("<think>")]
     return text.strip()
 
-GROQ_API_URL    = "https://api.groq.com/openai/v1/chat/completions"
-GEMINI_API_URL  = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+GROQ_API_URL        = "https://api.groq.com/openai/v1/chat/completions"
+GEMINI_API_URL      = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+HF_API_URL          = "https://api-inference.huggingface.co/v1/chat/completions"
+OPENROUTER_API_URL  = "https://openrouter.ai/api/v1/chat/completions"
 MODEL_DEFAULT = "qwen/qwen3-32b"
 
 # Modelos Groq com 7B+ parâmetros (verificar disponibilidade em console.groq.com):
@@ -115,6 +117,8 @@ def _load_env_file() -> dict[str, str]:
 # tier gratuito da Groq (~30 req/min para modelos Gemma).
 _MIN_REQUEST_INTERVAL_GROQ   = 2.1   # ~30 RPM
 _MIN_REQUEST_INTERVAL_GEMINI = 6.0   # ~10 RPM — margem segura abaixo do limite de 15 RPM
+_MIN_REQUEST_INTERVAL_HF          = 1.0   # ~60 RPM — tier gratuito HF Inference API
+_MIN_REQUEST_INTERVAL_OPENROUTER  = 1.0   # ~60 RPM — tier gratuito OpenRouter
 
 
 def _key(rec: dict) -> tuple:
@@ -311,14 +315,23 @@ def main() -> int:
     base_url = args.base_url.strip().lower()
     if base_url == "gemini":
         api_url = GEMINI_API_URL
+    elif base_url in ("hf", "huggingface"):
+        api_url = HF_API_URL
+    elif base_url in ("openrouter", "or"):
+        api_url = OPENROUTER_API_URL
     elif base_url:
         api_url = base_url  # URL completa fornecida pelo usuário
     else:
         api_url = GROQ_API_URL
     # Intervalo padrão por provider
-    default_interval = (_MIN_REQUEST_INTERVAL_GEMINI
-                        if api_url == GEMINI_API_URL
-                        else _MIN_REQUEST_INTERVAL_GROQ)
+    if api_url == GEMINI_API_URL:
+        default_interval = _MIN_REQUEST_INTERVAL_GEMINI
+    elif api_url == HF_API_URL:
+        default_interval = _MIN_REQUEST_INTERVAL_HF
+    elif api_url == OPENROUTER_API_URL:
+        default_interval = _MIN_REQUEST_INTERVAL_OPENROUTER
+    else:
+        default_interval = _MIN_REQUEST_INTERVAL_GROQ
     print(f"Endpoint: {api_url}")
 
     # Resolve API keys — ordem depende do provider
@@ -326,9 +339,16 @@ def main() -> int:
     raw_keys = args.api_key
     if not raw_keys:
         if api_url == GEMINI_API_URL:
-            # Gemini: prioriza GEMINI_API_KEY
             raw_keys = (os.environ.get("GEMINI_API_KEY", "")
                         or env_vars.get("GEMINI_API_KEY", ""))
+        elif api_url == HF_API_URL:
+            raw_keys = (os.environ.get("HF_TOKEN", "")
+                        or os.environ.get("HUGGINGFACE_TOKEN", "")
+                        or env_vars.get("HF_TOKEN", "")
+                        or env_vars.get("HUGGINGFACE_TOKEN", ""))
+        elif api_url == OPENROUTER_API_URL:
+            raw_keys = (os.environ.get("OPENROUTER_API_KEY", "")
+                        or env_vars.get("OPENROUTER_API_KEY", ""))
         else:
             # Groq / outros: prioriza GROQ_API_KEYS
             raw_keys = (os.environ.get("GROQ_API_KEYS", "")
