@@ -488,6 +488,8 @@ def write_test_file(bug_id, version, class_sig, content):
 
 
 def delete_test_file(bug_id, version, class_sig):
+    if class_sig is None:
+        return
     test_file_dir, test_file_path, _, _ = _get_test_class_path(
         bug_id, version, class_sig
     )

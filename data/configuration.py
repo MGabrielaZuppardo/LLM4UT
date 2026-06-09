@@ -8,7 +8,8 @@ d4j_home = "/home/gabriela_zuppardo/defects4j"
 d4j_proj_base = f"{d4j_home}/d4j_projects"
 # output_dir = "data/rq1/results_debug"
 # t1 (temperatura padrão): output_dir = "data/rq1/t1/results_0128"
-output_dir = "data/rq1/results_llama3.1_8b_t0"
+# t0 avaliação individual: output_dir = "data/rq1/results_gemma4_12b_t0"
+output_dir = "data/rq1/results_t0"
 code_base = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 output_base_dir = os.path.join(code_base, output_dir)
 d4j_command = f"{d4j_home}/framework/bin/defects4j"
@@ -50,14 +51,20 @@ projects = [
 ]
 
 target_models = [
-    # "gemma3_4b",
-    # "llama4_scout_17b",
+    # --- T0 (temperatura=0, metodologia do paper) ---
+    "gemma3_4b",       # Ollama local — 1517/1517 inferências prontas
+    "mistral_7b",      # Ollama local — 1517/1517 inferências prontas
+    "deepseek_r1_8b",  # Ollama local — 1516/1517 inferências prontas
+    "llama4_scout_17b",# Groq API     — 1515/1517 inferências prontas
+    # --- pendentes (inferência incompleta) ---
+    # "llama3.1_8b",  # abandonado — prazo insuficiente   # 113/1517 — retomar depois
+    # "gemma4_31b",    # 34/1517  — retomar depois
+    # --- T1 (temperatura=1, avaliados mas fora da metodologia) ---
     # "deepseek_r1_1.5b",
-    # "deepseek_r1_8b",
-    # "mistral_7b",
-    "llama3.1_8b",
+    # --- outros slots planejados ---
     # "gemma3_12b",
     # "gemma3_27b",
+    # "gemma4_31b",   # abandonado — prazo insuficiente
     # "deepseek_r1_32b",
     # "qwen3_32b",
 ]

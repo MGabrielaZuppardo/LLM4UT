@@ -17,7 +17,8 @@ t1_base  = os.path.join(rq1_base, 't1', 'results_0128')
 # Para t0 os jsonls ficam direto em results_<model>_t0/
 # Para t1 ficam em t1/results_0128/<model>/
 model_configs = []
-for m in ['gemma3_4b', 'llama4_scout_17b', 'deepseek_r1_1.5b', 'deepseek_r1_8b', 'mistral_7b', 'llama3.1_8b']:
+for m in ['gemma3_4b', 'llama4_scout_17b', 'deepseek_r1_1.5b', 'deepseek_r1_8b',
+          'mistral_7b', 'llama3.1_8b', 'gemma4_12b']:
     t0_dir = os.path.join(rq1_base, f'results_{m}_t0')
     t1_dir = os.path.join(t1_base, m)
     if os.path.isdir(t0_dir):
