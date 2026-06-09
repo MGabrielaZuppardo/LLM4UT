@@ -1,0 +1,741 @@
+Reading assistant prompt file ::   0%|          | 0/1243 [00:00<?, ?it/s]Reading assistant prompt file ::   8%|▊         | 95/1243 [00:00<00:01, 942.58it/s]Reading assistant prompt file ::  15%|█▌        | 190/1243 [00:00<00:01, 644.05it/s]Reading assistant prompt file ::  21%|██        | 260/1243 [00:00<00:01, 586.41it/s]Reading assistant prompt file ::  30%|██▉       | 367/1243 [00:00<00:01, 737.98it/s]Reading assistant prompt file ::  39%|███▉      | 484/1243 [00:00<00:00, 870.89it/s]Reading assistant prompt file ::  46%|████▋     | 577/1243 [00:00<00:00, 869.05it/s]Reading assistant prompt file ::  54%|█████▎    | 668/1243 [00:00<00:00, 723.42it/s]Reading assistant prompt file ::  68%|██████▊   | 842/1243 [00:00<00:00, 984.72it/s]Reading assistant prompt file ::  77%|███████▋  | 951/1243 [00:01<00:00, 795.62it/s]Reading assistant prompt file ::  84%|████████▍ | 1043/1243 [00:01<00:00, 728.20it/s]Reading assistant prompt file ::  98%|█████████▊| 1213/1243 [00:01<00:00, 948.67it/s]Reading assistant prompt file :: 100%|██████████| 1243/1243 [00:01<00:00, 832.92it/s]
+Reading generation file:   0%|          | 0/1517 [00:00<?, ?it/s]Reading generation file: 100%|██████████| 1517/1517 [00:00<00:00, 53264.90it/s]
+Load 72 generations from /mnt/d/LLM4UT/data/outputs/gemma3_4b_comment_extend_full.jsonl
+Resuming gemma3_4b/Closure: 25 already done
+Evaluating gemma3_4b on Closure:   0%|          | 0/72 [00:00<?, ?it/s]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  54%|█████▍    | 39/72 [00:24<00:20,  1.59it/s]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  56%|█████▌    | 40/72 [00:49<00:47,  1.48s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  57%|█████▋    | 41/72 [01:15<01:22,  2.65s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  58%|█████▊    | 42/72 [01:53<02:28,  4.93s/it]Reading assistant prompt file ::   0%|          | 0/1243 [00:00<?, ?it/s]Reading assistant prompt file ::   2%|▏         | 24/1243 [00:00<00:05, 232.68it/s]Reading assistant prompt file ::   8%|▊         | 100/1243 [00:00<00:02, 496.27it/s]Reading assistant prompt file ::  12%|█▏        | 149/1243 [00:00<00:02, 472.66it/s]Reading assistant prompt file ::  16%|█▌        | 196/1243 [00:00<00:02, 447.24it/s]Reading assistant prompt file ::  20%|█▉        | 245/1243 [00:00<00:02, 459.11it/s]Reading assistant prompt file ::  24%|██▍       | 297/1243 [00:00<00:01, 478.51it/s]Reading assistant prompt file ::  31%|███       | 388/1243 [00:00<00:01, 612.08it/s]Reading assistant prompt file ::  39%|███▉      | 486/1243 [00:00<00:01, 725.85it/s]Reading assistant prompt file ::  46%|████▌     | 573/1243 [00:00<00:00, 768.29it/s]Reading assistant prompt file ::  53%|█████▎    | 655/1243 [00:01<00:00, 779.52it/s]Reading assistant prompt file ::  67%|██████▋   | 831/1243 [00:01<00:00, 1074.65it/s]Reading assistant prompt file ::  76%|███████▌  | 940/1243 [00:01<00:00, 804.83it/s] Reading assistant prompt file ::  83%|████████▎ | 1031/1243 [00:01<00:00, 740.28it/s]Reading assistant prompt file ::  98%|█████████▊| 1216/1243 [00:01<00:00, 1001.66it/s]Reading assistant prompt file :: 100%|██████████| 1243/1243 [00:01<00:00, 756.25it/s] 
+Reading generation file:   0%|          | 0/1517 [00:00<?, ?it/s]Reading generation file: 100%|██████████| 1517/1517 [00:00<00:00, 51444.50it/s]
+Load 72 generations from /mnt/d/LLM4UT/data/outputs/gemma3_4b_comment_extend_full.jsonl
+Resuming gemma3_4b/Closure: 27 already done
+Evaluating gemma3_4b on Closure:   0%|          | 0/72 [00:00<?, ?it/s]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  61%|██████    | 44/72 [00:41<00:26,  1.07it/s]Reading assistant prompt file ::   0%|          | 0/1243 [00:00<?, ?it/s]Reading assistant prompt file ::   2%|▏         | 30/1243 [00:00<00:04, 288.12it/s]Reading assistant prompt file ::   8%|▊         | 103/1243 [00:00<00:02, 536.74it/s]Reading assistant prompt file ::  13%|█▎        | 157/1243 [00:00<00:03, 281.77it/s]Reading assistant prompt file ::  16%|█▌        | 195/1243 [00:00<00:04, 254.25it/s]Reading assistant prompt file ::  18%|█▊        | 226/1243 [00:00<00:03, 257.74it/s]Reading assistant prompt file ::  21%|██        | 256/1243 [00:00<00:03, 254.64it/s]Reading assistant prompt file ::  23%|██▎       | 284/1243 [00:01<00:03, 253.82it/s]Reading assistant prompt file ::  33%|███▎      | 411/1243 [00:01<00:01, 512.77it/s]Reading assistant prompt file ::  40%|████      | 502/1243 [00:01<00:01, 615.22it/s]Reading assistant prompt file ::  47%|████▋     | 587/1243 [00:01<00:00, 678.40it/s]Reading assistant prompt file ::  53%|█████▎    | 661/1243 [00:01<00:01, 557.25it/s]Reading assistant prompt file ::  65%|██████▌   | 810/1243 [00:01<00:00, 784.08it/s]Reading assistant prompt file ::  72%|███████▏  | 899/1243 [00:01<00:00, 707.30it/s]Reading assistant prompt file ::  80%|███████▉  | 993/1243 [00:01<00:00, 763.22it/s]Reading assistant prompt file ::  87%|████████▋ | 1077/1243 [00:02<00:00, 551.11it/s]Reading assistant prompt file :: 100%|██████████| 1243/1243 [00:02<00:00, 554.09it/s]
+Reading generation file:   0%|          | 0/1517 [00:00<?, ?it/s]Reading generation file: 100%|██████████| 1517/1517 [00:00<00:00, 52927.72it/s]
+Load 72 generations from /mnt/d/LLM4UT/data/outputs/gemma3_4b_comment_extend_full.jsonl
+Resuming gemma3_4b/Closure: 28 already done
+Evaluating gemma3_4b on Closure:   0%|          | 0/72 [00:00<?, ?it/s]Reading assistant prompt file ::   0%|          | 0/1243 [00:00<?, ?it/s]Reading assistant prompt file ::   5%|▌         | 67/1243 [00:00<00:01, 667.46it/s]Reading assistant prompt file ::  11%|█         | 134/1243 [00:00<00:01, 574.35it/s]Reading assistant prompt file ::  16%|█▌        | 193/1243 [00:00<00:02, 370.30it/s]Reading assistant prompt file ::  19%|█▉        | 238/1243 [00:00<00:02, 391.12it/s]Reading assistant prompt file ::  23%|██▎       | 282/1243 [00:00<00:02, 345.48it/s]Reading assistant prompt file ::  30%|███       | 373/1243 [00:00<00:01, 489.73it/s]Reading assistant prompt file ::  38%|███▊      | 469/1243 [00:00<00:01, 614.44it/s]Reading assistant prompt file ::  45%|████▍     | 558/1243 [00:01<00:00, 688.11it/s]Reading assistant prompt file ::  51%|█████▏    | 639/1243 [00:01<00:00, 721.09it/s]Reading assistant prompt file ::  64%|██████▎   | 792/1243 [00:01<00:00, 951.82it/s]Reading assistant prompt file ::  72%|███████▏  | 892/1243 [00:01<00:00, 850.42it/s]Reading assistant prompt file ::  79%|███████▉  | 983/1243 [00:01<00:00, 820.75it/s]Reading assistant prompt file ::  86%|████████▌ | 1069/1243 [00:01<00:00, 759.93it/s]Reading assistant prompt file :: 100%|█████████▉| 1242/1243 [00:01<00:00, 1008.18it/s]Reading assistant prompt file :: 100%|██████████| 1243/1243 [00:01<00:00, 716.71it/s] 
+Reading generation file:   0%|          | 0/1517 [00:00<?, ?it/s]Reading generation file: 100%|██████████| 1517/1517 [00:00<00:00, 51247.27it/s]
+Load 72 generations from /mnt/d/LLM4UT/data/outputs/gemma3_4b_comment_extend_full.jsonl
+Resuming gemma3_4b/Closure: 28 already done
+Evaluating gemma3_4b on Closure:   0%|          | 0/72 [00:00<?, ?it/s]Reading assistant prompt file ::   0%|          | 0/1243 [00:00<?, ?it/s]Reading assistant prompt file ::   2%|▏         | 30/1243 [00:00<00:04, 290.69it/s]Reading assistant prompt file ::   8%|▊         | 100/1243 [00:00<00:02, 511.32it/s]Reading assistant prompt file ::  12%|█▏        | 151/1243 [00:00<00:03, 311.51it/s]Reading assistant prompt file ::  15%|█▌        | 189/1243 [00:00<00:03, 295.41it/s]Reading assistant prompt file ::  18%|█▊        | 223/1243 [00:00<00:03, 276.21it/s]Reading assistant prompt file ::  20%|██        | 253/1243 [00:00<00:03, 276.00it/s]Reading assistant prompt file ::  23%|██▎       | 282/1243 [00:00<00:03, 250.76it/s]Reading assistant prompt file ::  27%|██▋       | 341/1243 [00:01<00:02, 333.40it/s]Reading assistant prompt file ::  33%|███▎      | 406/1243 [00:01<00:02, 415.68it/s]Reading assistant prompt file ::  36%|███▋      | 452/1243 [00:01<00:01, 424.06it/s]Reading assistant prompt file ::  40%|████      | 500/1243 [00:01<00:01, 437.48it/s]Reading assistant prompt file ::  44%|████▍     | 546/1243 [00:01<00:01, 426.81it/s]Reading assistant prompt file ::  48%|████▊     | 592/1243 [00:01<00:01, 435.74it/s]Reading assistant prompt file ::  51%|█████     | 637/1243 [00:01<00:01, 402.99it/s]Reading assistant prompt file ::  60%|██████    | 752/1243 [00:01<00:00, 606.24it/s]Reading assistant prompt file ::  68%|██████▊   | 849/1243 [00:01<00:00, 701.36it/s]Reading assistant prompt file ::  74%|███████▍  | 922/1243 [00:02<00:00, 359.17it/s]Reading assistant prompt file ::  79%|███████▉  | 984/1243 [00:02<00:00, 402.83it/s]Reading assistant prompt file ::  84%|████████▍ | 1042/1243 [00:02<00:00, 349.95it/s]Reading assistant prompt file ::  91%|█████████ | 1125/1243 [00:02<00:00, 437.51it/s]Reading assistant prompt file :: 100%|██████████| 1243/1243 [00:02<00:00, 428.09it/s]
+Reading generation file:   0%|          | 0/1517 [00:00<?, ?it/s]Reading generation file: 100%|██████████| 1517/1517 [00:00<00:00, 52546.57it/s]
+Load 72 generations from /mnt/d/LLM4UT/data/outputs/gemma3_4b_comment_extend_full.jsonl
+Resuming gemma3_4b/Closure: 28 done, 30 remaining. Next: Closure_164
+Evaluating gemma3_4b on Closure:   0%|          | 0/72 [00:00<?, ?it/s]Reading assistant prompt file ::   0%|          | 0/1243 [00:00<?, ?it/s]Reading assistant prompt file ::   3%|▎         | 33/1243 [00:00<00:03, 321.73it/s]Reading assistant prompt file ::   8%|▊         | 102/1243 [00:00<00:02, 530.72it/s]Reading assistant prompt file ::  13%|█▎        | 156/1243 [00:00<00:02, 409.97it/s]Reading assistant prompt file ::  16%|█▌        | 200/1243 [00:00<00:02, 415.84it/s]Reading assistant prompt file ::  20%|█▉        | 244/1243 [00:00<00:02, 401.82it/s]Reading assistant prompt file ::  23%|██▎       | 286/1243 [00:00<00:02, 332.61it/s]Reading assistant prompt file ::  29%|██▉       | 359/1243 [00:00<00:02, 435.29it/s]Reading assistant prompt file ::  36%|███▌      | 448/1243 [00:00<00:01, 555.11it/s]Reading assistant prompt file ::  41%|████      | 509/1243 [00:01<00:01, 503.08it/s]Reading assistant prompt file ::  46%|████▌     | 569/1243 [00:01<00:01, 527.74it/s]Reading assistant prompt file ::  51%|█████▏    | 638/1243 [00:01<00:01, 569.79it/s]Reading assistant prompt file ::  58%|█████▊    | 715/1243 [00:01<00:00, 625.32it/s]Reading assistant prompt file ::  69%|██████▊   | 852/1243 [00:01<00:00, 833.86it/s]Reading assistant prompt file ::  76%|███████▌  | 939/1243 [00:01<00:00, 627.08it/s]Reading assistant prompt file ::  81%|████████▏ | 1012/1243 [00:01<00:00, 546.20it/s]Reading assistant prompt file ::  92%|█████████▏| 1146/1243 [00:02<00:00, 717.48it/s]Reading assistant prompt file :: 100%|██████████| 1243/1243 [00:02<00:00, 591.40it/s]
+Reading generation file:   0%|          | 0/1517 [00:00<?, ?it/s]Reading generation file: 100%|██████████| 1517/1517 [00:00<00:00, 50642.38it/s]
+Load 72 generations from /mnt/d/LLM4UT/data/outputs/gemma3_4b_comment_extend_full.jsonl
+Resuming gemma3_4b/Closure: 28 done, 30 remaining. Next: Closure_164
+Evaluating gemma3_4b on Closure:   0%|          | 0/72 [00:00<?, ?it/s]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  67%|██████▋   | 48/72 [00:24<00:12,  1.95it/s]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  68%|██████▊   | 49/72 [01:03<00:37,  1.63s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  69%|██████▉   | 50/72 [01:36<01:02,  2.85s/it]Evaluating gemma3_4b on Closure:  71%|███████   | 51/72 [01:45<01:06,  3.17s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  72%|███████▏  | 52/72 [02:23<01:54,  5.71s/it]Evaluating gemma3_4b on Closure:  74%|███████▎  | 53/72 [02:32<01:54,  6.01s/it]com/google/javascript/rhino/jstype/LLMGeneratedTests.java
+com/google/javascript/rhino/jstype/LLMGeneratedTests.java
+Evaluating gemma3_4b on Closure:  75%|███████▌  | 54/72 [03:11<02:55,  9.76s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  76%|███████▋  | 55/72 [03:43<03:39, 12.93s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  78%|███████▊  | 56/72 [04:23<04:41, 17.60s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  79%|███████▉  | 57/72 [05:00<05:20, 21.37s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  81%|████████  | 58/72 [05:36<05:44, 24.60s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  82%|████████▏ | 59/72 [06:10<05:46, 26.69s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  83%|████████▎ | 60/72 [06:42<05:38, 28.21s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  85%|████████▍ | 61/72 [07:15<05:23, 29.42s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  86%|████████▌ | 62/72 [07:36<04:29, 26.98s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  88%|████████▊ | 63/72 [07:59<03:53, 26.00s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  89%|████████▉ | 64/72 [08:20<03:15, 24.46s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  90%|█████████ | 65/72 [08:41<02:43, 23.42s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  92%|█████████▏| 66/72 [09:04<02:20, 23.49s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  93%|█████████▎| 67/72 [09:32<02:03, 24.69s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  94%|█████████▍| 68/72 [09:52<01:33, 23.37s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  96%|█████████▌| 69/72 [10:09<01:03, 21.32s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  97%|█████████▋| 70/72 [10:26<00:40, 20.12s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure:  99%|█████████▊| 71/72 [10:50<00:21, 21.30s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating gemma3_4b on Closure: 100%|██████████| 72/72 [11:13<00:00, 21.82s/it]Evaluating gemma3_4b on Closure: 100%|██████████| 72/72 [11:13<00:00,  9.36s/it]
+[skip hang] Closure_164
+[skip hang] Closure_167
+[skip hang] Closure_169
+[skip hang] Closure_169
+[skip hang] Closure_169
+ERROR: method applyAlias not found in com/google/javascript/jscomp/com/google/javascript/jscomp/ScopedAliases/AliasedTypeNode
+ERROR: Closure_22 failed compilation even though was given an empty test class.
+ERROR: Parameter tuple () not found.
+ERROR: Closure_30 failed compilation even though was given an empty test class.
+ERROR: method visit not found in com/google/javascript/jscomp/com/google/javascript/jscomp/NameAnalyzer/FindDeclarationsAndSetters
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple ('com.google.javascript.jscomp.compiler.codebuilder', 'java.lang.integer', 'com.google.javascript.rhino.node') not found.
+ERROR: method caseObjectType not found in com/google/javascript/jscomp/type/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter/RestrictByOneTypeOfResultVisitor
+ERROR: method parseArguments not found in com/google/javascript/jscomp/com/google/javascript/jscomp/CommandLineRunner/Flags/BooleanOptionHandler
+ERROR: method apply not found in com/google/javascript/jscomp/com/google/javascript/jscomp/FunctionTypeBuilder/ThisTypeValidator
+Reading generation file:   0%|          | 0/1517 [00:00<?, ?it/s]Reading generation file: 100%|██████████| 1517/1517 [00:00<00:00, 56670.19it/s]
+Load 72 generations from /mnt/d/LLM4UT/data/outputs/mistral_7b_comment_extend_full.jsonl
+Resuming mistral_7b/Closure: 0 done, 72 remaining. Next: Closure_102
+Evaluating mistral_7b on Closure:   0%|          | 0/72 [00:00<?, ?it/s]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:   1%|▏         | 1/72 [00:17<20:23, 17.23s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:   3%|▎         | 2/72 [00:29<16:58, 14.55s/it]com/google/javascript/rhino/LLMGeneratedTests.java
+com/google/javascript/rhino/LLMGeneratedTests.java
+Evaluating mistral_7b on Closure:   4%|▍         | 3/72 [00:46<17:51, 15.53s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:   6%|▌         | 4/72 [01:09<20:50, 18.39s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:   7%|▋         | 5/72 [01:39<25:09, 22.53s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:   8%|▊         | 6/72 [02:01<24:43, 22.47s/it]com/google/javascript/rhino/LLMGeneratedTests.java
+com/google/javascript/rhino/LLMGeneratedTests.java
+Evaluating mistral_7b on Closure:  10%|▉         | 7/72 [02:24<24:30, 22.62s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  11%|█         | 8/72 [02:41<22:10, 20.79s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  12%|█▎        | 9/72 [02:53<18:56, 18.05s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  14%|█▍        | 10/72 [03:06<16:59, 16.45s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  15%|█▌        | 11/72 [03:18<15:29, 15.24s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  17%|█▋        | 12/72 [03:30<14:18, 14.31s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  18%|█▊        | 13/72 [03:48<14:53, 15.15s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  19%|█▉        | 14/72 [04:04<14:58, 15.48s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  21%|██        | 15/72 [04:16<13:50, 14.57s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  22%|██▏       | 16/72 [04:31<13:33, 14.53s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  24%|██▎       | 17/72 [04:45<13:12, 14.41s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  25%|██▌       | 18/72 [04:57<12:24, 13.79s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  26%|██▋       | 19/72 [05:14<12:54, 14.62s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  28%|██▊       | 20/72 [05:26<12:05, 13.96s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  29%|██▉       | 21/72 [05:42<12:23, 14.58s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  31%|███       | 22/72 [05:59<12:41, 15.23s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  32%|███▏      | 23/72 [06:17<13:09, 16.10s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  33%|███▎      | 24/72 [06:34<13:06, 16.39s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  35%|███▍      | 25/72 [06:47<11:57, 15.26s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  36%|███▌      | 26/72 [07:02<11:47, 15.39s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  38%|███▊      | 27/72 [07:18<11:38, 15.51s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  39%|███▉      | 28/72 [07:45<13:53, 18.94s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  40%|████      | 29/72 [08:01<12:51, 17.95s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  42%|████▏     | 30/72 [08:20<12:46, 18.24s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  43%|████▎     | 31/72 [08:35<11:54, 17.43s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  44%|████▍     | 32/72 [08:55<12:07, 18.18s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  46%|████▌     | 33/72 [09:19<12:55, 19.89s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  47%|████▋     | 34/72 [09:52<15:08, 23.92s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  49%|████▊     | 35/72 [10:07<12:59, 21.07s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  50%|█████     | 36/72 [10:23<11:44, 19.56s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  51%|█████▏    | 37/72 [10:39<10:50, 18.58s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  54%|█████▍    | 39/72 [11:02<08:27, 15.37s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  56%|█████▌    | 40/72 [11:27<09:24, 17.66s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  57%|█████▋    | 41/72 [11:49<09:39, 18.69s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  58%|█████▊    | 42/72 [12:20<11:01, 22.06s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  61%|██████    | 44/72 [12:42<08:04, 17.29s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  67%|██████▋   | 48/72 [13:04<04:18, 10.79s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  68%|██████▊   | 49/72 [13:39<05:39, 14.74s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  69%|██████▉   | 50/72 [14:06<06:16, 17.10s/it]/usr/lib/python3.14/multiprocessing/resource_tracker.py:396: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/mp-zdy90ucv'}
+  warnings.warn(
+Reading assistant prompt file ::   0%|          | 0/1243 [00:00<?, ?it/s]Reading assistant prompt file ::   9%|▊         | 106/1243 [00:00<00:01, 1045.65it/s]Reading assistant prompt file ::  17%|█▋        | 211/1243 [00:00<00:01, 717.46it/s] Reading assistant prompt file ::  23%|██▎       | 289/1243 [00:00<00:01, 638.55it/s]Reading assistant prompt file ::  36%|███▋      | 453/1243 [00:00<00:00, 946.69it/s]Reading assistant prompt file ::  45%|████▍     | 558/1243 [00:00<00:00, 963.65it/s]Reading assistant prompt file ::  53%|█████▎    | 662/1243 [00:00<00:00, 973.72it/s]Reading assistant prompt file ::  68%|██████▊   | 849/1243 [00:00<00:00, 1236.19it/s]Reading assistant prompt file ::  79%|███████▊  | 978/1243 [00:01<00:00, 961.16it/s] Reading assistant prompt file ::  87%|████████▋ | 1087/1243 [00:01<00:00, 906.98it/s]Reading assistant prompt file :: 100%|██████████| 1243/1243 [00:01<00:00, 989.56it/s]
+Reading generation file:   0%|          | 0/1517 [00:00<?, ?it/s]Reading generation file: 100%|██████████| 1517/1517 [00:00<00:00, 46568.93it/s]
+Load 72 generations from /mnt/d/LLM4UT/data/outputs/gemma3_4b_comment_extend_full.jsonl
+Resuming gemma3_4b/Closure: 51 done, 5 remaining. Next: Closure_164
+Evaluating gemma3_4b on Closure:   0%|          | 0/72 [00:00<?, ?it/s]Evaluating gemma3_4b on Closure: 100%|██████████| 72/72 [00:00<00:00, 1776411.11it/s]
+[skip hang] Closure_164
+[skip hang] Closure_167
+[skip hang] Closure_169
+[skip hang] Closure_169
+[skip hang] Closure_169
+Reading generation file:   0%|          | 0/1517 [00:00<?, ?it/s]Reading generation file: 100%|██████████| 1517/1517 [00:00<00:00, 54468.68it/s]
+Load 72 generations from /mnt/d/LLM4UT/data/outputs/mistral_7b_comment_extend_full.jsonl
+Resuming mistral_7b/Closure: 31 done, 27 remaining. Next: Closure_164
+Evaluating mistral_7b on Closure:   0%|          | 0/72 [00:00<?, ?it/s]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  72%|███████▏  | 52/72 [00:33<00:13,  1.53it/s]Evaluating mistral_7b on Closure:  74%|███████▎  | 53/72 [00:40<00:15,  1.22it/s]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  75%|███████▌  | 54/72 [01:15<00:36,  2.05s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  76%|███████▋  | 55/72 [01:44<00:57,  3.40s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  78%|███████▊  | 56/72 [02:04<01:12,  4.55s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  79%|███████▉  | 57/72 [02:43<01:52,  7.49s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  81%|████████  | 58/72 [03:09<02:13,  9.53s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  82%|████████▏ | 59/72 [03:43<02:48, 12.95s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  83%|████████▎ | 60/72 [04:16<03:13, 16.16s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  85%|████████▍ | 61/72 [04:43<03:19, 18.16s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  86%|████████▌ | 62/72 [05:02<03:04, 18.41s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  88%|████████▊ | 63/72 [05:31<03:07, 20.88s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  89%|████████▉ | 64/72 [06:07<03:17, 24.66s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  90%|█████████ | 65/72 [06:36<02:59, 25.68s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  92%|█████████▏| 66/72 [06:59<02:30, 25.01s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  93%|█████████▎| 67/72 [07:23<02:03, 24.71s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  94%|█████████▍| 68/72 [07:46<01:37, 24.31s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  96%|█████████▌| 69/72 [08:02<01:05, 21.84s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  97%|█████████▋| 70/72 [08:14<00:37, 18.86s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure:  99%|█████████▊| 71/72 [08:31<00:18, 18.38s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating mistral_7b on Closure: 100%|██████████| 72/72 [08:46<00:00, 17.49s/it]Evaluating mistral_7b on Closure: 100%|██████████| 72/72 [08:46<00:00,  7.32s/it]
+[skip hang] Closure_164
+[skip hang] Closure_167
+[skip hang] Closure_169
+[skip hang] Closure_169
+[skip hang] Closure_169
+[skip hang] Closure_22
+ERROR: Parameter tuple () not found.
+ERROR: Closure_30 failed compilation even though was given an empty test class.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: method visit not found in com/google/javascript/jscomp/com/google/javascript/jscomp/NameAnalyzer/FindDeclarationsAndSetters
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: method caseObjectType not found in com/google/javascript/jscomp/type/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter/RestrictByOneTypeOfResultVisitor
+ERROR: method parseArguments not found in com/google/javascript/jscomp/com/google/javascript/jscomp/CommandLineRunner/Flags/BooleanOptionHandler
+ERROR: method apply not found in com/google/javascript/jscomp/com/google/javascript/jscomp/FunctionTypeBuilder/ThisTypeValidator
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+Reading generation file:   0%|          | 0/1516 [00:00<?, ?it/s]Reading generation file: 100%|██████████| 1516/1516 [00:00<00:00, 47455.16it/s]
+Load 72 generations from /mnt/d/LLM4UT/data/outputs/deepseek_r1_8b_comment_extend_full.jsonl
+Resuming deepseek_r1_8b/Closure: 0 done, 72 remaining. Next: Closure_102
+Evaluating deepseek_r1_8b on Closure:   0%|          | 0/72 [00:00<?, ?it/s]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:   1%|▏         | 1/72 [00:15<17:59, 15.20s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:   3%|▎         | 2/72 [00:26<15:16, 13.09s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:   4%|▍         | 3/72 [00:43<16:57, 14.75s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:   6%|▌         | 4/72 [01:04<19:42, 17.39s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:   7%|▋         | 5/72 [01:32<23:18, 20.87s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:   8%|▊         | 6/72 [01:52<22:52, 20.79s/it]com/google/javascript/rhino/LLMGeneratedTests.java
+com/google/javascript/rhino/LLMGeneratedTests.java
+Evaluating deepseek_r1_8b on Closure:  10%|▉         | 7/72 [02:11<21:50, 20.16s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  11%|█         | 8/72 [02:22<18:25, 17.28s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  12%|█▎        | 9/72 [02:33<16:08, 15.37s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  14%|█▍        | 10/72 [02:45<14:35, 14.12s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  15%|█▌        | 11/72 [02:56<13:24, 13.19s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  17%|█▋        | 12/72 [03:07<12:35, 12.59s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  18%|█▊        | 13/72 [03:22<13:10, 13.39s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  19%|█▉        | 14/72 [03:35<12:51, 13.30s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  21%|██        | 15/72 [03:48<12:25, 13.08s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  22%|██▏       | 16/72 [04:04<12:58, 13.90s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  24%|██▎       | 17/72 [04:19<13:08, 14.34s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  25%|██▌       | 18/72 [04:32<12:39, 14.07s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  26%|██▋       | 19/72 [04:50<13:15, 15.02s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  28%|██▊       | 20/72 [05:01<12:06, 13.98s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  29%|██▉       | 21/72 [05:15<11:43, 13.79s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  31%|███       | 22/72 [05:28<11:28, 13.77s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  32%|███▏      | 23/72 [05:42<11:07, 13.62s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  33%|███▎      | 24/72 [05:53<10:24, 13.01s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  35%|███▍      | 25/72 [06:05<09:49, 12.53s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  36%|███▌      | 26/72 [06:33<13:12, 17.22s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  38%|███▊      | 27/72 [06:54<13:44, 18.32s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  39%|███▉      | 28/72 [07:17<14:30, 19.77s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  40%|████      | 29/72 [07:51<17:11, 23.99s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  42%|████▏     | 30/72 [08:22<18:18, 26.15s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  43%|████▎     | 31/72 [08:45<17:18, 25.32s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  44%|████▍     | 32/72 [09:15<17:50, 26.77s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  46%|████▌     | 33/72 [09:36<16:09, 24.85s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  47%|████▋     | 34/72 [10:02<16:03, 25.35s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  49%|████▊     | 35/72 [10:19<13:58, 22.67s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  50%|█████     | 36/72 [10:33<12:07, 20.19s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  51%|█████▏    | 37/72 [10:48<10:55, 18.72s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  54%|█████▍    | 39/72 [11:09<08:14, 14.97s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  56%|█████▌    | 40/72 [11:32<08:56, 16.75s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  57%|█████▋    | 41/72 [11:53<09:19, 18.05s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  58%|█████▊    | 42/72 [12:21<10:17, 20.59s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  61%|██████    | 44/72 [12:41<07:29, 16.07s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  67%|██████▋   | 48/72 [13:02<04:00, 10.01s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  68%|██████▊   | 49/72 [13:36<05:23, 14.07s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  69%|██████▉   | 50/72 [14:11<06:33, 17.90s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  72%|███████▏  | 52/72 [14:38<05:28, 16.42s/it]Evaluating deepseek_r1_8b on Closure:  74%|███████▎  | 53/72 [14:45<04:37, 14.59s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  75%|███████▌  | 54/72 [15:20<05:43, 19.08s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  76%|███████▋  | 55/72 [15:47<05:56, 20.99s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  78%|███████▊  | 56/72 [16:08<05:36, 21.01s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  79%|███████▉  | 57/72 [16:35<05:37, 22.51s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  81%|████████  | 58/72 [17:28<07:13, 30.96s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  82%|████████▏ | 59/72 [17:49<06:05, 28.15s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  83%|████████▎ | 60/72 [18:09<05:09, 25.80s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  85%|████████▍ | 61/72 [18:43<05:10, 28.21s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  86%|████████▌ | 62/72 [19:02<04:16, 25.63s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  88%|████████▊ | 63/72 [19:25<03:43, 24.89s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  89%|████████▉ | 64/72 [19:41<02:57, 22.16s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  90%|█████████ | 65/72 [20:00<02:29, 21.36s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  92%|█████████▏| 66/72 [20:20<02:04, 20.73s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  93%|█████████▎| 67/72 [20:41<01:44, 20.82s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  94%|█████████▍| 68/72 [21:04<01:26, 21.53s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  96%|█████████▌| 69/72 [21:19<00:58, 19.66s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  97%|█████████▋| 70/72 [21:31<00:34, 17.21s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure:  99%|█████████▊| 71/72 [21:46<00:16, 16.77s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating deepseek_r1_8b on Closure: 100%|██████████| 72/72 [22:02<00:00, 16.47s/it]Evaluating deepseek_r1_8b on Closure: 100%|██████████| 72/72 [22:02<00:00, 18.37s/it]
+ERROR: Parameter tuple () not found.
+ERROR: method getTypeWithProperty not found in com/google/javascript/jscomp/com/google/javascript/jscomp/DisambiguateProperties/JSTypeSystem
+ERROR: Parameter tuple () not found.
+ERROR: method visit not found in com/google/javascript/jscomp/com/google/javascript/jscomp/ScopedAliases/Traversal
+ERROR: Parameter tuple () not found.
+ERROR: method collect not found in com/google/javascript/jscomp/com/google/javascript/jscomp/GlobalNamespace/BuildGlobalNamespace
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: method addNode not found in com/google/javascript/jscomp/com/google/javascript/jscomp/AmbiguateProperties/PropertySubGraph
+ERROR: method visit not found in com/google/javascript/jscomp/com/google/javascript/jscomp/RenameVars/ProcessVars
+ERROR: method addDeclaredName not found in com/google/javascript/jscomp/com/google/javascript/jscomp/MakeDeclaredNamesUnique/ContextualRenamer
+ERROR: method addDeclaredName not found in com/google/javascript/jscomp/com/google/javascript/jscomp/MakeDeclaredNamesUnique/InlineRenamer
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: method onRedeclaration not found in com/google/javascript/jscomp/com/google/javascript/jscomp/Normalize/DuplicateDeclarationHandler
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: method visit not found in com/google/javascript/jscomp/com/google/javascript/jscomp/SourceMap/UsedMappingCheck
+ERROR: Parameter tuple () not found.
+ERROR: method visit not found in com/google/javascript/jscomp/com/google/javascript/jscomp/TypedScopeCreator/LocalScopeBuilder
+ERROR: method onRedeclaration not found in com/google/javascript/jscomp/com/google/javascript/jscomp/SyntacticScopeCreator/DefaultRedeclarationHandler
+ERROR: method onRedeclaration not found in com/google/javascript/jscomp/com/google/javascript/jscomp/Normalize/DuplicateDeclarationHandler
+ERROR: method hashCode not found in com/google/javascript/jscomp/com/google/javascript/jscomp/Scope/Arguments
+ERROR: Parameter tuple () not found.
+ERROR: method addValue not found in com/google/javascript/jscomp/com/google/javascript/jscomp/CommandLineRunner/Flags/WarningGuardSetter
+ERROR: Parameter tuple () not found.
+ERROR: method visit not found in com/google/javascript/jscomp/com/google/javascript/jscomp/ScopedAliases/Traversal
+ERROR: Parameter tuple () not found.
+ERROR: method remove not found in com/google/javascript/jscomp/com/google/javascript/jscomp/AnalyzePrototypeProperties/GlobalFunction
+ERROR: method remove not found in com/google/javascript/jscomp/com/google/javascript/jscomp/AnalyzePrototypeProperties/AssignmentProperty
+ERROR: method remove not found in com/google/javascript/jscomp/com/google/javascript/jscomp/AnalyzePrototypeProperties/LiteralProperty
+[skip hang] Closure_164
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+[skip hang] Closure_167
+ERROR: method visit not found in com/google/javascript/jscomp/com/google/javascript/jscomp/TypedScopeCreator/FirstOrderFunctionAnalyzer
+[skip hang] Closure_169
+[skip hang] Closure_169
+[skip hang] Closure_169
+ERROR: method applyAlias not found in com/google/javascript/jscomp/com/google/javascript/jscomp/ScopedAliases/AliasedTypeNode
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+[skip hang] Closure_22
+ERROR: Parameter tuple () not found.
+ERROR: Closure_30 failed compilation even though was given an empty test class.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: method visit not found in com/google/javascript/jscomp/com/google/javascript/jscomp/NameAnalyzer/FindDeclarationsAndSetters
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: method caseObjectType not found in com/google/javascript/jscomp/type/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter/RestrictByOneTypeOfResultVisitor
+ERROR: method parseArguments not found in com/google/javascript/jscomp/com/google/javascript/jscomp/CommandLineRunner/Flags/BooleanOptionHandler
+ERROR: method apply not found in com/google/javascript/jscomp/com/google/javascript/jscomp/FunctionTypeBuilder/ThisTypeValidator
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+Reading generation file:   0%|          | 0/1515 [00:00<?, ?it/s]Reading generation file: 100%|██████████| 1515/1515 [00:00<00:00, 45193.71it/s]
+Load 72 generations from /mnt/d/LLM4UT/data/outputs/llama4_scout_17b_comment_extend_full.jsonl
+Resuming llama4_scout_17b/Closure: 0 done, 72 remaining. Next: Closure_102
+Evaluating llama4_scout_17b on Closure:   0%|          | 0/72 [00:00<?, ?it/s]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:   1%|▏         | 1/72 [00:16<19:46, 16.71s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:   3%|▎         | 2/72 [00:37<22:20, 19.15s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:   4%|▍         | 3/72 [00:53<20:34, 17.89s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:   6%|▌         | 4/72 [01:17<22:36, 19.95s/it]com/google/javascript/rhino/LLMGeneratedTests.java
+com/google/javascript/rhino/LLMGeneratedTests.java
+Evaluating llama4_scout_17b on Closure:   7%|▋         | 5/72 [01:52<28:22, 25.40s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:   8%|▊         | 6/72 [02:12<26:13, 23.84s/it]com/google/javascript/rhino/LLMGeneratedTests.java
+com/google/javascript/rhino/LLMGeneratedTests.java
+Evaluating llama4_scout_17b on Closure:  10%|▉         | 7/72 [02:34<25:10, 23.23s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  11%|█         | 8/72 [02:52<22:46, 21.36s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  12%|█▎        | 9/72 [03:04<19:32, 18.61s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  14%|█▍        | 10/72 [03:16<16:57, 16.40s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  15%|█▌        | 11/72 [03:27<15:10, 14.93s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  17%|█▋        | 12/72 [03:39<13:52, 13.88s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  18%|█▊        | 13/72 [03:56<14:34, 14.82s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  19%|█▉        | 14/72 [04:13<15:01, 15.54s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  21%|██        | 15/72 [04:25<13:36, 14.32s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  22%|██▏       | 16/72 [04:42<14:11, 15.21s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  24%|██▎       | 17/72 [04:59<14:21, 15.66s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  25%|██▌       | 18/72 [05:13<13:46, 15.30s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  26%|██▋       | 19/72 [05:30<13:55, 15.77s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  28%|██▊       | 20/72 [05:41<12:29, 14.40s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  29%|██▉       | 21/72 [05:56<12:25, 14.61s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  31%|███       | 22/72 [06:17<13:44, 16.50s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  32%|███▏      | 23/72 [06:34<13:34, 16.62s/it]com/google/javascript/jscomp/LLMGeneratedTests.java
+com/google/javascript/jscomp/LLMGeneratedTests.java
+Evaluating llama4_scout_17b on Closure:  33%|███▎      | 24/72 [06:48<12:44, 15.93s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  35%|███▍      | 25/72 [07:00<11:26, 14.61s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  36%|███▌      | 26/72 [07:15<11:19, 14.76s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  38%|███▊      | 27/72 [07:30<11:13, 14.96s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  39%|███▉      | 28/72 [07:57<13:30, 18.42s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  40%|████      | 29/72 [08:13<12:41, 17.72s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  42%|████▏     | 30/72 [08:40<14:19, 20.46s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  43%|████▎     | 31/72 [08:55<12:58, 18.99s/it]com/google/javascript/jscomp/LLMGeneratedTests.java
+com/google/javascript/jscomp/LLMGeneratedTests.java
+Evaluating llama4_scout_17b on Closure:  44%|████▍     | 32/72 [09:25<14:53, 22.34s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  46%|████▌     | 33/72 [09:45<14:03, 21.63s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  47%|████▋     | 34/72 [10:27<17:23, 27.46s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  49%|████▊     | 35/72 [10:41<14:35, 23.67s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  50%|█████     | 36/72 [10:55<12:24, 20.69s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  51%|█████▏    | 37/72 [11:10<10:59, 18.85s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  54%|█████▍    | 39/72 [11:35<08:49, 16.05s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  56%|█████▌    | 40/72 [12:02<09:56, 18.63s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  57%|█████▋    | 41/72 [12:27<10:34, 20.47s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  58%|█████▊    | 42/72 [12:59<11:45, 23.52s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  61%|██████    | 44/72 [13:20<08:19, 17.85s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  67%|██████▋   | 48/72 [13:41<04:21, 10.88s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  68%|██████▊   | 49/72 [14:24<06:10, 16.10s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  69%|██████▉   | 50/72 [15:05<07:40, 20.95s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  72%|███████▏  | 52/72 [15:48<07:02, 21.11s/it]Reading assistant prompt file ::   0%|          | 0/1243 [00:00<?, ?it/s]Reading assistant prompt file ::   8%|▊         | 100/1243 [00:00<00:01, 968.39it/s]Reading assistant prompt file ::  16%|█▌        | 197/1243 [00:00<00:01, 715.12it/s]Reading assistant prompt file ::  22%|██▏       | 273/1243 [00:00<00:01, 655.06it/s]Reading assistant prompt file ::  36%|███▌      | 443/1243 [00:00<00:00, 993.41it/s]Reading assistant prompt file ::  44%|████▍     | 551/1243 [00:00<00:00, 987.22it/s]Reading assistant prompt file ::  53%|█████▎    | 655/1243 [00:00<00:00, 955.14it/s]Reading assistant prompt file ::  67%|██████▋   | 837/1243 [00:00<00:00, 1207.63it/s]Reading assistant prompt file ::  77%|███████▋  | 963/1243 [00:01<00:00, 920.27it/s] Reading assistant prompt file ::  86%|████████▌ | 1068/1243 [00:01<00:00, 839.02it/s]Reading assistant prompt file :: 100%|██████████| 1243/1243 [00:01<00:00, 971.37it/s]
+Reading generation file:   0%|          | 0/1517 [00:00<?, ?it/s]Reading generation file: 100%|██████████| 1517/1517 [00:00<00:00, 49905.95it/s]
+Load 72 generations from /mnt/d/LLM4UT/data/outputs/gemma3_4b_comment_extend_full.jsonl
+Resuming gemma3_4b/Closure: 51 done, 5 remaining. Next: Closure_164
+Evaluating gemma3_4b on Closure:   0%|          | 0/72 [00:00<?, ?it/s]Evaluating gemma3_4b on Closure: 100%|██████████| 72/72 [00:00<00:00, 1887436.80it/s]
+[skip hang] Closure_164
+[skip hang] Closure_167
+[skip hang] Closure_169
+[skip hang] Closure_169
+[skip hang] Closure_169
+Reading generation file:   0%|          | 0/1517 [00:00<?, ?it/s]Reading generation file: 100%|██████████| 1517/1517 [00:00<00:00, 50564.30it/s]
+Load 72 generations from /mnt/d/LLM4UT/data/outputs/mistral_7b_comment_extend_full.jsonl
+Resuming mistral_7b/Closure: 50 done, 6 remaining. Next: Closure_164
+Evaluating mistral_7b on Closure:   0%|          | 0/72 [00:00<?, ?it/s]Evaluating mistral_7b on Closure: 100%|██████████| 72/72 [00:00<00:00, 1668452.42it/s]
+[skip hang] Closure_164
+[skip hang] Closure_167
+[skip hang] Closure_169
+[skip hang] Closure_169
+[skip hang] Closure_169
+[skip hang] Closure_22
+Reading generation file:   0%|          | 0/1516 [00:00<?, ?it/s]Reading generation file: 100%|██████████| 1516/1516 [00:00<00:00, 43812.89it/s]
+Load 72 generations from /mnt/d/LLM4UT/data/outputs/deepseek_r1_8b_comment_extend_full.jsonl
+Resuming deepseek_r1_8b/Closure: 50 done, 6 remaining. Next: Closure_164
+Evaluating deepseek_r1_8b on Closure:   0%|          | 0/72 [00:00<?, ?it/s]Evaluating deepseek_r1_8b on Closure: 100%|██████████| 72/72 [00:00<00:00, 1212810.80it/s]
+[skip hang] Closure_164
+[skip hang] Closure_167
+[skip hang] Closure_169
+[skip hang] Closure_169
+[skip hang] Closure_169
+[skip hang] Closure_22
+Reading generation file:   0%|          | 0/1515 [00:00<?, ?it/s]Reading generation file: 100%|██████████| 1515/1515 [00:00<00:00, 50264.76it/s]
+Load 72 generations from /mnt/d/LLM4UT/data/outputs/llama4_scout_17b_comment_extend_full.jsonl
+Resuming llama4_scout_17b/Closure: 32 done, 26 remaining. Next: Closure_164
+Evaluating llama4_scout_17b on Closure:   0%|          | 0/72 [00:00<?, ?it/s]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  75%|███████▌  | 54/72 [00:41<00:13,  1.31it/s]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  76%|███████▋  | 55/72 [01:20<00:29,  1.75s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  78%|███████▊  | 56/72 [01:40<00:38,  2.40s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  79%|███████▉  | 57/72 [02:16<01:00,  4.01s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  81%|████████  | 58/72 [02:54<01:27,  6.23s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  82%|████████▏ | 59/72 [03:31<01:54,  8.80s/it]com/google/javascript/jscomp/LLMGeneratedTests.java
+com/google/javascript/jscomp/LLMGeneratedTests.java
+Evaluating llama4_scout_17b on Closure:  83%|████████▎ | 60/72 [04:09<02:23, 11.97s/it]com/google/javascript/jscomp/LLMGeneratedTests.java
+com/google/javascript/jscomp/LLMGeneratedTests.java
+Evaluating llama4_scout_17b on Closure:  85%|████████▍ | 61/72 [04:49<02:52, 15.70s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  86%|████████▌ | 62/72 [05:20<03:01, 18.11s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  88%|████████▊ | 63/72 [05:45<02:55, 19.55s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  89%|████████▉ | 64/72 [06:11<02:46, 20.84s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  90%|█████████ | 65/72 [06:33<02:26, 20.97s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  92%|█████████▏| 66/72 [06:58<02:13, 22.19s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  93%|█████████▎| 67/72 [07:18<01:47, 21.45s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  94%|█████████▍| 68/72 [07:43<01:29, 22.49s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  96%|█████████▌| 69/72 [07:58<01:00, 20.25s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  97%|█████████▋| 70/72 [08:08<00:35, 17.58s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure:  99%|█████████▊| 71/72 [08:27<00:17, 17.98s/it]org/llm/gen/tests/EmptyTests.java
+org/llm/gen/tests/EmptyTests.java
+Evaluating llama4_scout_17b on Closure: 100%|██████████| 72/72 [08:43<00:00, 17.41s/it]Evaluating llama4_scout_17b on Closure: 100%|██████████| 72/72 [08:43<00:00,  7.28s/it]
+[skip hang] Closure_164
+[skip hang] Closure_167
+[skip hang] Closure_169
+[skip hang] Closure_169
+[skip hang] Closure_169
+[skip hang] Closure_22
+[skip hang] Closure_30
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: method visit not found in com/google/javascript/jscomp/com/google/javascript/jscomp/NameAnalyzer/FindDeclarationsAndSetters
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+ERROR: method caseObjectType not found in com/google/javascript/jscomp/type/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter/RestrictByOneTypeOfResultVisitor
+ERROR: method parseArguments not found in com/google/javascript/jscomp/com/google/javascript/jscomp/CommandLineRunner/Flags/BooleanOptionHandler
+ERROR: method apply not found in com/google/javascript/jscomp/com/google/javascript/jscomp/FunctionTypeBuilder/ThisTypeValidator
+ERROR: Parameter tuple () not found.
+ERROR: Parameter tuple () not found.
+Skipping JxPath (all models complete)
+Skipping Cli (all models complete)
+Skipping Math (all models complete)
+Skipping Csv (all models complete)
+Skipping Compress (all models complete)
+Skipping JacksonDatabind (all models complete)
+Skipping Time (all models complete)
+Skipping Collections (all models complete)
+Skipping JacksonXml (all models complete)
+Skipping JacksonCore (all models complete)
+Skipping Lang (all models complete)
+Skipping Jsoup (all models complete)
+Skipping Chart (all models complete)
+Skipping Gson (all models complete)
+  gemma3_4b/Closure: 67/72 — will rerun
+  mistral_7b/Closure: 66/72 — will rerun
+  deepseek_r1_8b/Closure: 66/72 — will rerun
+  llama4_scout_17b/Closure: 46/72 — will rerun
+Skipping Codec (all models complete)
+
+Waiting for 1 project(s) to finish...
+All evaluations finished.
+Reading assistant prompt file ::   0%|          | 0/1243 [00:00<?, ?it/s]Reading assistant prompt file ::   2%|▏         | 31/1243 [00:00<00:03, 305.47it/s]Reading assistant prompt file ::   8%|▊         | 104/1243 [00:00<00:02, 532.79it/s]Reading assistant prompt file ::  13%|█▎        | 157/1243 [00:00<00:04, 263.39it/s]Reading assistant prompt file ::  16%|█▌        | 194/1243 [00:00<00:04, 252.35it/s]Reading assistant prompt file ::  18%|█▊        | 225/1243 [00:00<00:04, 233.35it/s]Reading assistant prompt file ::  20%|██        | 252/1243 [00:01<00:04, 213.50it/s]Reading assistant prompt file ::  22%|██▏       | 276/1243 [00:01<00:05, 187.43it/s]Reading assistant prompt file ::  29%|██▉       | 358/1243 [00:01<00:04, 214.36it/s]Reading assistant prompt file ::  31%|███       | 380/1243 [00:01<00:04, 214.70it/s]Reading assistant prompt file ::  39%|███▉      | 485/1243 [00:01<00:02, 374.84it/s]Reading assistant prompt file ::  44%|████▍     | 545/1243 [00:01<00:01, 420.90it/s]Reading assistant prompt file ::  48%|████▊     | 596/1243 [00:01<00:01, 393.37it/s]Reading assistant prompt file ::  54%|█████▍    | 674/1243 [00:02<00:01, 481.92it/s]Reading assistant prompt file ::  59%|█████▊    | 730/1243 [00:02<00:02, 195.37it/s]Reading assistant prompt file ::  68%|██████▊   | 851/1243 [00:02<00:01, 317.08it/s]Reading assistant prompt file ::  74%|███████▎  | 916/1243 [00:03<00:00, 333.53it/s]Reading assistant prompt file ::  81%|████████  | 1005/1243 [00:03<00:00, 400.48it/s]Reading assistant prompt file ::  86%|████████▌ | 1065/1243 [00:03<00:00, 417.16it/s]Reading assistant prompt file :: 100%|█████████▉| 1237/1243 [00:03<00:00, 671.34it/s]Reading assistant prompt file :: 100%|██████████| 1243/1243 [00:03<00:00, 359.20it/s]
+Reading generation file:   0%|          | 0/1517 [00:00<?, ?it/s]Reading generation file: 100%|██████████| 1517/1517 [00:00<00:00, 45269.47it/s]
+Load 72 generations from /mnt/d/LLM4UT/data/outputs/gemma3_4b_comment_extend_full.jsonl
+Resuming gemma3_4b/Closure: 51 done, 5 remaining. Next: Closure_164
+Evaluating gemma3_4b on Closure:   0%|          | 0/72 [00:00<?, ?it/s]Evaluating gemma3_4b on Closure: 100%|██████████| 72/72 [00:00<00:00, 24248.43it/s]
+[skip hang] Closure_164
+[skip hang] Closure_167
+[skip hang] Closure_169
+[skip hang] Closure_169
+[skip hang] Closure_169
+Reading generation file:   0%|          | 0/1517 [00:00<?, ?it/s]Reading generation file: 100%|██████████| 1517/1517 [00:00<00:00, 45493.45it/s]
+Load 72 generations from /mnt/d/LLM4UT/data/outputs/mistral_7b_comment_extend_full.jsonl
+Resuming mistral_7b/Closure: 50 done, 6 remaining. Next: Closure_164
+Evaluating mistral_7b on Closure:   0%|          | 0/72 [00:00<?, ?it/s]Evaluating mistral_7b on Closure: 100%|██████████| 72/72 [00:00<00:00, 11030.39it/s]
+[skip hang] Closure_164
+[skip hang] Closure_167
+[skip hang] Closure_169
+[skip hang] Closure_169
+[skip hang] Closure_169
+[skip hang] Closure_22
+Reading generation file:   0%|          | 0/1516 [00:00<?, ?it/s]Reading generation file: 100%|██████████| 1516/1516 [00:00<00:00, 45382.01it/s]
+Load 72 generations from /mnt/d/LLM4UT/data/outputs/deepseek_r1_8b_comment_extend_full.jsonl
+Resuming deepseek_r1_8b/Closure: 50 done, 6 remaining. Next: Closure_164
+Evaluating deepseek_r1_8b on Closure:   0%|          | 0/72 [00:00<?, ?it/s]Evaluating deepseek_r1_8b on Closure: 100%|██████████| 72/72 [00:00<00:00, 5979.29it/s]
+[skip hang] Closure_164
+[skip hang] Closure_167
+[skip hang] Closure_169
+[skip hang] Closure_169
+[skip hang] Closure_169
+[skip hang] Closure_22
+Reading generation file:   0%|          | 0/1515 [00:00<?, ?it/s]Reading generation file: 100%|██████████| 1515/1515 [00:00<00:00, 18132.65it/s]
+Load 72 generations from /mnt/d/LLM4UT/data/outputs/llama4_scout_17b_comment_extend_full.jsonl
+Resuming llama4_scout_17b/Closure: 49 done, 7 remaining. Next: Closure_164
+Evaluating llama4_scout_17b on Closure:   0%|          | 0/72 [00:00<?, ?it/s]Evaluating llama4_scout_17b on Closure: 100%|██████████| 72/72 [00:00<00:00, 7634.10it/s]
+[skip hang] Closure_164
+[skip hang] Closure_167
+[skip hang] Closure_169
+[skip hang] Closure_169
+[skip hang] Closure_169
+[skip hang] Closure_22
+[skip hang] Closure_30
+Skipping JxPath (all models complete)
+Skipping Cli (all models complete)
+Skipping Math (all models complete)
+Skipping Csv (all models complete)
+Skipping Compress (all models complete)
+Skipping JacksonDatabind (all models complete)
+Skipping Time (all models complete)
+Skipping Collections (all models complete)
+Skipping JacksonXml (all models complete)
+Skipping JacksonCore (all models complete)
+Skipping Lang (all models complete)
+Skipping Jsoup (all models complete)
+Skipping Chart (all models complete)
+Skipping Gson (all models complete)
+  gemma3_4b/Closure: 67/72 — will rerun
+  mistral_7b/Closure: 66/72 — will rerun
+  deepseek_r1_8b/Closure: 66/72 — will rerun
+  llama4_scout_17b/Closure: 65/72 — will rerun
+Skipping Codec (all models complete)
+
+Waiting for 1 project(s) to finish...
+All evaluations finished.

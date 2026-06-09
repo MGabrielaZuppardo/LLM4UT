@@ -76,18 +76,59 @@ def main(target_project="Chart"):
 
                     print("Load %d generations from %s" % (len(datas), input_file))
 
-                    # 定义输出指标
+                    # Carrega bug_ids já processados para retomar de onde parou
+                    result_path = os.path.join(
+                        output_base,
+                        f"{target_project}_{format}_{strategy}_{ablation}.jsonl"
+                    )
+                    done_bug_ids = set()
+                    if os.path.exists(result_path):
+                        with open(result_path, "r", encoding="utf-8") as _rf:
+                            for _line in _rf:
+                                try:
+                                    _d = json.loads(_line)
+                                    _bid = _d.get("bug_id") or _d.get("id")
+                                    if _bid:
+                                        done_bug_ids.add(_bid)
+                                except Exception:
+                                    pass
+
                     analyze_res_writer = open(
-                        f"{output_base}/{target_project}_{format}_{strategy}_{ablation}.jsonl",
-                        "w",
+                        result_path,
+                        "a" if done_bug_ids else "w",
                         encoding="utf-8",
                     )
+                    pending = [d for d in datas if (d.get("id", "") not in done_bug_ids)]
+                    print(f"Resuming {tgt_model}/{target_project}: "
+                          f"{len(done_bug_ids)} done, {len(pending)} remaining. "
+                          f"Next: {pending[0].get('id') if pending else 'none'}")
                     # 开始遍历模型输出结果，进行编译&测试，统计收集指标
                     for index, data in tqdm(
                             enumerate(datas),
                             total=len(datas),
                             desc=f"Evaluating {tgt_model} on {target_project}",
                     ):
+                        _bid = data.get("id", "")
+                        if _bid in done_bug_ids:
+                            continue
+                        # Bugs que travam o compile no WSL2 — registra como falha e pula
+                        _HANG_PREFIXES = ("Closure_164", "Closure_167", "Closure_169", "Closure_22", "Closure_30")
+                        if any(_bid.startswith(p) for p in _HANG_PREFIXES):
+                            print(f"[skip hang] {_bid}")
+                            _skip_rec = dict(data)
+                            _skip_rec.update({
+                                "index": index, "bug_id": _bid,
+                                "exception": "compile_hang_skipped",
+                                "first_compile_res": "error", "second_compile_res": "error",
+                                "is_empty_test": True, "num_total_uts": 0,
+                                "num_compilable_uts": 0, "num_executed_uts": 0,
+                                "num_passed_uts": 0, "covered_lines": 0,
+                                "missed_lines": 0, "covered_branches": 0,
+                                "missed_branches": 0,
+                            })
+                            analyze_res_writer.write(json.dumps(_skip_rec) + "\n")
+                            analyze_res_writer.flush()
+                            continue
                         try:
                             res_dict = run(
                                 model=tgt_model,

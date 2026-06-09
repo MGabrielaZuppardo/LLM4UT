@@ -18,7 +18,7 @@ report_dir = f"{code_base}/rq1/coverage_reports"
 if os.path.exists(report_dir):
     os.system(f"rm -rf {report_dir}")
 
-results_base = os.path.join(code_base, "data/rq1/results_0128")
+results_base = configuration.output_base_dir  # lê de configuration.output_dir
 
 
 def expected_count(model, project):

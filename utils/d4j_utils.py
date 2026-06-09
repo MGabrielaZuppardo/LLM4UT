@@ -7,6 +7,7 @@ import json
 import re
 import signal
 import subprocess
+import threading
 import pickle
 import xml.etree.ElementTree as ET
 
@@ -14,6 +15,7 @@ from tqdm import tqdm
 from collections import Counter, defaultdict
 
 from utils.exceptions import *
+
 from data.configuration import d4j_proj_base, code_base, d4j_command
 from utils.java_parser import (
     parse_import_stmts_from_file_code,
@@ -502,12 +504,55 @@ def _compile_and_collect_results(root):
     clean_path_parts = [p for p in env.get("PATH", "").split(":") if not p.startswith("/mnt/c") and not p.startswith("/mnt/d")]
     env["PATH"] = ":".join(clean_path_parts)
 
-    compile_proc = subprocess.run(
+    _timed_out = [False]
+    _proc_holder = [None]
+
+    def _force_kill_compile():
+        _timed_out[0] = True
+        # Mata Java e filhos pelo caminho do diretório no argumento
+        subprocess.run(["pkill", "-9", "-f", root], capture_output=True)
+        # Mata também o processo direto (defects4j) para desbloquear communicate()
+        p = _proc_holder[0]
+        if p is not None:
+            try:
+                p.kill()
+            except Exception:
+                pass
+
+    _compile_p = subprocess.Popen(
         [d4j_command, "compile"],
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
         env=env,
     )
+    _proc_holder[0] = _compile_p
+    _timer = threading.Timer(120, _force_kill_compile)
+    _timer.start()
+    try:
+        # communicate(timeout=130): se o timer (120s) matar tudo mas communicate
+        # ainda bloquear por algum motivo, força saída após 130s
+        _stdout, _stderr = _compile_p.communicate(timeout=130)
+    except subprocess.TimeoutExpired:
+        _force_kill_compile()
+        _timed_out[0] = True
+        _stdout, _stderr = b"", b""
+    finally:
+        _timer.cancel()
+
+    if _timed_out[0]:
+        compile_proc = subprocess.CompletedProcess(
+            args=[d4j_command, "compile"],
+            returncode=1,
+            stdout=b"",
+            stderr=b"ERROR: compile timed out after 120s\n",
+        )
+    else:
+        compile_proc = subprocess.CompletedProcess(
+            args=[d4j_command, "compile"],
+            returncode=_compile_p.returncode,
+            stdout=_stdout,
+            stderr=_stderr,
+        )
 
     del os.environ['JAVA_TOOL_OPTIONS']
 
