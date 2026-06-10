@@ -1,8 +1,11 @@
 data/
 logs/
+venv/
+.venv/
 **/__pycache__/
 **/*.pyc
 **/*.pyo
 .git/
 .idea/
 *.egg-info/
+.claude/
