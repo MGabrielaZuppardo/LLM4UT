@@ -1,0 +1,44 @@
+# Versão pip-compatível dos pacotes principais do projeto.
+# Exclui torch/transformers para manter a imagem leve (~2 GB vs ~7 GB).
+# Para habilitar inferência local com modelos Hugging Face, adicione:
+#   torch==2.2.0
+#   transformers==4.38.0
+
+# --- Análise de dados ---
+pandas==2.1.4
+numpy==1.26.2
+scipy==1.12.0
+networkx==3.2.1
+sympy==1.12
+mpmath==1.3.0
+numexpr==2.8.7
+
+# --- Utilitários ---
+tqdm==4.65.0
+requests==2.31.0
+pyyaml==6.0.1
+lxml==5.1.0
+psutil==5.9.8
+pyarrow==11.0.0
+packaging==23.1
+
+# --- Parsing Java ---
+javalang==0.13.0
+tree-sitter==0.22.3
+tree-sitter-java==0.21.0
+
+# --- APIs de LLM ---
+openai==1.35.10
+groq
+ollama
+
+# --- Dados / Hugging Face ---
+datasets==2.12.0
+huggingface_hub==0.20.3
+tokenizers==0.15.1
+safetensors==0.4.2
+
+# --- Testes ---
+pytest==7.4.4
+pytest-cov
+responses==0.13.3
