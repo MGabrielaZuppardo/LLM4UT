@@ -22,3 +22,6 @@ rq1/coverage_reports/
 .env
 CLAUDE.md
 .gitignore
+.venv 
+.pytest_cache
+
