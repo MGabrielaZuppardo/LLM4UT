@@ -20,3 +20,5 @@ data/prompts/source_data.jsonl
 rq1/coverage_reports/
 
 .env
+CLAUDE.md
+.gitignore
