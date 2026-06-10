@@ -10,7 +10,7 @@ Esta versão replica a metodologia com modelos pós-2024 executados via Ollama (
 adaptando o pipeline de inferência para ambientes sem GPU de alto desempenho.
 
 **Instituição:** Programa de Pós-Graduação em Ciência da Computação — UFPE
-**Disciplina:** Engenharia de Software
+**Disciplina:** Engenharia de Software 
 
 ---
 
