@@ -1,6 +1,7 @@
 import os.path
 import sys
 
+sys.stdout.reconfigure(encoding='utf-8')
 sys.path.extend(['.', '..'])
 import json
 import re
@@ -58,7 +59,7 @@ def report_compile_rate(in_file):
                     compile_classes += 1
                     pass
                 else:
-                    err_msg_lines = instance['first_compile_error'].split('\n')
+                    err_msg_lines = (instance.get('first_compile_error') or '').split('\n')
                     pattern = r'error: (.*)'
                     for msg_line in err_msg_lines:
                         match = re.search(pattern, msg_line)
@@ -101,10 +102,10 @@ def report_execution_rates(in_file):
             for line in reader.readlines():
                 line = line.strip()
                 instance = json.loads(line)
-                executable_uts += instance['num_executed_uts']
-                passed_uts += instance['num_passed_uts']
-                compile_uts += instance['num_compilable_uts']
-                execution_errors.update(instance['fixed_execution_error_types'])
+                executable_uts += instance.get('num_executed_uts', 0)
+                passed_uts += instance.get('num_passed_uts', 0)
+                compile_uts += instance.get('num_compilable_uts', 0)
+                execution_errors.update(instance.get('fixed_execution_error_types') or {})
 
         return passed_uts, executable_uts, compile_uts, execution_errors
 
@@ -206,7 +207,7 @@ if __name__ == '__main__':
                     model_passed_rate = num_passed_uts / num_executable_uts if num_executable_uts != 0 else 0
                     df['model'].append(model)
                     df['project'].append('all')
-                    df['strateg=y'].append(strategy)
+                    df['strategy'].append(strategy)
                     df['ablation'].append(ablation)
                     df['compilable_classes'].append(num_compiled_classes)
                     df['total_classes'].append(num_all_classes)
