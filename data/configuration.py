@@ -52,19 +52,17 @@ projects = [
 
 target_models = [
     # --- T0 (temperatura=0, metodologia do paper) ---
-    "gemma3_4b",       # Ollama local — 1517/1517 inferências prontas
-    "mistral_7b",      # Ollama local — 1517/1517 inferências prontas
-    "deepseek_r1_8b",  # Ollama local — 1516/1517 inferências prontas
-    "llama4_scout_17b",# Groq API     — 1515/1517 inferências prontas
-    # --- pendentes (inferência incompleta) ---
-    # "llama3.1_8b",  # abandonado — prazo insuficiente   # 113/1517 — retomar depois
-    # "gemma4_31b",    # 34/1517  — retomar depois
-    # --- T1 (temperatura=1, avaliados mas fora da metodologia) ---
-    # "deepseek_r1_1.5b",
+    "gemma3_4b",          # Ollama local — 1517/1517 inferências prontas
+    "mistral_7b",         # Ollama local — 1517/1517 inferências prontas
+    "deepseek_r1_8b",     # Ollama local — 1516/1517 inferências prontas
+    "llama4_scout_17b",   # Groq API     — 1515/1517 inferências prontas
+    "deepseek_r1_1.5b",   # Ollama local — 1517/1517 inferências prontas
+    # --- abandonados (prazo insuficiente) ---
+    # "llama3.1_8b",      # 113/1517 incompleto
+    # "gemma4_31b",       # 34/1517  incompleto
     # --- outros slots planejados ---
     # "gemma3_12b",
     # "gemma3_27b",
-    # "gemma4_31b",   # abandonado — prazo insuficiente
     # "deepseek_r1_32b",
     # "qwen3_32b",
 ]
