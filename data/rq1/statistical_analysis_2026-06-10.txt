@@ -1,0 +1,51 @@
+Análise Estatística — LLM4UT
+Gerado em: 2026-06-10 18:44:40
+Configuração: format=comment, strategy=extend, ablation=full
+Modelos: gemma3_4b, mistral_7b, deepseek_r1_8b, llama4_scout_17b, deepseek_r1_1.5b
+Projetos: JxPath, Cli, Math, Csv, Compress, JacksonDatabind, Time, Collections, JacksonXml, JacksonCore, Lang, Jsoup, Chart, Gson, Closure, Codec
+Alpha: 0.05
+Teste: Wilcoxon signed-rank (two-sided), zero_method='wilcox'
+Effect size: rank-biserial r  (|r|<0.10 negligivel, <0.30 pequeno, <0.50 medio, >=0.50 grande)
+
+Metrica Modelo A                  Modelo B                      n   meanA   meanB          W         p  sig       r efeito
+--------------------------------------------------------------------------------------------------------------------------
+CSR    gemma3_4b                 mistral_7b                  777  0.9743  0.9743        0.0       1.0    N     0.0 negligível
+CSR    gemma3_4b                 deepseek_r1_8b              777  0.9743  0.9743        0.0       1.0    N     0.0 negligível
+CSR    gemma3_4b                 llama4_scout_17b            775  0.9742  0.9729       72.0  0.808365    N  0.0588 negligível
+CSR    gemma3_4b                 deepseek_r1_1.5b            777  0.9743   0.973        0.0  0.317311    N     1.0 grande
+CSR    mistral_7b                deepseek_r1_8b              777  0.9743  0.9743        0.0       1.0    N     0.0 negligível
+CSR    mistral_7b                llama4_scout_17b            775  0.9742  0.9729       72.0  0.808365    N  0.0588 negligível
+CSR    mistral_7b                deepseek_r1_1.5b            777  0.9743   0.973        0.0  0.317311    N     1.0 grande
+CSR    deepseek_r1_8b            llama4_scout_17b            775  0.9742  0.9729       72.0  0.808365    N  0.0588 negligível
+CSR    deepseek_r1_8b            deepseek_r1_1.5b            777  0.9743   0.973        0.0  0.317311    N     1.0 grande
+CSR    llama4_scout_17b          deepseek_r1_1.5b            775  0.9729  0.9729       85.5       1.0    N     0.0 negligível
+CovL   gemma3_4b                 mistral_7b                  777  0.1451  0.0248      567.0       0.0    S    0.88 grande
+CovL   gemma3_4b                 deepseek_r1_8b              777  0.1451  0.0301      845.5       0.0    S  0.8262 grande
+CovL   gemma3_4b                 llama4_scout_17b            775  0.1442   0.072     3964.0     8e-06    S  0.3995 médio
+CovL   gemma3_4b                 deepseek_r1_1.5b            777  0.1451     0.0        0.0       0.0    S     1.0 grande
+CovL   mistral_7b                deepseek_r1_8b              777  0.0248  0.0301      182.5  0.433402    N  0.1609 pequeno
+CovL   mistral_7b                llama4_scout_17b            775  0.0249   0.072      277.0       0.0    S  0.7163 grande
+CovL   mistral_7b                deepseek_r1_1.5b            777  0.0248     0.0        0.0   1.7e-05    S     1.0 grande
+CovL   deepseek_r1_8b            llama4_scout_17b            775  0.0302   0.072      455.0   2.8e-05    S  0.5758 grande
+CovL   deepseek_r1_8b            deepseek_r1_1.5b            777  0.0301     0.0        0.0     3e-06    S     1.0 grande
+CovL   llama4_scout_17b          deepseek_r1_1.5b            775   0.072     0.0        0.0       0.0    S     1.0 grande
+CovB   gemma3_4b                 mistral_7b                   84  0.0998  0.0359       37.5  0.035209    S  0.5614 grande
+CovB   gemma3_4b                 deepseek_r1_8b               80   0.104  0.0714      100.0  0.387372    N  0.2095 pequeno
+CovB   gemma3_4b                 llama4_scout_17b             80   0.104  0.2676      196.0  0.006458    S  0.4974 médio
+CovB   gemma3_4b                 deepseek_r1_1.5b             80   0.104     0.0        0.0  0.001396    S     1.0 grande
+CovB   mistral_7b                deepseek_r1_8b               80  0.0377  0.0714       35.5  0.281212    N  0.3238 médio
+CovB   mistral_7b                llama4_scout_17b             80  0.0377  0.2676       64.5     6e-05    S  0.7832 grande
+CovB   mistral_7b                deepseek_r1_1.5b             80  0.0377     0.0        0.0  0.026014    S     1.0 grande
+CovB   deepseek_r1_8b            llama4_scout_17b             80  0.0714  0.2676       44.0   9.9e-05    S  0.8108 grande
+CovB   deepseek_r1_8b            deepseek_r1_1.5b             80  0.0714     0.0        0.0  0.007421    S     1.0 grande
+CovB   llama4_scout_17b          deepseek_r1_1.5b             80  0.2676     0.0        0.0     1e-06    S     1.0 grande
+NDD    gemma3_4b                 mistral_7b                   29  0.1379  0.1724       20.0  0.738883    N  0.1111 pequeno
+NDD    gemma3_4b                 deepseek_r1_8b               36  0.1389  0.0556        8.0  0.256839    N  0.4286 médio
+NDD    gemma3_4b                 llama4_scout_17b             36  0.1389  0.3056       30.0  0.108809    N  0.4286 médio
+NDD    gemma3_4b                 deepseek_r1_1.5b              0    None    None       None      None    N    None insuficiente (n<10)
+NDD    mistral_7b                deepseek_r1_8b               29  0.1724   0.069        3.0  0.179712    N     0.6 grande
+NDD    mistral_7b                llama4_scout_17b             29  0.1724  0.3103       16.5  0.205903    N     0.4 médio
+NDD    mistral_7b                deepseek_r1_1.5b              0    None    None       None      None    N    None insuficiente (n<10)
+NDD    deepseek_r1_8b            llama4_scout_17b             44  0.1136  0.3409       38.0  0.018422    S  0.5556 grande
+NDD    deepseek_r1_8b            deepseek_r1_1.5b              0    None    None       None      None    N    None insuficiente (n<10)
+NDD    llama4_scout_17b          deepseek_r1_1.5b              0    None    None       None      None    N    None insuficiente (n<10)
