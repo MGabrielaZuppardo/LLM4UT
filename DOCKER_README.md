@@ -44,7 +44,7 @@ Execute o teste de smoke dentro do container:
 
 ```bash
 # Dentro do container (prompt: root@<id>:/app#)
-pytest docker-tests/smoke_test.py -v
+pytest docker-tests/smoke_test.py -v -s
 ```
 
 **Saída esperada:**
