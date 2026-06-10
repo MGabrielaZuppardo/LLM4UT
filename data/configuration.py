@@ -17,7 +17,11 @@ python_bin = sys.executable
 
 # tree-sitter: API moderna (0.22+) via camada de compatibilidade.
 # O antigo Language.build_library() foi removido; ver utils/ts_compat.py.
-from utils.ts_compat import JAVA_LANGUAGE  # noqa: E402
+# Import lazy para não bloquear scripts de análise no Windows.
+try:
+    from utils.ts_compat import JAVA_LANGUAGE  # noqa: E402
+except ModuleNotFoundError:
+    JAVA_LANGUAGE = None
 
 RES_FILE="/Users/yanglin/Documents/Projects/code-bot/data/outputs/deepseek-coder-6.7b-instruct_comment_extend_full.jsonl"
 TMP_FOLDER="/Users/yanglin/Documents/Projects/code-bot/data/tmp"
