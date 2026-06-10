@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  llm4ut:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: llm4ut:latest
+    container_name: llm4ut
+    volumes:
+      - .:/app
+      - ./data:/app/data
+    working_dir: /app
+    stdin_open: true
+    tty: true
+    environment:
+      - PYTHONPATH=/app

@@ -8,9 +8,8 @@ mudou bastante a partir da 0.22:
   * ``Parser()`` + ``parser.set_language(lang)`` virou ``Parser(lang)``
     (``set_language`` foi removido).
   * ``language.query(src).captures(node)`` deixou de existir nesse formato;
-    agora é ``QueryCursor(Query(lang, src)).captures(node)`` e retorna um
-    ``dict[capture_name, list[Node]]`` em vez da antiga lista de tuplas
-    ``[(node, capture_name), ...]`` ordenada por posição.
+    agora retorna ``dict[capture_name, list[Node]]`` em vez da antiga lista
+    de tuplas ``[(node, capture_name), ...]`` ordenada por posição.
 
 Este módulo expõe wrappers que restauram a API antiga, permitindo que
 ``utils/java_parser.py`` (e o ``data/configuration.py``) funcionem sem
@@ -26,7 +25,11 @@ reescrever os ~26 pontos de uso. Basta:
 from __future__ import annotations
 
 import tree_sitter_java
-from tree_sitter import Language, Parser, Query, QueryCursor
+# QueryCursor aparece na documentação do branch principal do tree-sitter,
+# mas nunca foi lançado no PyPI (versão mais recente: 0.23.2).
+# Na 0.23, Query.captures(node) já retorna dict[str, list[Node]] diretamente,
+# tornando QueryCursor desnecessário.
+from tree_sitter import Language, Parser, Query
 
 # Gramática Java (API moderna). Fonte única da verdade.
 RAW_JAVA_LANGUAGE = Language(tree_sitter_java.language())
@@ -40,8 +43,7 @@ class CompatQuery:
         self._q = query
 
     def captures(self, node):
-        cursor = QueryCursor(self._q)
-        d = cursor.captures(node)  # dict[str, list[Node]]
+        d = self._q.captures(node)  # dict[str, list[Node]] — API tree-sitter 0.23
         out = []
         for name, nodes in d.items():
             for n in nodes:
