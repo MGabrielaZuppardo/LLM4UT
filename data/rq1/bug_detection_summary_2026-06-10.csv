@@ -1,0 +1,86 @@
+model,project,ablation,num_bugs_found,num_attempts,found_bugs,attempts
+gemma3_4b,JxPath,full,0,3,set(),"{'JxPath_9', 'JxPath_7', 'JxPath_1'}"
+gemma3_4b,Cli,full,0,1,set(),{'Cli_1'}
+gemma3_4b,Math,full,1,3,{'Math_22'},"{'Math_6', 'Math_22', 'Math_8'}"
+gemma3_4b,Csv,full,0,0,set(),set()
+gemma3_4b,Compress,full,0,2,set(),"{'Compress_42', 'Compress_15'}"
+gemma3_4b,JacksonDatabind,full,1,2,{'JacksonDatabind_49'},"{'JacksonDatabind_20', 'JacksonDatabind_49'}"
+gemma3_4b,Time,full,0,1,set(),{'Time_5'}
+gemma3_4b,Collections,full,0,0,set(),set()
+gemma3_4b,JacksonXml,full,0,0,set(),set()
+gemma3_4b,JacksonCore,full,0,0,set(),set()
+gemma3_4b,Lang,full,1,13,{'Lang_33'},"{'Lang_14', 'Lang_61', 'Lang_54', 'Lang_60', 'Lang_37', 'Lang_20', 'Lang_35', 'Lang_1', 'Lang_41', 'Lang_58', 'Lang_21', 'Lang_33', 'Lang_23'}"
+gemma3_4b,Jsoup,full,1,3,{'Jsoup_87'},"{'Jsoup_91', 'Jsoup_87', 'Jsoup_75'}"
+gemma3_4b,Chart,full,0,3,set(),"{'Chart_11', 'Chart_2', 'Chart_6'}"
+gemma3_4b,Gson,full,0,1,set(),{'Gson_16'}
+gemma3_4b,Closure,full,0,1,set(),{'Closure_160'}
+gemma3_4b,Codec,full,1,3,{'Codec_7'},"{'Codec_7', 'Codec_1', 'Codec_13'}"
+gemma3_4b,all,full,5,36,"{'JacksonDatabind_49', 'Codec_7', 'Math_22', 'Jsoup_87', 'Lang_33'}","{'Lang_23', 'Codec_7', 'Lang_61', 'JxPath_7', 'Chart_2', 'Closure_160', 'Lang_37', 'Codec_13', 'Lang_35', 'Lang_41', 'JxPath_9', 'Lang_60', 'Lang_58', 'Jsoup_91', 'Lang_33', 'Math_8', 'Lang_54', 'Lang_20', 'Math_6', 'Lang_14', 'Time_5', 'Gson_16', 'Codec_1', 'Chart_11', 'Chart_6', 'Compress_42', 'JacksonDatabind_20', 'JacksonDatabind_49', 'Lang_1', 'Jsoup_87', 'Math_22', 'Lang_21', 'Jsoup_75', 'Cli_1', 'JxPath_1', 'Compress_15'}"
+mistral_7b,JxPath,full,0,2,set(),"{'JxPath_9', 'JxPath_7'}"
+mistral_7b,Cli,full,1,1,{'Cli_39'},{'Cli_39'}
+mistral_7b,Math,full,0,3,set(),"{'Math_8', 'Math_72', 'Math_27'}"
+mistral_7b,Csv,full,0,0,set(),set()
+mistral_7b,Compress,full,0,2,set(),"{'Compress_40', 'Compress_15'}"
+mistral_7b,JacksonDatabind,full,0,3,set(),"{'JacksonDatabind_49', 'JacksonDatabind_71', 'JacksonDatabind_111'}"
+mistral_7b,Time,full,0,1,set(),{'Time_6'}
+mistral_7b,Collections,full,0,0,set(),set()
+mistral_7b,JacksonXml,full,0,0,set(),set()
+mistral_7b,JacksonCore,full,1,2,{'JacksonCore_8'},"{'JacksonCore_23', 'JacksonCore_8'}"
+mistral_7b,Lang,full,1,9,{'Lang_7'},"{'Lang_7', 'Lang_12', 'Lang_4', 'Lang_51', 'Lang_16', 'Lang_35', 'Lang_11', 'Lang_41', 'Lang_54'}"
+mistral_7b,Jsoup,full,1,2,{'Jsoup_92'},"{'Jsoup_91', 'Jsoup_92'}"
+mistral_7b,Chart,full,1,4,{'Chart_10'},"{'Chart_11', 'Chart_5', 'Chart_6', 'Chart_10'}"
+mistral_7b,Gson,full,0,0,set(),set()
+mistral_7b,Closure,full,0,0,set(),set()
+mistral_7b,Codec,full,0,0,set(),set()
+mistral_7b,all,full,5,29,"{'Chart_10', 'Lang_7', 'Cli_39', 'Jsoup_92', 'JacksonCore_8'}","{'Lang_7', 'Lang_51', 'JxPath_7', 'JacksonDatabind_71', 'Compress_40', 'JacksonCore_23', 'Chart_5', 'Jsoup_92', 'JacksonCore_8', 'Lang_35', 'Lang_11', 'Lang_41', 'JxPath_9', 'Jsoup_91', 'Chart_11', 'Math_8', 'Lang_54', 'Chart_10', 'Lang_12', 'Lang_4', 'JacksonDatabind_111', 'Compress_15', 'Lang_16', 'Chart_6', 'Time_6', 'Cli_39', 'Math_72', 'JacksonDatabind_49', 'Math_27'}"
+deepseek_r1_8b,JxPath,full,0,3,set(),"{'JxPath_9', 'JxPath_7', 'JxPath_1'}"
+deepseek_r1_8b,Cli,full,1,3,{'Cli_3'},"{'Cli_3', 'Cli_27', 'Cli_26'}"
+deepseek_r1_8b,Math,full,1,14,{'Math_47'},"{'Math_37', 'Math_29', 'Math_11', 'Math_54', 'Math_89', 'Math_90', 'Math_3', 'Math_73', 'Math_56', 'Math_77', 'Math_41', 'Math_47', 'Math_2', 'Math_27'}"
+deepseek_r1_8b,Csv,full,0,0,set(),set()
+deepseek_r1_8b,Compress,full,0,2,set(),"{'Compress_26', 'Compress_40'}"
+deepseek_r1_8b,JacksonDatabind,full,0,2,set(),"{'JacksonDatabind_44', 'JacksonDatabind_33'}"
+deepseek_r1_8b,Time,full,0,3,set(),"{'Time_26', 'Time_12', 'Time_24'}"
+deepseek_r1_8b,Collections,full,0,0,set(),set()
+deepseek_r1_8b,JacksonXml,full,0,0,set(),set()
+deepseek_r1_8b,JacksonCore,full,0,1,set(),{'JacksonCore_23'}
+deepseek_r1_8b,Lang,full,0,8,set(),"{'Lang_12', 'Lang_51', 'Lang_37', 'Lang_6', 'Lang_35', 'Lang_11', 'Lang_3', 'Lang_30'}"
+deepseek_r1_8b,Jsoup,full,1,2,{'Jsoup_88'},"{'Jsoup_91', 'Jsoup_88'}"
+deepseek_r1_8b,Chart,full,1,1,{'Chart_11'},{'Chart_11'}
+deepseek_r1_8b,Gson,full,0,2,set(),"{'Gson_15', 'Gson_9'}"
+deepseek_r1_8b,Closure,full,1,2,{'Closure_131'},"{'Closure_160', 'Closure_131'}"
+deepseek_r1_8b,Codec,full,0,1,set(),{'Codec_2'}
+deepseek_r1_8b,all,full,5,44,"{'Cli_3', 'Math_47', 'Chart_11', 'Jsoup_88', 'Closure_131'}","{'Lang_51', 'Compress_40', 'Codec_2', 'Lang_37', 'Cli_26', 'Lang_6', 'Closure_131', 'Lang_35', 'Lang_11', 'JxPath_9', 'Cli_3', 'Math_89', 'Lang_3', 'Jsoup_91', 'Chart_11', 'Math_11', 'Math_90', 'Math_73', 'Math_56', 'Time_26', 'Math_77', 'Math_2', 'JacksonDatabind_33', 'JxPath_1', 'Math_29', 'JxPath_7', 'Gson_9', 'Math_54', 'JacksonCore_23', 'Time_12', 'Jsoup_88', 'Closure_160', 'Time_24', 'Math_47', 'Math_37', 'Lang_12', 'Cli_27', 'Gson_15', 'Math_3', 'Compress_26', 'JacksonDatabind_44', 'Math_41', 'Lang_30', 'Math_27'}"
+llama4_scout_17b,JxPath,full,0,4,set(),"{'JxPath_16', 'JxPath_9', 'JxPath_18', 'JxPath_7'}"
+llama4_scout_17b,Cli,full,2,6,"{'Cli_3', 'Cli_27'}","{'Cli_27', 'Cli_21', 'Cli_13', 'Cli_35', 'Cli_3', 'Cli_15'}"
+llama4_scout_17b,Math,full,7,19,"{'Math_37', 'Math_47', 'Math_3', 'Math_60', 'Math_46', 'Math_77', 'Math_22'}","{'Math_46', 'Math_53', 'Math_8', 'Math_90', 'Math_77', 'Math_22', 'Math_99', 'Math_2', 'Math_29', 'Math_47', 'Math_59', 'Math_37', 'Math_63', 'Math_15', 'Math_3', 'Math_17', 'Math_60', 'Math_91', 'Math_27'}"
+llama4_scout_17b,Csv,full,0,2,set(),"{'Csv_16', 'Csv_4'}"
+llama4_scout_17b,Compress,full,1,2,{'Compress_34'},"{'Compress_42', 'Compress_34'}"
+llama4_scout_17b,JacksonDatabind,full,5,14,"{'JacksonDatabind_71', 'JacksonDatabind_103', 'JacksonDatabind_2', 'JacksonDatabind_49', 'JacksonDatabind_73'}","{'JacksonDatabind_95', 'JacksonDatabind_71', 'JacksonDatabind_111', 'JacksonDatabind_103', 'JacksonDatabind_34', 'JacksonDatabind_84', 'JacksonDatabind_41', 'JacksonDatabind_2', 'JacksonDatabind_20', 'JacksonDatabind_49', 'JacksonDatabind_73', 'JacksonDatabind_79', 'JacksonDatabind_57', 'JacksonDatabind_55'}"
+llama4_scout_17b,Time,full,2,6,"{'Time_8', 'Time_2'}","{'Time_15', 'Time_5', 'Time_2', 'Time_6', 'Time_8', 'Time_14'}"
+llama4_scout_17b,Collections,full,0,0,set(),set()
+llama4_scout_17b,JacksonXml,full,0,0,set(),set()
+llama4_scout_17b,JacksonCore,full,1,2,{'JacksonCore_23'},"{'JacksonCore_23', 'JacksonCore_10'}"
+llama4_scout_17b,Lang,full,5,20,"{'Lang_47', 'Lang_7', 'Lang_57', 'Lang_35', 'Lang_33'}","{'Lang_7', 'Lang_31', 'Lang_61', 'Lang_51', 'Lang_26', 'Lang_37', 'Lang_35', 'Lang_11', 'Lang_41', 'Lang_20', 'Lang_57', 'Lang_50', 'Lang_60', 'Lang_47', 'Lang_38', 'Lang_33', 'Lang_12', 'Lang_17', 'Lang_21', 'Lang_30'}"
+llama4_scout_17b,Jsoup,full,6,10,"{'Jsoup_57', 'Jsoup_58', 'Jsoup_92', 'Jsoup_29', 'Jsoup_87', 'Jsoup_74'}","{'Jsoup_57', 'Jsoup_32', 'Jsoup_91', 'Jsoup_92', 'Jsoup_93', 'Jsoup_87', 'Jsoup_29', 'Jsoup_58', 'Jsoup_74', 'Jsoup_61'}"
+llama4_scout_17b,Chart,full,3,6,"{'Chart_18', 'Chart_11', 'Chart_15'}","{'Chart_18', 'Chart_2', 'Chart_16', 'Chart_15', 'Chart_11', 'Chart_9'}"
+llama4_scout_17b,Gson,full,3,4,"{'Gson_14', 'Gson_15', 'Gson_9'}","{'Gson_14', 'Gson_15', 'Gson_12', 'Gson_9'}"
+llama4_scout_17b,Closure,full,2,5,"{'Closure_149', 'Closure_131'}","{'Closure_144', 'Closure_131', 'Closure_149', 'Closure_102', 'Closure_49'}"
+llama4_scout_17b,Codec,full,2,8,"{'Codec_13', 'Codec_12'}","{'Codec_18', 'Codec_12', 'Codec_9', 'Codec_2', 'Codec_13', 'Codec_6', 'Codec_5', 'Codec_7'}"
+llama4_scout_17b,all,full,39,108,"{'Lang_7', 'JacksonDatabind_71', 'Codec_13', 'Closure_131', 'Closure_149', 'Math_46', 'Lang_35', 'Chart_15', 'Cli_3', 'Chart_11', 'Jsoup_58', 'Jsoup_74', 'Lang_57', 'Jsoup_57', 'Codec_12', 'Time_8', 'Compress_34', 'Math_77', 'JacksonDatabind_73', 'Math_22', 'Jsoup_87', 'Lang_47', 'Gson_9', 'JacksonDatabind_103', 'JacksonCore_23', 'Chart_18', 'Gson_14', 'Jsoup_92', 'JacksonDatabind_2', 'Math_47', 'Jsoup_29', 'Lang_33', 'Math_37', 'Time_2', 'Cli_27', 'Gson_15', 'Math_3', 'Math_60', 'JacksonDatabind_49'}","{'Lang_31', 'Lang_26', 'Codec_13', 'Math_46', 'JacksonCore_10', 'Lang_41', 'JxPath_9', 'Cli_3', 'Cli_15', 'Jsoup_58', 'Lang_20', 'Codec_18', 'Time_5', 'Lang_57', 'Jsoup_57', 'JacksonDatabind_111', 'Codec_6', 'Time_6', 'Compress_42', 'Compress_34', 'JacksonDatabind_73', 'JacksonDatabind_79', 'Math_22', 'Math_99', 'JacksonDatabind_55', 'Lang_60', 'Lang_47', 'Codec_7', 'JxPath_7', 'Codec_9', 'JacksonDatabind_103', 'Chart_18', 'Chart_2', 'Gson_14', 'Jsoup_92', 'Chart_16', 'Gson_12', 'Jsoup_29', 'Jsoup_61', 'Math_37', 'Time_2', 'Math_15', 'Jsoup_32', 'Gson_15', 'JacksonDatabind_41', 'Lang_17', 'JacksonDatabind_49', 'Cli_35', 'Lang_21', 'Lang_30', 'Math_27', 'Time_15', 'Lang_7', 'Lang_61', 'Lang_51', 'Csv_4', 'JacksonDatabind_71', 'Codec_2', 'Lang_37', 'Closure_131', 'Jsoup_93', 'Closure_149', 'Lang_35', 'Lang_11', 'Chart_15', 'Closure_49', 'Math_53', 'Jsoup_91', 'Jsoup_74', 'Chart_11', 'Math_8', 'Time_14', 'JxPath_16', 'Codec_12', 'JacksonDatabind_34', 'Lang_50', 'Cli_13', 'Math_90', 'Csv_16', 'Time_8', 'Math_77', 'Closure_102', 'Jsoup_87', 'Math_2', 'JxPath_18', 'Math_29', 'Gson_9', 'JacksonCore_23', 'Lang_38', 'Cli_21', 'JacksonDatabind_2', 'Codec_5', 'Math_47', 'Math_59', 'Lang_33', 'Chart_9', 'Lang_12', 'Math_63', 'JacksonDatabind_95', 'Cli_27', 'JacksonDatabind_84', 'Closure_144', 'Math_3', 'Math_17', 'Math_60', 'JacksonDatabind_20', 'Math_91', 'JacksonDatabind_57'}"
+deepseek_r1_1.5b,JxPath,full,0,0,set(),set()
+deepseek_r1_1.5b,Cli,full,0,0,set(),set()
+deepseek_r1_1.5b,Math,full,0,0,set(),set()
+deepseek_r1_1.5b,Csv,full,0,0,set(),set()
+deepseek_r1_1.5b,Compress,full,0,0,set(),set()
+deepseek_r1_1.5b,JacksonDatabind,full,0,0,set(),set()
+deepseek_r1_1.5b,Time,full,0,0,set(),set()
+deepseek_r1_1.5b,Collections,full,0,0,set(),set()
+deepseek_r1_1.5b,JacksonXml,full,0,0,set(),set()
+deepseek_r1_1.5b,JacksonCore,full,0,0,set(),set()
+deepseek_r1_1.5b,Lang,full,0,0,set(),set()
+deepseek_r1_1.5b,Jsoup,full,0,0,set(),set()
+deepseek_r1_1.5b,Chart,full,0,0,set(),set()
+deepseek_r1_1.5b,Gson,full,0,0,set(),set()
+deepseek_r1_1.5b,Closure,full,0,0,set(),set()
+deepseek_r1_1.5b,Codec,full,0,0,set(),set()
+deepseek_r1_1.5b,all,full,0,0,set(),set()
