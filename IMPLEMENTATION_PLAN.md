@@ -172,6 +172,50 @@ d4j_home = os.environ.get("D4J_HOME", os.path.abspath("../defects4j"))
 d4j_proj_base = os.environ.get("D4J_PROJ_BASE", f"{d4j_home}/d4j_projects")
 ```
 
+### 7. Paralelização interna do `rq1/rq1.py`
+
+**Contexto:** o `rq1_starter.py` já paraleliza por projeto (até 17 processos simultâneos).
+Mas dentro de cada `rq1.py`, os bugs de um projeto são avaliados em série — um por um.
+Para Math (106 bugs) ou Closure (174 bugs) isso é o gargalo real da avaliação.
+
+Cada bug é completamente independente dos outros: escreve o arquivo de teste Java,
+compila, roda, coleta JaCoCo. Não há estado compartilhado entre bugs.
+
+**O que fazer:** substituir o loop sequencial por `ThreadPoolExecutor` (ou
+`ProcessPoolExecutor`), com número de workers configurável.
+
+```python
+# Antes (atual — serial):
+for index, data in tqdm(enumerate(datas), ...):
+    res_dict = run(model=..., data=data, ...)
+    writer.write(json.dumps(res_dict) + "\n")
+
+# Depois (paralelo):
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+with ThreadPoolExecutor(max_workers=N_WORKERS) as executor:
+    futures = {executor.submit(run, model=..., data=d, index=i): i
+               for i, d in enumerate(datas)}
+    for future in as_completed(futures):
+        writer.write(json.dumps(future.result()) + "\n")
+        writer.flush()
+```
+
+**Cuidados na implementação:**
+- `N_WORKERS` deve ser configurável via CLI/env — padrão razoável: 4 (evita contenção
+  de disco e memória JVM)
+- O `run()` em `assistant_methods.py` faz `os.chdir()` internamente via `d4j_utils.py`
+  — isso é thread-unsafe. Precisará ser revisado e substituído por caminhos absolutos
+  nos subprocessos
+- A gravação no arquivo de resultado precisa de lock para evitar linhas intercaladas
+- O `delete_test_file()` / `write_test_file()` operam no filesystem do projeto D4J —
+  checar se dois bugs do mesmo projeto podem colidir nos paths (provavelmente não, pois
+  cada bug tem seu próprio diretório)
+
+**Ganho estimado:** 3-4x no tempo de avaliação para projetos grandes (Math, Closure,
+JacksonDatabind). Para projetos pequenos (Collections com 4 bugs) o overhead não vale.
+Sugestão: ativar paralelismo só quando o projeto tiver mais de 10 bugs.
+
 ---
 
 ## Fluxo completo após implementação
