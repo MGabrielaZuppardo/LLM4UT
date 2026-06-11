@@ -57,9 +57,12 @@ def report_coverages(in_file, ignores):
                             'failed compilation even though was given an empty test class.'):
                         # 'ERROR: Mockito_11 failed compilation even though was given an empty test class.'
                         missed_reasons['failed in empty test class'] += 1
+                    elif instance['exception'].endswith('not found.'):
+                        # Catches "method X not found in Y" style errors
+                        missed_reasons['method not found'] += 1
                     else:
-                        raise NotImplementedError(f"Exception {instance['exception']} can not be handled yet.")
-
+                        # Unknown exception — log and continue instead of crashing
+                        missed_reasons[f"unknown: {instance['exception'][:80]}"] += 1
                 elif instance['num_compilable_uts'] != 0 and not instance['is_empty_test']:
                     missed_reasons['success'] += 1
                     compilable_covered_lines += instance['covered_lines']
@@ -187,11 +190,11 @@ if __name__ == '__main__':
                         project_compilable_covered_branches += compilable_covered_branches
                         project_missed_reasons.update(missed_reasons)
 
-                        total_line_coverage = covered_lines/total_lines
-                        total_branch_coverage = covered_branches/total_branches
+                        total_line_coverage = covered_lines/total_lines if total_lines > 0 else 0
+                        total_branch_coverage = covered_branches/total_branches if total_branches > 0 else 0
 
-                        line_coverage = compilable_covered_line/compilable_total_lines
-                        branch_coverage = compilable_covered_branches/compilable_total_branches
+                        line_coverage = compilable_covered_line/compilable_total_lines if compilable_total_lines > 0 else 0
+                        branch_coverage = compilable_covered_branches/compilable_total_branches if compilable_total_branches > 0 else 0
 
                         # 记录csv数据
                         data['model'].append(model)
@@ -228,12 +231,12 @@ if __name__ == '__main__':
                         pass
                     print('=' * 20 + 'Model Summary' + '=' * 20)
                     print(f'{model}:')
-                    model_compilable_line_coverage = project_compilable_covered_lines/project_compilable_total_lines
+                    model_compilable_line_coverage = project_compilable_covered_lines/project_compilable_total_lines if project_compilable_total_lines > 0 else 0
+                    model_compilable_branch_coverage = project_compilable_covered_branches/project_compilable_total_branches if project_compilable_total_branches > 0 else 0
+                    model_total_line_coverage = project_total_covered_lines/project_total_lines if project_total_lines > 0 else 0
+                    model_total_branch_coverage = project_total_covered_branches/project_total_branches if project_total_branches > 0 else 0
 
-                    model_compilable_branch_coverage = project_compilable_covered_branches/project_compilable_total_branches
-                    model_total_line_coverage =  project_total_covered_lines /project_total_lines
 
-                    model_total_branch_coverage = project_total_covered_branches/project_total_branches
                     # 记录csv数据
                     data['model'].append(model)
                     data['project'].append('all')
