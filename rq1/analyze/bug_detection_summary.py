@@ -19,6 +19,8 @@ def report_bug_detection_results(in_file):
             for line in reader.readlines():
                 line = line.strip()
                 instance = json.loads(line)
+                if 'fixed_execution_result' not in instance or 'buggy_execution_result' not in instance:
+                    continue
                 fixed_passed = instance['fixed_execution_result']
                 buggy_passed = instance['buggy_execution_result']
                 if fixed_passed and instance['fixed_execution_error_info'][0] != 'not compiled':
