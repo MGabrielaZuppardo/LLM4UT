@@ -96,8 +96,8 @@ def collect_vectors(model: str, fmt: str, strategy: str, ablation: str) -> dict[
             if not _is_valid(rec):
                 continue
 
-            # CSR
-            compiled = 1.0 if rec.get("second_compile_res") == "success" else 0.0
+            # CSR — class-level, conforme compile_and_pass_rates.py e Yang et al.
+            compiled = 1.0 if rec.get("first_compile_res") == "success" else 0.0
             csr_vec.append(compiled)
 
             # CovL

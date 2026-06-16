@@ -25,3 +25,8 @@ CLAUDE.md
 .venv 
 .pytest_cache
 
+apresentacao_llm4ut.pptx
+make_pptx.js
+package-lock.json
+package.json 
+node_modules 
